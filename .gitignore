@@ -1,0 +1,11 @@
+.env
+*.mp4
+*.mkv
+*.mov
+*.wav
+__pycache__/
+*.pyc
+.DS_Store
+test/cut.fcpxml
+test/cut.edl
+.DS_Store

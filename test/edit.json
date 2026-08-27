@@ -1,0 +1,17 @@
+[
+  { "start": 0.00, "end": 8.00, "layout": "hosts_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 8.00, "end": 12.50, "layout": "movie_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 12.50, "end": 14.50, "layout": "hosts_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 20.00, "end": 26.00, "layout": "pip_host", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 26.00, "end": 30.00, "layout": "pip_movie", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 40.00, "end": 52.00, "layout": "movie_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 52.00, "end": 55.00, "layout": "hosts_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 60.00, "end": 65.50, "layout": "pip_host", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 65.50, "end": 70.00, "layout": "pip_movie", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 80.00, "end": 82.50, "layout": "hosts_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 82.50, "end": 90.00, "layout": "movie_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 100.00, "end": 106.00, "layout": "hosts_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 106.00, "end": 108.00, "layout": "pip_host", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 115.00, "end": 127.00, "layout": "movie_full", "note": "PLACEHOLDER - replace with real timestamp" },
+  { "start": 127.00, "end": 130.00, "layout": "hosts_full", "note": "PLACEHOLDER - replace with real timestamp" }
+]

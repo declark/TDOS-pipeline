@@ -1,0 +1,5 @@
+# Pinned to 0.16.0: this is the last release whose wheel bundles the
+# "fcpx_xml" adapter in opentimelineio_contrib. 0.17+ split FCPXML support
+# into a separate package (otio-fcpx-xml-adapter), which would violate the
+# "standard library plus opentimelineio only" constraint for this test.
+opentimelineio==0.16.0
