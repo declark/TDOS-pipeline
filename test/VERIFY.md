@@ -63,7 +63,7 @@ the end of this file - most of the checklist below is fcpxml-specific.
       importer does not bring clip-level markers in at all (check Index >
       Markers - it's empty even though the file has 15). This is a
       longstanding Resolve limitation, not a bug in what `build.py` writes
-      or in `wrap_fcpxml_project_in_library()` - Resolve has never accepted
+      or in `fix_up_fcpxml()` - Resolve has never accepted
       markers via FCPXML from any source, confirmed independently of this
       project. The clip name is the channel that actually carries layout
       visibility into Resolve; the marker is inert data for any tooling
