@@ -1,0 +1,766 @@
+{
+  "title": "Repo Man",
+  "movie_offset_seconds": 458,
+  "segments": [
+    {
+      "start": 2.566,
+      "end": 17.099,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Intro. Names the film, states we've never seen it, no research. 14.5s, no housekeeping."
+    },
+    {
+      "start": 153.43,
+      "end": 174.03,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'I don't like not knowing' / 'Here's a fact for everybody: we don't know anything about this movie.' Establishes the cold-open premise in their own words and sets up every later called-it-early moment."
+    },
+    {
+      "start": 243.17,
+      "end": 269.93,
+      "layout": "panel",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Theresa's story about being pulled over by a motorcycle cop lands directly over the film's opening traffic stop. Personal tangent, not a reaction to a beat, so film_beat stays null."
+    },
+    {
+      "start": 286.3,
+      "end": 303.6,
+      "layout": "panel",
+      "film_beat": "Motorcycle cop pulls over Parnell's Malibu in the desert and is warned off the trunk.",
+      "iconic": false,
+      "reason": "Setup for the vaporization. Short on purpose; ends on 'Give me the keys' so the payoff lands in its own segment after a hard break."
+    },
+    {
+      "start": 313.03,
+      "end": 337.9,
+      "layout": "pip_circles",
+      "film_beat": "The cop opens the trunk, is vaporized by the light inside, and leaves only smoking boots.",
+      "iconic": true,
+      "reason": "ICONIC. The film's calling card. Reaction resolves over ~20s: confusion, then 'Boots were made for walking,' then 'just melted the shit out of that guy's body.' pip_circles so the trunk light owns the screen."
+    },
+    {
+      "start": 380.81,
+      "end": 424.13,
+      "layout": "panel",
+      "film_beat": "Mr Humphries lectures Otto about how he spaces the cans; Otto tells him to fuck off, flips off the security guard and is fired.",
+      "iconic": true,
+      "reason": "ICONIC. Sits on top of a 13-second silent reaction, and the dynamic is layered right on the beat: 'I space the cans. I'm the only one paying attention to anything spatial wise in this house.'"
+    },
+    {
+      "start": 476.03,
+      "end": 492.07,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "The folding argument. 'You don't like how I fold?' / 'I don't.' Planted here because it pays off 18 minutes later when Miss Magruder maces Bud."
+    },
+    {
+      "start": 613.83,
+      "end": 631.33,
+      "layout": "panel",
+      "film_beat": "Bud cons Otto into driving a car for twenty-five bucks by claiming his pregnant wife is stranded.",
+      "iconic": false,
+      "reason": "The recruitment beat plus the first 'it's like Men in Black' call, a theory that runs the whole cut."
+    },
+    {
+      "start": 721.43,
+      "end": 742.2,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Clean disagreement about old cars: 'I feel like the old cars are so cool looking' / 'No.' Escalates into whether their own car looks like everyone else's."
+    },
+    {
+      "start": 744.03,
+      "end": 760.37,
+      "layout": "panel",
+      "film_beat": "Bud repossesses a car in front of its owner; Otto works out what the job actually is.",
+      "iconic": false,
+      "reason": "'I think he's a repo man' called a beat before the film confirms it. Short, and the title lands."
+    },
+    {
+      "start": 770.8,
+      "end": 790.43,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "The boot tangent: 'I thought they put a wheel on it' / 'You mean the boot?' One of them not having the word for something the other has, which is the channel's bread and butter."
+    },
+    {
+      "start": 849.24,
+      "end": 866.13,
+      "layout": "panel",
+      "film_beat": "Otto is handed a beer at the repo yard and told he's all right.",
+      "iconic": false,
+      "reason": "Reaction moves off the film and onto each other: 'He's very soft spoken' / 'Unless he's losing a hockey game and then he yells like crazy.'"
+    },
+    {
+      "start": 896.99,
+      "end": 911.5,
+      "layout": "panel",
+      "film_beat": "Otto insists he'll never be a repo man; Bud tells him it's too late, he already is.",
+      "iconic": false,
+      "reason": "Load-bearing for the story. Short by design, ends on 'Without even asking, he got a job.'"
+    },
+    {
+      "start": 918.87,
+      "end": 943.23,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "The running 'who is that guy' bit begins: 'Isn't that a guy that you know?' / 'The guy from Short Circuit?' / 'It's not.' / 'You know everything.' Neither of them lands on Tracey Walter, and it comes back at 3840."
+    },
+    {
+      "start": 972.23,
+      "end": 987.83,
+      "layout": "hosts_movie_audio",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Triggered by hearing 'People just explode. Natural causes,' but it becomes a claim about spontaneous combustion in St. Pete. Hosts fullscreen with the film audible is the honest layout: they're reacting to a line, not an image."
+    },
+    {
+      "start": 1007.17,
+      "end": 1031.37,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Converse / Nike / Michael Jordan tangent. 'Every movie we've watched in the 80s pretty much has had Converse in it' is a nice bit of channel continuity."
+    },
+    {
+      "start": 1097.03,
+      "end": 1131.23,
+      "layout": "panel",
+      "film_beat": "Reverend Larry's telethon tells viewers to mortgage the house and sell the car; Otto eats out of a can labelled FOOD.",
+      "iconic": true,
+      "reason": "ICONIC. The televangelist satire and the generic packaging in one shot, with the curtains-and-flamingos rant running on top of it. Best example in the cut of a tangent that improves a film beat instead of replacing it."
+    },
+    {
+      "start": 1137.03,
+      "end": 1153.57,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'Do you think our daughter looks at us like that?' / 'That we look like zombies?' plus 'God forbid we talk in a movie theater.' Self-aware and short."
+    },
+    {
+      "start": 1157.84,
+      "end": 1198.9,
+      "layout": "panel",
+      "film_beat": "Otto asks for the $1,000 his parents promised him; they've given it to the telethon and are too stoned to care.",
+      "iconic": false,
+      "reason": "They clock the joint before the film points at it, then disagree about whether the parents are Rastafarians. Story-critical: it's why Otto has nothing to lose."
+    },
+    {
+      "start": 1201.6,
+      "end": 1240.23,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "The cut-off sleeves argument. 'I'm gonna start cutting the sleeves off my shirts' / 'You wanna be a single man again, I feel' / 'He did that' / 'I don't think he did anything, the costume person did it.' Longest pure tangent in the cut and it earns the length."
+    },
+    {
+      "start": 1241.88,
+      "end": 1259.52,
+      "layout": "panel",
+      "film_beat": "Bud tells Otto to dress like a detective, then: 'Only an asshole gets killed for a car.'",
+      "iconic": true,
+      "reason": "ICONIC line, and it's the setup for Bud's death at 5126. Their fourth-wall correction ('third wall or whatever' / 'I think it's the fourth wall') sits right on it."
+    },
+    {
+      "start": 1274.29,
+      "end": 1313.41,
+      "layout": "panel",
+      "film_beat": "Bud recites the Repo Code and follows it with 'Ordinary fucking people, I hate 'em.'",
+      "iconic": true,
+      "reason": "ICONIC, two of them. The reaction is the dynamic: 'You think you live by a code?' / 'No, no code' / 'Thou shalt not kill' / 'That's the ten commandments.'"
+    },
+    {
+      "start": 1320.63,
+      "end": 1340.8,
+      "layout": "panel",
+      "film_beat": "Bud and Otto stop at a liquor store stocked entirely with generic DRINK, BEER and pickled eggs.",
+      "iconic": true,
+      "reason": "ICONIC. The generic-products gag is one of the film's signature images and it pays off twice later ('the beer says beer on it', 'Tasty-os'). 'I love all the generic stuff' opens the segment."
+    },
+    {
+      "start": 1347.67,
+      "end": 1368.83,
+      "layout": "panel",
+      "film_beat": "Otto cracks his neck loudly in the LA River.",
+      "iconic": false,
+      "reason": "Small beat, big reaction. 'Did you hear it?' / 'That was so loud' / 'I wonder if it came through on the microphone' / 'Like he gave himself a chiropractic adjustment.'"
+    },
+    {
+      "start": 1430.73,
+      "end": 1448.8,
+      "layout": "panel",
+      "film_beat": "Otto and Bud race the Rodriguez brothers through the concrete LA River.",
+      "iconic": false,
+      "reason": "Disagreement on the beat: 'That would be a blast, I'd be all in on that' / 'No, I'm good.'"
+    },
+    {
+      "start": 1456.59,
+      "end": 1487.13,
+      "layout": "pip_circles",
+      "film_beat": "After the chase Bud delivers the film's thesis: 'Repo man's always intense.'",
+      "iconic": true,
+      "reason": "ICONIC. The line the film is known for, and one of them repeats it back immediately. Ends on 'I just like to scream.' pip_circles because the chase needs the frame."
+    },
+    {
+      "start": 1493.2,
+      "end": 1510.87,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'Just reminds me of Grand Theft Auto' into 'when we went to LA it felt like that in some places.' Their own experience, not the film's."
+    },
+    {
+      "start": 1549.6,
+      "end": 1563.57,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'I'm hungry. Can I have a snack?' / 'You want something out of our snack bucket?' Small domestic beat that sets up the callback at 2278."
+    },
+    {
+      "start": 1566.12,
+      "end": 1593.3,
+      "layout": "panel",
+      "film_beat": "Miss Magruder maces Bud and Lite when they try to repossess her car.",
+      "iconic": false,
+      "reason": "Pays off the folding argument from 476: 'I need a mace thing' / 'Why do you need to mace me? What did I do?' / 'You didn't fold your clothes.'"
+    },
+    {
+      "start": 1638.67,
+      "end": 1655.7,
+      "layout": "panel",
+      "film_beat": "Bud repossesses a millionaire's Cadillac outside a laundromat.",
+      "iconic": false,
+      "reason": "'What millionaire you know goes to the laundromat?' / 'We must own the laundromat.' Reaction to the beat rather than narration of it."
+    },
+    {
+      "start": 1707.7,
+      "end": 1727.03,
+      "layout": "panel",
+      "film_beat": "Otto picks Leila up off the street; she's unimpressed and gets in anyway.",
+      "iconic": false,
+      "reason": "'Rule number one as a woman is never get in a car with some dude.' Reads the scene against itself."
+    },
+    {
+      "start": 1761.94,
+      "end": 1791.3,
+      "layout": "pip_circles",
+      "film_beat": "Leila shows Otto a photo of four dead aliens and explains the Malibu's trunk.",
+      "iconic": false,
+      "reason": "Major plot reveal, and the 'I told you there was aliens' payoff for the theory started at 613. pip_circles for the photograph."
+    },
+    {
+      "start": 1804.7,
+      "end": 1822.9,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Clean split: 'I would love to see aliens' / 'I'm pass on that' / 'What if they come at you and want to eat your head?' / 'They'll eat it either way.'"
+    },
+    {
+      "start": 1883.85,
+      "end": 1900.83,
+      "layout": "panel",
+      "film_beat": "A $20,000 bounty goes out on the 1964 Chevy Malibu.",
+      "iconic": false,
+      "reason": "Required for coherence: this is the engine of the rest of the film. They connect it themselves: 'That's the Malibu, so that must have the alien in it.'"
+    },
+    {
+      "start": 2054.15,
+      "end": 2097.27,
+      "layout": "panel",
+      "film_beat": "Miller's cosmic unconsciousness speech: the lattice of coincidence and the plate of shrimp.",
+      "iconic": true,
+      "reason": "ICONIC. The most quoted scene in the film. They sit through it almost silently, then answer the monologue with 'You love the plate of shrimp' / 'I do, I love shrimp.'"
+    },
+    {
+      "start": 2104.49,
+      "end": 2124.1,
+      "layout": "panel",
+      "film_beat": "Miller on Bermuda triangles, UFOs and how the Mayans invented television.",
+      "iconic": false,
+      "reason": "'The Mayans invented television?' / 'They might've, they invented the calendar' / 'Science with Teresa.' One of them defending an absurd claim on the spot."
+    },
+    {
+      "start": 2128.3,
+      "end": 2147.2,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "S'mores over a burning car. 'You'd like fire, you know more about fire' / 'I'm a little too health conscious for burning chemicals.' Also serves as a hard break inside a long Miller stretch."
+    },
+    {
+      "start": 2193.04,
+      "end": 2219.53,
+      "layout": "pip_circles",
+      "film_beat": "Miller: 'The more you drive, the less intelligent you are.'",
+      "iconic": true,
+      "reason": "ICONIC. Immediately weaponized: 'Oh, you're a stupid dad' / 'Thank you.'"
+    },
+    {
+      "start": 2278.33,
+      "end": 2296.87,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'I feel like I have the longest snack of all time' / 'We've been eating it for half the movie' / 'Are you enjoying it?' / 'I am.' Callback to 1549 and a warm breather before the back half."
+    },
+    {
+      "start": 2316.87,
+      "end": 2336.37,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "The raspberry beret exchange. One of them quoting Prince without realizing it, the other not getting the reference until it's spelled out. Pure standalone dynamic."
+    },
+    {
+      "start": 2383.02,
+      "end": 2415.2,
+      "layout": "panel",
+      "film_beat": "Otto strips in the UFO cult office and propositions Leila.",
+      "iconic": false,
+      "reason": "'Talk about being a little forward' / 'You're not slick, dude' / 'She just walks in and this kid's in his underwear and she's totally cool with it.'"
+    },
+    {
+      "start": 2433.83,
+      "end": 2455.7,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Reese's Pieces and Hoodsie cups. Straight 80s nostalgia, no film content, and it buys a hard break before the commies beat."
+    },
+    {
+      "start": 2456.59,
+      "end": 2477.13,
+      "layout": "panel",
+      "film_beat": "Bud interrogates Otto about communism: 'I don't want no commies in my car. No Christians either.'",
+      "iconic": true,
+      "reason": "ICONIC. Flagged: the reaction here is thin, one 'Everything's free in Russia?' and a 'False.' The line is the payload, so it's in regardless. Consider a punch-in or a caption in the edit."
+    },
+    {
+      "start": 2523.37,
+      "end": 2537.53,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Casting a bit part: 'Reminds me of what's-his-face, the Canadian guy' / 'Eugene Levy?' / 'The eyebrows' / 'That kid looks like Napoleon Dynamite.'"
+    },
+    {
+      "start": 2539.63,
+      "end": 2556.17,
+      "layout": "panel",
+      "film_beat": "Kevin the pump attendant offers to check the Malibu's trunk.",
+      "iconic": false,
+      "reason": "Yelling at the screen: 'Please don't check the trunk. You don't wanna melt, you don't wanna be melted. You're gonna melt.' Calls back to the opening."
+    },
+    {
+      "start": 2564.4,
+      "end": 2592.3,
+      "layout": "panel",
+      "film_beat": "The Rodriguez brothers distract Kevin and drive off with the Malibu.",
+      "iconic": false,
+      "reason": "Major turn. They ID the brothers correctly after guessing wrong first, which is exactly the kind of beat that plays."
+    },
+    {
+      "start": 2593.77,
+      "end": 2608.03,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "The scooter gang sets off a Vespa tangent: 'I'd be all in on a scooter' / 'You've always told me how much you want a Vespa.'"
+    },
+    {
+      "start": 2689.1,
+      "end": 2712.7,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Tea and cookies, into a confident wrong call: 'It's a British movie.' Being wrong out loud is the whole format."
+    },
+    {
+      "start": 2744.59,
+      "end": 2773.3,
+      "layout": "panel",
+      "film_beat": "Otto is jumped and beaten with a guitar case while a street preacher rants nearby.",
+      "iconic": false,
+      "reason": "'Yep, with a guitar case' and the introduction of the Skid Row Shaman, who they end up rooting for."
+    },
+    {
+      "start": 2781.92,
+      "end": 2808.5,
+      "layout": "panel",
+      "film_beat": "Plettschner's war-record rant at Otto: three times decorated, five years in a slaughterhouse, ten years at Attica.",
+      "iconic": false,
+      "reason": "Big film speech, and the reaction turns into 'I think my favorite guy is the shaman' / 'He's your people.'"
+    },
+    {
+      "start": 2826.5,
+      "end": 2845.63,
+      "layout": "panel",
+      "film_beat": "The Rodriguez brothers cook in the Malibu and decide to open the trunk.",
+      "iconic": false,
+      "reason": "Called well ahead: 'Oh, boys, you're in trouble' / 'We're gonna see some melted shoes on the ground.' The prediction is wrong, which makes it better."
+    },
+    {
+      "start": 2860.83,
+      "end": 2891.83,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Whether cars had AC in the 80s, into crank windows and a million-degree car. Longest breather in the middle third and a needed hard break."
+    },
+    {
+      "start": 2905.33,
+      "end": 2923.5,
+      "layout": "panel",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Mohawk tangent prompted by the punks on screen but entirely about him: 'I could see you sporting a mohawk' / 'Your hair would be so long it'd be really intense.'"
+    },
+    {
+      "start": 3010.23,
+      "end": 3036.13,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'You wouldn't be catching me walking around over there.' Their actual trip to LA, tents and all. Standalone, and it earns its place."
+    },
+    {
+      "start": 3049.13,
+      "end": 3065.53,
+      "layout": "panel",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Popcorn arrives. 'You're so loud with the popcorn' / 'You're so judgy.' Nine seconds of setup for a two-word punchline."
+    },
+    {
+      "start": 3082.05,
+      "end": 3111.37,
+      "layout": "panel",
+      "film_beat": "Lite pulls a gun and fires into a house to take a car; Otto refuses to get in.",
+      "iconic": false,
+      "reason": "Turning point for Otto and the reaction tracks it: 'You don't mess with the repo man' / 'It's part of the job, white boy.'"
+    },
+    {
+      "start": 3138.07,
+      "end": 3151.9,
+      "layout": "panel",
+      "film_beat": "Lite reveals he was firing blanks.",
+      "iconic": false,
+      "reason": "Short, and the payload is laughter rather than a line."
+    },
+    {
+      "start": 3197.9,
+      "end": 3217.43,
+      "layout": "panel",
+      "film_beat": "Agents snatch Leila off the street.",
+      "iconic": false,
+      "reason": "'I called it from the beginning, that it was the men in black.' The theory from 613 finally confirmed."
+    },
+    {
+      "start": 3230.11,
+      "end": 3244.4,
+      "layout": "panel",
+      "film_beat": "Rogersz interrogates Leila: 'Illegal aliens?' / 'No, silly. Extraterrestrials.'",
+      "iconic": false,
+      "reason": "'See, told you' / 'Tell me what?' The disagreement is about who called it, which is better than the reveal itself."
+    },
+    {
+      "start": 3282.71,
+      "end": 3302.98,
+      "layout": "panel",
+      "film_beat": "Miller announces that John Wayne was gay and explains about the two-way mirrors in Brentwood.",
+      "iconic": true,
+      "reason": "ICONIC. Flagged: the reaction is laughter and nothing else, no line. Still in, because the beat is what people come for."
+    },
+    {
+      "start": 3492.63,
+      "end": 3525.91,
+      "layout": "panel",
+      "film_beat": "Otto's punk friends meet Agent Rogersz, poke her metal hand, and Duke declares 'let's go do some crimes.'",
+      "iconic": true,
+      "reason": "ICONIC, two beats in one scene. 'Kiss my metal hand' and then one of them repeating the crimes line back at the screen."
+    },
+    {
+      "start": 3599.32,
+      "end": 3635.56,
+      "layout": "pip_circles",
+      "film_beat": "Duke opens the Malibu's trunk and burns his hand.",
+      "iconic": true,
+      "reason": "ICONIC. Long silent stretch through the open, which is the point. 'Here comes some melted shoozies' just before is the best prediction in the cut."
+    },
+    {
+      "start": 3647.57,
+      "end": 3668.8,
+      "layout": "pip_circles",
+      "film_beat": "Archie looks in the trunk and is vaporized down to a skeleton; Duke: 'Let's go get sushi and not pay.'",
+      "iconic": true,
+      "reason": "ICONIC. 'I love that you see the skeleton,' and the first Tarantino call, which pays off at 4931."
+    },
+    {
+      "start": 3720.87,
+      "end": 3733.03,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'This is a very odd movie' / 'But it is keeping us entertained, isn't it?' Honest mid-film verdict, twelve seconds, no film needed."
+    },
+    {
+      "start": 3737.41,
+      "end": 3775.03,
+      "layout": "panel",
+      "film_beat": "Three separate crews converge on the Malibu at once.",
+      "iconic": false,
+      "reason": "Keeps the plot legible and contains the recurring complaint: 'Where are the actual police? I feel like there aren't any police.'"
+    },
+    {
+      "start": 3816.32,
+      "end": 3832.4,
+      "layout": "panel",
+      "film_beat": "The Rodriguez brothers turn out to own the car; Bud has to be held back.",
+      "iconic": false,
+      "reason": "'He's like one of those things where you're getting to fight and he's like, hold me back, hold me back.'"
+    },
+    {
+      "start": 3840.4,
+      "end": 3866.07,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'Was he in Stargate?' The who-is-that-guy bit from 918 returns, still unresolved, with 'we're gonna do some research on these people.' Best long-range callback in the recording."
+    },
+    {
+      "start": 3878.43,
+      "end": 3891.94,
+      "layout": "panel",
+      "film_beat": "Oly takes Bud off the job and then fires him outright.",
+      "iconic": false,
+      "reason": "Story-critical and kept short so the knitting tangent can have its own segment."
+    },
+    {
+      "start": 3893.5,
+      "end": 3921.27,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "'The cop is knitting' into 'Didn't you knit?' / 'I crocheted' / 'Never did it when I was with you' / 'I could have sworn you did.' A small factual dispute about their own history."
+    },
+    {
+      "start": 3984.58,
+      "end": 4005.07,
+      "layout": "panel",
+      "film_beat": "A hazmat crew collects a body while a technician narrates into a recorder.",
+      "iconic": false,
+      "reason": "'I like that they're all in hazmat suits and they're just letting him walk around.' Keeps the alien-radiation thread visible."
+    },
+    {
+      "start": 4044.33,
+      "end": 4062.27,
+      "layout": "panel",
+      "film_beat": "Otto is violently sick in the street after driving the Malibu.",
+      "iconic": false,
+      "reason": "'One thing I can't handle is barf.' Reaction to a beat, and it's the first sign the car is doing something to him."
+    },
+    {
+      "start": 4117.42,
+      "end": 4138.44,
+      "layout": "panel",
+      "film_beat": "Parnell rhapsodises about radiation: everybody could stand a hundred chest X-rays a year.",
+      "iconic": false,
+      "reason": "'He's a conspiracy theorist.' Sets up the neutron bomb monologue after a hard break."
+    },
+    {
+      "start": 4162.96,
+      "end": 4184.9,
+      "layout": "pip_circles",
+      "film_beat": "Parnell reveals he designed the neutron bomb: destroys people, leaves buildings standing, fits in a suitcase.",
+      "iconic": true,
+      "reason": "ICONIC. The film's central piece of exposition, and 'Mm, it's an interesting pick, Doug' lands right on top of 'eyes melt, skin explodes, everybody dead.'"
+    },
+    {
+      "start": 4243.17,
+      "end": 4280.33,
+      "layout": "panel",
+      "film_beat": "Parnell dies at the wheel; Otto pulls the body out and takes the Malibu.",
+      "iconic": false,
+      "reason": "'Maybe don't touch him' / 'Is he just gonna kick him out and take the thing?' / 'It's like a Weekend at Bernie's situation.'"
+    },
+    {
+      "start": 4296.67,
+      "end": 4319.33,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "What $20,000 was worth in the early 80s. Standalone, and it makes the bounty mean something to a viewer."
+    },
+    {
+      "start": 4327.34,
+      "end": 4352.97,
+      "layout": "panel",
+      "film_beat": "At the yard party Oly's wife hangs all over Otto.",
+      "iconic": false,
+      "reason": "'They want like the young blood.' Short read of a scene the film doesn't explain."
+    },
+    {
+      "start": 4416.01,
+      "end": 4448.5,
+      "layout": "panel",
+      "film_beat": "Duke asks Debbi to settle down and have his baby.",
+      "iconic": false,
+      "reason": "'They just watched some dude literally melt out of their shoes and they're just sitting here hanging out.' The observation is sharper than the scene."
+    },
+    {
+      "start": 4494.03,
+      "end": 4515.03,
+      "layout": "panel",
+      "film_beat": "The liquor store holdup goes wrong and everyone is shot.",
+      "iconic": false,
+      "reason": "'Is everybody dead?' / 'That took an interesting turn.' Major beat, minimal narration."
+    },
+    {
+      "start": 4551.94,
+      "end": 4595.33,
+      "layout": "pip_circles",
+      "film_beat": "Dying Duke blames society; Otto tells him he's a white suburban punk just like him.",
+      "iconic": true,
+      "reason": "ICONIC. The film's best-known exchange. 'This is a strange fucking movie' lands mid-speech and one of them repeats 'Society made me what I am' back."
+    },
+    {
+      "start": 4670.39,
+      "end": 4694.37,
+      "layout": "panel",
+      "film_beat": "Marlene fights off the agents and Plettschner throws boiling coffee.",
+      "iconic": false,
+      "reason": "'She's like a James Bond girl, she's just coming out of nowhere.'"
+    },
+    {
+      "start": 4707.13,
+      "end": 4748.67,
+      "layout": "panel",
+      "film_beat": "Agent Rogersz tortures Otto for the Malibu's location; Leila is now one of them.",
+      "iconic": false,
+      "reason": "'She's been turned' and 'I don't know how this movie could end.' Both are reactions to the turn, not descriptions of it."
+    },
+    {
+      "start": 4893.03,
+      "end": 4931.9,
+      "layout": "panel",
+      "film_beat": "Otto shoots his way out of the hospital while Reverend Larry broadcasts an appeal for the stolen Malibu.",
+      "iconic": false,
+      "reason": "'Now he's got a submachine gun' / 'They all got Uzis?' / 'This movie's ridiculous,' then a long laugh over Larry's toll-free number."
+    },
+    {
+      "start": 4931.93,
+      "end": 4947.7,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Both claiming the Tarantino observation at once: 'I told you' / 'Did you not hear, I said that' / 'I didn't hear you say Tarantino.' Best pure two-hander in the back half."
+    },
+    {
+      "start": 4974.73,
+      "end": 5006.13,
+      "layout": "panel",
+      "film_beat": "Bud pulls a gun on Otto demanding the Malibu.",
+      "iconic": false,
+      "reason": "'Buck, buck, buck' over Bud's clucking, then 'He has risen and he is gone.'"
+    },
+    {
+      "start": 5013.3,
+      "end": 5029.2,
+      "layout": "panel",
+      "film_beat": "Otto slips away and breaks into a car with a slim jim.",
+      "iconic": false,
+      "reason": "'That's a good way to break into a car' / 'I don't even use those things anymore.' Short, and it keeps the geography clear."
+    },
+    {
+      "start": 5035.87,
+      "end": 5066.63,
+      "layout": "panel",
+      "film_beat": "Radio reports freak hail over downtown; the Malibu is now glowing green.",
+      "iconic": false,
+      "reason": "Contains the running complaint about the absent police and military, then 'It looks like those stars you'd stick on your ceiling.'"
+    },
+    {
+      "start": 5083.17,
+      "end": 5116.43,
+      "layout": "panel",
+      "film_beat": "Bud finds Otto in the glowing Malibu and proposes a sixty-forty split.",
+      "iconic": false,
+      "reason": "'Told you, he was in on it, he knows.' The punchline about who gets the sixty plays on their laugh."
+    },
+    {
+      "start": 5126.03,
+      "end": 5158.2,
+      "layout": "pip_circles",
+      "film_beat": "Bud refuses to back down, throws 'only an asshole gets killed over a car' back at Otto, and is shot in the street.",
+      "iconic": true,
+      "reason": "ICONIC. Pays off the line planted at 1241. Reaction is two flat 'okay's and silence, which is the right reaction and worth keeping as is."
+    },
+    {
+      "start": 5180.27,
+      "end": 5201.67,
+      "layout": "panel",
+      "film_beat": "A news crew approaches the Malibu and hits a force field.",
+      "iconic": false,
+      "reason": "'You picked quite a movie, Doug.' Direct address to the person who chose the film, on a beat."
+    },
+    {
+      "start": 5214.57,
+      "end": 5246.3,
+      "layout": "panel",
+      "film_beat": "A priest and the government team try to approach the car; another man is vaporised.",
+      "iconic": false,
+      "reason": "'Send the lady with the metal hand to open it' / 'Is it a rabbi and a Catholic priest?' / 'Oh, Jesus zapped it.'"
+    },
+    {
+      "start": 5261.33,
+      "end": 5289.13,
+      "layout": "panel",
+      "film_beat": "Miller climbs into the glowing Malibu and says he's going for a little spin.",
+      "iconic": true,
+      "reason": "ICONIC. 'He's the alien' / 'Oh, the shaman's in the car' / 'See, I told you,' then 'I thought he doesn't wanna drive,' which is the joke the film is making."
+    },
+    {
+      "start": 5295.55,
+      "end": 5311.9,
+      "layout": "panel",
+      "film_beat": "Otto gets in; Leila begs him not to go and he tells her to fuck off.",
+      "iconic": false,
+      "reason": "'They're both aliens' / 'I'd be staying the heck out of there.' Keeps the last turn readable."
+    },
+    {
+      "start": 5319.23,
+      "end": 5354.77,
+      "layout": "pip_circles",
+      "film_beat": "The Malibu lifts off and flies over Los Angeles.",
+      "iconic": true,
+      "reason": "ICONIC. The ending, and the best sustained reaction in the recording: 'If that fucking car flies right now, I'm gonna lose it' / 'Told you' / 'It flies' / 'This is you losing it?' repeated four times."
+    },
+    {
+      "start": 5378.9,
+      "end": 5406.1,
+      "layout": "pip_circles",
+      "film_beat": "Miller's closing line: 'This is intense.' / 'The life of a repo man is always intense.'",
+      "iconic": true,
+      "reason": "ICONIC. The film's first line about repo men returns as its last. One of them repeats it back, mangled, which is a good place to end the film content."
+    },
+    {
+      "start": 5414.03,
+      "end": 5457.93,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Outro. 'That was fucked up' / 'It was slow until the end when it just went off the fucking rails' / 'That was bananas' / 'I have no words.' Ends on 'the last little bit was the cream of the crop.'"
+    }
+  ]
+}

@@ -1,12 +1,10 @@
 .env
-.venv/
+.DS_Store
+__pycache__/
+*.pyc
+
+# media
 *.mp4
 *.mkv
 *.mov
 *.wav
-__pycache__/
-*.pyc
-.DS_Store
-test/cut.fcpxml
-test/cut.edl
-.DS_Store

@@ -1,0 +1,16 @@
+{
+  "fps": 30,
+
+  "sync_offset_seconds": 0,
+
+  "timeline_start_timecode": "01:00:00:00",
+
+  "layout_colors": {
+    "panel": "Blue",
+    "pip_circles": "Teal",
+    "hosts_movie_audio": "Purple",
+    "hosts_full": "Orange",
+    "host_1": "Green",
+    "host_2": "Pink"
+  }
+}
