@@ -5,12 +5,16 @@ Doug and Theresa, watch a film for the first time and react.
 
 ## ATTACHED
 
-1. Our commentary transcript (SRT). Timestamps are seconds from the start of
-   our recording. Resolve exports with a 01:00:00:00 start, so subtract 3600
-   from every value so it's true seconds from recording start.
-2. The film's subtitle file (SRT). Timestamps are film time, starting at zero.
-   The film begins at [OFFSET] seconds into our recording, so add [OFFSET] to
-   every film timestamp to convert it to our recording's timeline.
+Both are word-level JSON transcripts from `src/transcribe.py` (see
+`segments[].words[]`, each with `start`/`end` in seconds), not SRT files.
+
+1. Our commentary transcript, from the reaction recording directly.
+   Timestamps are already true seconds from the start of our recording - no
+   offset needed.
+2. The film's transcript, from the movie file directly. Timestamps are film
+   time, starting at zero. The film begins at [OFFSET] seconds into our
+   recording (`movie_offset_seconds`), so add [OFFSET] to every film
+   timestamp to convert it to our recording's timeline.
 
 ## THE CHANNEL
 
@@ -44,14 +48,14 @@ Work from the film's beats first, not our transcript.
    iconic or most-discussed moments, the ones someone searching this title
    arrives hoping to watch us see. These must be in the cut even if our
    reaction to them is mild. The film moment itself is the payload.
-2. **Cover each beat** with ONE short segment showing our reaction, whether or
-   not we said anything — the shortest slice that lands the moment, not the
-   whole scene. This is a highlights cut: keep the peak of each beat and drop the
-   rest, so consecutive kept segments jump forward in film time with gaps between
-   them. Silence during a big beat is a keep, not a skip. If two adjacent
-   segments carry the same `film_beat` and butt together end-to-end (one's `end`
-   equals the next's `start`), you are tiling a scene, not selecting from it —
-   collapse them into the single best slice.
+2. **Cover each beat** with the peak of our reaction, whether or not we said
+   anything — this is a highlights cut, so trim to the beat's best stretch
+   rather than carrying the whole scene. If that stretch runs longer than the
+   6-second film-exposure cap (see CONTINUOUS FILM EXPOSURE below), split it
+   into multiple segments across layouts with a real break between them,
+   rather than holding one layout past the cap. Segments produced this way
+   all carry the same `film_beat` value. Silence during a big beat is a keep,
+   not a skip.
 3. **Layer the dynamic on top.** Prefer moments where our reaction to a beat
    IS the dynamic: disagreeing about what just happened, one of us calling it
    early, being wrong and finding out, both going at once.
@@ -63,32 +67,25 @@ Work from the film's beats first, not our transcript.
 ## TARGETS
 
 - **35 to 50 minutes total.**
-- **Runtime split:** 60 to 75 percent tied to film beats, 25 to 40 percent
-  standalone dynamic.** Both bounds matter. Under 60 percent film beats and
-  the movie stops carrying the video. Over 75 percent and we've cut out the
-  thing that makes the channel worth subscribing to.
+- **The movie is on screen almost the whole time.** Us-only footage — where the
+  movie picture is off screen (`hosts_full`, and `hosts_movie_audio`) — must
+  never run longer than **6 seconds** except the intro and outro (see
+  CONTINUOUS HOSTS-ONLY below). Across the whole cut, us-only footage should be
+  a clear minority: aim for the movie visible (`panel` / `pip_circles`) in at
+  least **65 percent** of the runtime.
+- **The dynamic plays over the movie, not instead of it.** The couple dynamic
+  still carries the video, but it now happens OUT LOUD OVER the film —
+  disagreeing, calling things early, being wrong — with the movie on screen
+  behind us (`panel` / `pip_circles`), rather than on a full-screen us-only
+  tangent. There is no long-tangent layout in the body any more.
 - **Story coherence:** someone who has never seen the film should be able to
   follow it start to finish from this cut alone.
-- **Copyright:** no continuous stretch of film may exceed 6 seconds. Measure
-  "continuous" on the FILM, not on the layout. `panel`, `pip_circles`, and
-  `hosts_movie_audio` all keep the movie's picture and/or audio rolling, so
-  flipping between them does NOT interrupt the film — to a copyright/Content-ID
-  system it is one unbroken clip (audio alone triggers claims, which is why
-  `hosts_movie_audio` does not help either). The only things that actually break
-  a film clip are a cut to `hosts_full` (no film at all) or a jump to a different
-  film timestamp. The default way to stay under 6 seconds is to select and jump:
-  keep only the peak few seconds of the beat, cut away, and if the scene still
-  matters, resume at a LATER film timestamp so the two clips are not continuous.
-  A `hosts_full` reaction can bridge them. Do NOT split one continuous passage
-  into 6-second chunks that differ only by layout: that removes no footage, gives
-  no copyright protection, and just litters the cut with meaningless hard cuts.
-- **Pacing:** vary segment length deliberately. Most segments should run 15 to
-  45 seconds. Anything over 60 seconds needs to earn it, either a major film
-  beat or an exceptional exchange. Avoid long runs of similar-length segments.
-  Ensure you are respecting the copyright target above. If a moment truly needs
-  more than 6 seconds of film on screen, break it with a real interruption (a
-  `hosts_full` reaction or a skip in film time) — never with a layout swap over
-  continuous footage, which does not break continuity.
+- **Pacing:** vary segment length within the caps. Because BOTH film exposure
+  and us-only footage are capped at 6 seconds, the body of the cut is a fast
+  alternation — at most ~6 seconds of movie, a short us-only cutaway, movie
+  again — so expect a lot of cuts. Let the film chunks breathe up toward the
+  6-second cap and keep the us-only cutaways short. Avoid long runs of
+  identical-length segments.
 
 ## INTRO
 
@@ -106,26 +103,102 @@ it.
 Assign one per segment. We are ALWAYS on screen; there is never movie-only
 footage.
 
-- **panel**: hosts large, movie in a panel. Default for watching film beats.
-- **pip_circles**: movie fullscreen, us in circles top left and right. For big
-  moments where the film needs the screen.
+- **panel**: hosts large, movie in a panel. Best when our reaction or talk is
+  the focus, and the default for standalone riffs where the movie only needs to
+  be present, not centred.
+- **pip_circles**: movie fullscreen, us in circles top left and right. The film
+  gets the screen. Use it heavily through film beats, alternating with `panel`
+  from one movie chunk to the next so a beat isn't all one look, and always lead
+  the iconic moments with it. Across the cut, `pip_circles` should carry a large
+  share of the on-screen-movie time, not just the occasional big moment.
 - **hosts_movie_audio**: us fullscreen, movie audio audible. Good for reacting
   to something we're hearing rather than watching.
-- **hosts_full**: us fullscreen, no movie. Tangents fully away from the film.
-- **host_1** (Doug) / **host_2** (Theresa): punch in on one host. The
-  transcript has no speaker labels, so only use these where the line clearly
-  belongs to one person, and keep them under 5 seconds.
+- **hosts_full**: us fullscreen, no movie. Short cutaways to us between film
+  chunks, plus the intro and outro. Never a long tangent.
 
-`panel` and `pip_circles` should carry most of the runtime. `hosts_full` is
-the exception, not the default. Don't let any single layout run for more than
-about three consecutive segments.
+`panel` and `pip_circles` carry the large majority of the runtime — the movie
+should be on screen by default. `hosts_full` is the exception: short cutaways
+only, never the default. See CONTINUOUS FILM EXPOSURE and CONTINUOUS HOSTS-ONLY
+below for the hard limits that bound how long either side may run.
+
+## CONTINUOUS FILM EXPOSURE — HARD LIMIT
+
+Content-ID-style systems match on the film's own audio/video, not on our
+layout choice. So exposure is tracked per FILM content, across layout
+changes, not per segment:
+
+- **Full exposure** (film picture AND audio): `panel`, `pip_circles`.
+- **Audio exposure** (film audio only): `hosts_movie_audio`.
+- **No exposure** (neither): `hosts_full`.
+
+**The rule:** any run of consecutive segments that are Full or Audio exposure
+— any order, any mix of `panel` / `pip_circles` / `hosts_movie_audio` — must
+not add up to more than **6 seconds** before a `hosts_full` segment appears.
+This is a hard ceiling, not a target — no moment, however iconic, earns an
+exception.
+
+What this means in practice:
+
+1. `panel` and `pip_circles` must never sit directly next to each other.
+   Switching between them changes the layout but not the exposure - the film
+   is rolling the whole time either way, so back-to-back they share one
+   6-second budget, not two.
+2. `hosts_movie_audio` may sit between two exposure segments for visual
+   variety, but it does NOT reset the clock - the film's audio is still
+   playing. Only `hosts_full` (true silence from the film) resets it.
+3. A beat whose peak runs longer than 6 seconds of film exposure is cut into
+   pieces: a few seconds of exposure, a real break, a few more seconds of
+   exposure, another break, and so on for as long as the beat earns it. Every
+   piece keeps the same `film_beat` value - this is the one case where
+   adjacent same-`film_beat` segments are correct, not duplication.
+4. Every boundary this creates still needs a real SRT cue boundary (ours or
+   the film's) per TIMESTAMPS below. If neither transcript has one near the
+   6-second mark, cut at the nearest boundary BEFORE 6 seconds - never after.
+   A segment that runs a little short to respect the cap is correct; one that
+   runs over is not.
+
+Example - an iconic 20-second reveal, previously one long `panel` segment:
+
+| # | layout      | length | running exposure |
+|---|-------------|--------|-------------------|
+| 1 | panel       | 5s     | 5s                |
+| 2 | hosts_full  | 2s     | reset (break)     |
+| 3 | pip_circles | 5s     | 5s                |
+| 4 | hosts_full  | 2s     | reset (break)     |
+| 5 | panel       | 6s     | 6s                |
+
+Five segments, all sharing `film_beat`, instead of one - this is what "cover
+the beat" means once it runs longer than 6 seconds of film exposure.
+
+## CONTINUOUS HOSTS-ONLY — HARD LIMIT
+
+The mirror of the film-exposure cap, for the opposite reason: viewers came for
+the movie, so we must not sit on us-only footage. "Us-only" means the movie
+picture is off screen:
+
+- **Us-only** (no movie picture): `hosts_full` (no movie at all) and
+  `hosts_movie_audio` (movie audio only, us full-screen).
+- **Movie on screen**: `panel`, `pip_circles`.
+
+**The rule:** any run of consecutive us-only segments — `hosts_full` and/or
+`hosts_movie_audio`, in any order — must not add up to more than **6 seconds**
+before a `panel` or `pip_circles` segment (movie back on screen) appears. The
+ONLY exceptions are the intro and the outro, which may run longer.
+
+Together with the film-exposure cap, this makes the body of the cut a strict
+alternation: at most ~6 seconds of movie, then a short us-only cutaway, then
+movie again, and so on. A reaction or exchange that needs more than 6 seconds
+plays OVER the movie (`panel`) rather than on us alone. The two caps between
+them mean neither side — movie nor hosts — is ever held for longer than 6
+seconds anywhere except the intro and outro.
 
 ## TIMESTAMPS
 
-Every `start` and `end` value must be an exact timestamp copied from a cue
-boundary in one of the two attached SRT files. Never round, never estimate,
-never invent a value. If a segment needs to begin between cues, use the
-nearest cue boundary. Rounded values produce cuts that land mid-word.
+Every `start` and `end` value must be an exact word boundary (a word's
+`start` or `end` time) copied from one of the two attached transcripts -
+converted to recording time per ATTACHED above. Never round, never estimate,
+never invent a value. If a segment needs to begin between words, use the
+nearest word boundary. Rounded values produce cuts that land mid-word.
 
 ## OUTPUT
 

@@ -11,6 +11,13 @@ cuts land on speech rather than mid-word.
 Output defaults to the input path with a `.words.json` suffix
 (reaction.mp4 -> reaction.words.json) next to the source.
 
+An episode needs two clips transcribed - the hosts' reaction recording and
+the movie itself - so --project reads both paths from a project config (see
+src/new_project.py) and transcribes them one after another, each still
+writing its own <media>.words.json next to its source:
+
+    python src/transcribe.py --project cuts/repo-man.media.json
+
 Notes on the choices here:
   - device=cpu / compute_type=int8: this box has an AMD GPU, and CTranslate2
     has no ROCm path on Windows, so CPU int8 is the only option. int8 is the
@@ -83,10 +90,41 @@ def transcribe(media, model_size, device, compute_type, language, vad):
     }
 
 
+PROJECT_MEDIA_KEYS = ("reaction_media", "movie_media")
+
+
+def clean_path(value):
+    """Strip the quotes Windows' "Copy as path" wraps around a pasted path."""
+    value = value.strip()
+    if len(value) >= 2 and value[0] == value[-1] and value[0] in ('"', "'"):
+        value = value[1:-1]
+    return value
+
+
+def load_project_clips(path):
+    if not os.path.exists(path):
+        sys.exit(f"error: project file not found: {path}")
+    with open(path, "r", encoding="utf-8") as handle:
+        config = json.load(handle)
+
+    clips = [
+        (key, clean_path(config[key])) for key in PROJECT_MEDIA_KEYS if config.get(key)
+    ]
+    if not clips:
+        sys.exit(
+            f"error: {path} has none of {PROJECT_MEDIA_KEYS} set"
+        )
+    return clips
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("media", help="Audio or video file to transcribe")
+    parser.add_argument("media", nargs="?",
+                        help="Audio or video file to transcribe. Omit when using --project.")
+    parser.add_argument("--project", default=None,
+                        help="Project config JSON (see src/new_project.py); transcribes "
+                             "its reaction_media and movie_media, one after another.")
     parser.add_argument(
         "--model",
         default="small.en",
@@ -108,22 +146,35 @@ def main():
                         help="Output JSON path (default: <media>.words.json).")
     args = parser.parse_args()
 
-    if not os.path.exists(args.media):
-        sys.exit(f"error: media file not found: {args.media}")
+    if args.project:
+        if args.media or args.output:
+            parser.error("--project can't be combined with a media path or --output")
+        clips = [(key, path) for key, path in load_project_clips(args.project)]
+    elif args.media:
+        clips = [(None, args.media)]
+    else:
+        parser.error("a media path or --project is required")
 
-    result = transcribe(
-        args.media,
-        model_size=args.model,
-        device=args.device,
-        compute_type=args.compute_type,
-        language=args.language,
-        vad=not args.no_vad,
-    )
+    for key, media in clips:
+        if not os.path.exists(media):
+            sys.exit(f"error: media file not found: {media}")
 
-    out = args.output or (os.path.splitext(args.media)[0] + ".words.json")
-    with open(out, "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
-    print(f"\nWrote {len(result['segments'])} segments -> {out}", file=sys.stderr)
+        if key:
+            print(f"\n--- {key}: {media} ---", file=sys.stderr)
+
+        result = transcribe(
+            media,
+            model_size=args.model,
+            device=args.device,
+            compute_type=args.compute_type,
+            language=args.language,
+            vad=not args.no_vad,
+        )
+
+        out = args.output or (os.path.splitext(media)[0] + ".words.json")
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump(result, f, indent=2, ensure_ascii=False)
+        print(f"\nWrote {len(result['segments'])} segments -> {out}", file=sys.stderr)
 
 
 if __name__ == "__main__":
