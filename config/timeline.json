@@ -9,8 +9,6 @@
     "panel": "Blue",
     "pip_circles": "Teal",
     "hosts_movie_audio": "Purple",
-    "hosts_full": "Orange",
-    "host_1": "Green",
-    "host_2": "Pink"
+    "hosts_full": "Orange"
   }
 }
