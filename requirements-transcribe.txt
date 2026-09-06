@@ -1,0 +1,17 @@
+# Transcription dependencies - kept SEPARATE from requirements.txt on purpose.
+#
+# requirements.txt is deliberately minimal (opentimelineio 0.16.0 only) for the
+# FCPXML/EDL round-trip spike. Transcription is a different stage of the
+# pipeline with much heavier deps, so it lives in its own file: installing the
+# OTIO spike stays a one-package install, and this only gets pulled when you're
+# actually generating timestamps.
+#
+#   pip install -r requirements-transcribe.txt
+#
+# faster-whisper (CTranslate2 backend) rather than openai-whisper:
+#   - ~4x faster, no PyTorch dependency (~2.5GB avoided)
+#   - word-level timestamps, which is what makes cuts frame-precise
+#   - decodes audio through bundled PyAV, so no system ffmpeg binary required
+# This box has no NVIDIA GPU (AMD Radeon), so inference runs on CPU/int8;
+# CTranslate2 can't use an AMD card on Windows. See src/transcribe.py.
+faster-whisper==1.2.1

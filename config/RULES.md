@@ -44,8 +44,14 @@ Work from the film's beats first, not our transcript.
    iconic or most-discussed moments, the ones someone searching this title
    arrives hoping to watch us see. These must be in the cut even if our
    reaction to them is mild. The film moment itself is the payload.
-2. **Cover each beat** with a segment showing our reaction, whether or not we
-   said anything. Silence during a big beat is a keep, not a skip.
+2. **Cover each beat** with ONE short segment showing our reaction, whether or
+   not we said anything — the shortest slice that lands the moment, not the
+   whole scene. This is a highlights cut: keep the peak of each beat and drop the
+   rest, so consecutive kept segments jump forward in film time with gaps between
+   them. Silence during a big beat is a keep, not a skip. If two adjacent
+   segments carry the same `film_beat` and butt together end-to-end (one's `end`
+   equals the next's `start`), you are tiling a scene, not selecting from it —
+   collapse them into the single best slice.
 3. **Layer the dynamic on top.** Prefer moments where our reaction to a beat
    IS the dynamic: disagreeing about what just happened, one of us calling it
    early, being wrong and finding out, both going at once.
@@ -56,16 +62,33 @@ Work from the film's beats first, not our transcript.
 
 ## TARGETS
 
-- **35 to 45 minutes total.**
-- **Runtime split: 60 to 75 percent tied to film beats, 25 to 40 percent
+- **35 to 50 minutes total.**
+- **Runtime split:** 60 to 75 percent tied to film beats, 25 to 40 percent
   standalone dynamic.** Both bounds matter. Under 60 percent film beats and
   the movie stops carrying the video. Over 75 percent and we've cut out the
   thing that makes the channel worth subscribing to.
 - **Story coherence:** someone who has never seen the film should be able to
   follow it start to finish from this cut alone.
+- **Copyright:** no continuous stretch of film may exceed 6 seconds. Measure
+  "continuous" on the FILM, not on the layout. `panel`, `pip_circles`, and
+  `hosts_movie_audio` all keep the movie's picture and/or audio rolling, so
+  flipping between them does NOT interrupt the film — to a copyright/Content-ID
+  system it is one unbroken clip (audio alone triggers claims, which is why
+  `hosts_movie_audio` does not help either). The only things that actually break
+  a film clip are a cut to `hosts_full` (no film at all) or a jump to a different
+  film timestamp. The default way to stay under 6 seconds is to select and jump:
+  keep only the peak few seconds of the beat, cut away, and if the scene still
+  matters, resume at a LATER film timestamp so the two clips are not continuous.
+  A `hosts_full` reaction can bridge them. Do NOT split one continuous passage
+  into 6-second chunks that differ only by layout: that removes no footage, gives
+  no copyright protection, and just litters the cut with meaningless hard cuts.
 - **Pacing:** vary segment length deliberately. Most segments should run 15 to
   45 seconds. Anything over 60 seconds needs to earn it, either a major film
   beat or an exceptional exchange. Avoid long runs of similar-length segments.
+  Ensure you are respecting the copyright target above. If a moment truly needs
+  more than 6 seconds of film on screen, break it with a real interruption (a
+  `hosts_full` reaction or a skip in film time) — never with a layout swap over
+  continuous footage, which does not break continuity.
 
 ## INTRO
 
@@ -83,7 +106,7 @@ it.
 Assign one per segment. We are ALWAYS on screen; there is never movie-only
 footage.
 
-- **panel**: movie large, us in a panel. Default for watching film beats.
+- **panel**: hosts large, movie in a panel. Default for watching film beats.
 - **pip_circles**: movie fullscreen, us in circles top left and right. For big
   moments where the film needs the screen.
 - **hosts_movie_audio**: us fullscreen, movie audio audible. Good for reacting
@@ -116,11 +139,3 @@ A JSON array, timestamps in seconds from OUR recording start:
 ```
 
 Set `iconic` to true only for the film's famous or most-discussed moments.
-
-Then:
-
-- A **HOOK** line: the timestamp range of the strongest short moment, and why.
-- A **NEAR MISSES** list of 20 to 30 segments considered and rejected, with
-  reasons.
-
-Don't summarize the transcript or explain your approach. Just the lists.
