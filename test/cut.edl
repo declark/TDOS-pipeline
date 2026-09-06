@@ -1,0 +1,902 @@
+TITLE: tdos_pipeline_verify_cut
+
+001  HOST     V     C        00:00:06:17 00:00:17:03 00:00:00:00 00:00:10:16
+* FROM CLIP NAME:  01_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+002  HOST     V     C        00:03:50:27 00:04:17:11 00:00:10:16 00:00:37:00
+* FROM CLIP NAME:  02_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+003  HOST     V     C        00:04:41:03 00:04:45:11 00:00:37:00 00:00:41:08
+* FROM CLIP NAME:  03_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+004  HOST     V     C        00:04:59:16 00:05:04:23 00:00:41:08 00:00:46:15
+* FROM CLIP NAME:  04_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+005  HOST     V     C        00:05:16:11 00:05:30:11 00:00:46:15 00:01:00:15
+* FROM CLIP NAME:  05_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+006  HOST     V     C        00:06:15:21 00:06:25:03 00:01:00:15 00:01:09:27
+* FROM CLIP NAME:  06_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+007  HOST     V     C        00:06:25:03 00:06:28:14 00:01:09:27 00:01:13:08
+* FROM CLIP NAME:  07_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+008  HOST     V     C        00:06:31:01 00:06:38:08 00:01:13:08 00:01:20:15
+* FROM CLIP NAME:  08_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+009  HOST     V     C        00:06:42:29 00:06:44:05 00:01:20:15 00:01:21:21
+* FROM CLIP NAME:  09_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+010  HOST     V     C        00:07:00:23 00:07:13:11 00:01:21:21 00:01:34:09
+* FROM CLIP NAME:  10_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+011  HOST     V     C        00:07:45:10 00:08:12:02 00:01:34:09 00:02:01:01
+* FROM CLIP NAME:  11_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+012  HOST     V     C        00:09:20:20 00:09:45:20 00:02:01:01 00:02:26:01
+* FROM CLIP NAME:  12_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+013  HOST     V     C        00:10:02:15 00:10:06:23 00:02:26:01 00:02:30:09
+* FROM CLIP NAME:  13_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+014  HOST     V     C        00:10:18:08 00:10:37:29 00:02:30:09 00:02:50:00
+* FROM CLIP NAME:  14_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+015  HOST     V     C        00:10:37:29 00:10:43:05 00:02:50:00 00:02:55:06
+* FROM CLIP NAME:  15_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+016  HOST     V     C        00:10:53:02 00:11:13:06 00:02:55:06 00:03:15:10
+* FROM CLIP NAME:  16_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+017  HOST     V     C        00:11:41:22 00:12:09:04 00:03:15:10 00:03:42:22
+* FROM CLIP NAME:  17_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+018  HOST     V     C        00:12:10:18 00:12:14:23 00:03:42:22 00:03:46:27
+* FROM CLIP NAME:  18_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+019  HOST     V     C        00:12:24:01 00:12:36:22 00:03:46:27 00:03:59:18
+* FROM CLIP NAME:  19_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+020  HOST     V     C        00:12:41:04 00:13:10:14 00:03:59:18 00:04:28:28
+* FROM CLIP NAME:  20_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+021  HOST     V     C        00:13:13:14 00:13:18:06 00:04:28:28 00:04:33:20
+* FROM CLIP NAME:  21_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+022  HOST     V     C        00:13:39:11 00:13:45:11 00:04:33:20 00:04:39:20
+* FROM CLIP NAME:  22_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+023  HOST     V     C        00:14:11:20 00:14:36:07 00:04:39:20 00:05:04:07
+* FROM CLIP NAME:  23_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+024  HOST     V     C        00:15:03:10 00:15:05:22 00:05:04:07 00:05:06:19
+* FROM CLIP NAME:  24_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+025  HOST     V     C        00:15:06:06 00:15:15:29 00:05:06:19 00:05:16:12
+* FROM CLIP NAME:  25_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+026  HOST     V     C        00:15:19:00 00:15:43:07 00:05:16:12 00:05:40:19
+* FROM CLIP NAME:  26_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+027  HOST     V     C        00:15:46:19 00:16:02:11 00:05:40:19 00:05:56:11
+* FROM CLIP NAME:  27_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+028  HOST     V     C        00:16:08:03 00:16:11:25 00:05:56:11 00:06:00:03
+* FROM CLIP NAME:  28_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+029  HOST     V     C        00:16:12:07 00:16:27:25 00:06:00:03 00:06:15:21
+* FROM CLIP NAME:  29_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+030  HOST     V     C        00:16:31:16 00:16:36:03 00:06:15:21 00:06:20:08
+* FROM CLIP NAME:  30_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+031  HOST     V     C        00:16:39:11 00:17:12:05 00:06:20:08 00:06:53:02
+* FROM CLIP NAME:  31_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+032  HOST     V     C        00:17:14:06 00:17:20:03 00:06:53:02 00:06:58:29
+* FROM CLIP NAME:  32_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+033  HOST     V     C        00:17:37:28 00:18:03:14 00:06:58:29 00:07:24:15
+* FROM CLIP NAME:  33_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+034  HOST     V     C        00:18:07:01 00:18:11:29 00:07:24:15 00:07:29:13
+* FROM CLIP NAME:  34_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+035  HOST     V     C        00:18:14:05 00:18:33:13 00:07:29:13 00:07:48:21
+* FROM CLIP NAME:  35_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+036  HOST     V     C        00:18:36:00 00:18:40:29 00:07:48:21 00:07:53:20
+* FROM CLIP NAME:  36_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+037  HOST     V     C        00:18:57:01 00:19:13:17 00:07:53:20 00:08:10:06
+* FROM CLIP NAME:  37_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+038  HOST     V     C        00:19:34:21 00:19:40:02 00:08:10:06 00:08:15:17
+* FROM CLIP NAME:  38_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+039  HOST     V     C        00:19:46:04 00:19:58:27 00:08:15:17 00:08:28:10
+* FROM CLIP NAME:  39_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+040  HOST     V     C        00:20:01:18 00:20:33:11 00:08:28:10 00:09:00:03
+* FROM CLIP NAME:  40_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+041  HOST     V     C        00:20:43:28 00:20:52:21 00:09:00:03 00:09:08:26
+* FROM CLIP NAME:  41_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+042  HOST     V     C        00:21:28:15 00:21:33:24 00:09:08:26 00:09:14:05
+* FROM CLIP NAME:  42_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+043  HOST     V     C        00:21:37:09 00:21:49:27 00:09:14:05 00:09:26:23
+* FROM CLIP NAME:  43_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+044  HOST     V     C        00:21:53:08 00:21:58:01 00:09:26:23 00:09:31:16
+* FROM CLIP NAME:  44_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+045  HOST     V     C        00:22:00:19 00:22:24:02 00:09:31:16 00:09:54:29
+* FROM CLIP NAME:  45_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+046  HOST     V     C        00:22:27:20 00:22:53:19 00:09:54:29 00:10:20:28
+* FROM CLIP NAME:  46_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+047  HOST     V     C        00:23:03:14 00:23:33:06 00:10:20:28 00:10:50:20
+* FROM CLIP NAME:  47_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+048  HOST     V     C        00:23:37:12 00:23:41:19 00:10:50:20 00:10:54:27
+* FROM CLIP NAME:  48_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+049  HOST     V     C        00:23:52:17 00:24:08:24 00:10:54:27 00:11:11:04
+* FROM CLIP NAME:  49_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+050  HOST     V     C        00:24:23:10 00:24:27:14 00:11:11:04 00:11:15:08
+* FROM CLIP NAME:  50_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+051  HOST     V     C        00:24:28:00 00:24:35:19 00:11:15:08 00:11:22:27
+* FROM CLIP NAME:  51_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+052  HOST     V     C        00:26:08:19 00:26:12:19 00:11:22:27 00:11:26:27
+* FROM CLIP NAME:  52_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+053  HOST     V     C        00:26:12:24 00:26:33:09 00:11:26:27 00:11:47:12
+* FROM CLIP NAME:  53_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+054  HOST     V     C        00:27:18:20 00:27:47:26 00:11:47:12 00:12:16:18
+* FROM CLIP NAME:  54_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+055  HOST     V     C        00:28:36:10 00:28:44:23 00:12:16:18 00:12:25:01
+* FROM CLIP NAME:  55_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+056  HOST     V     C        00:29:24:13 00:29:29:03 00:12:25:01 00:12:29:21
+* FROM CLIP NAME:  56_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+057  HOST     V     C        00:29:31:13 00:29:34:10 00:12:29:21 00:12:32:18
+* FROM CLIP NAME:  57_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+058  HOST     V     C        00:29:41:07 00:29:46:05 00:12:32:18 00:12:37:16
+* FROM CLIP NAME:  58_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+059  HOST     V     C        00:30:04:21 00:30:37:02 00:12:37:16 00:13:09:27
+* FROM CLIP NAME:  59_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+060  HOST     V     C        00:30:45:04 00:30:50:26 00:13:09:27 00:13:15:19
+* FROM CLIP NAME:  60_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+061  HOST     V     C        00:31:30:18 00:31:35:06 00:13:15:19 00:13:20:07
+* FROM CLIP NAME:  61_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+062  HOST     V     C        00:31:37:11 00:32:02:05 00:13:20:07 00:13:45:01
+* FROM CLIP NAME:  62_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+063  HOST     V     C        00:32:04:29 00:32:08:17 00:13:45:01 00:13:48:19
+* FROM CLIP NAME:  63_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+064  HOST     V     C        00:32:19:19 00:32:47:21 00:13:48:19 00:14:16:21
+* FROM CLIP NAME:  64_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+065  HOST     V     C        00:32:54:23 00:33:21:07 00:14:16:21 00:14:43:05
+* FROM CLIP NAME:  65_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+066  HOST     V     C        00:34:35:24 00:34:39:26 00:14:43:05 00:14:47:07
+* FROM CLIP NAME:  66_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+067  HOST     V     C        00:34:47:24 00:34:56:07 00:14:47:07 00:14:55:20
+* FROM CLIP NAME:  67_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+068  HOST     V     C        00:35:07:00 00:35:11:02 00:14:55:20 00:14:59:22
+* FROM CLIP NAME:  68_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+069  HOST     V     C        00:35:11:04 00:35:24:03 00:14:59:22 00:15:12:21
+* FROM CLIP NAME:  69_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+070  HOST     V     C        00:35:28:09 00:35:47:06 00:15:12:21 00:15:31:18
+* FROM CLIP NAME:  70_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+071  HOST     V     C        00:35:54:20 00:36:24:03 00:15:31:18 00:16:01:01
+* FROM CLIP NAME:  71_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+072  HOST     V     C        00:36:44:14 00:36:50:02 00:16:01:01 00:16:06:19
+* FROM CLIP NAME:  72_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+073  HOST     V     C        00:36:50:06 00:36:59:16 00:16:06:19 00:16:15:29
+* FROM CLIP NAME:  73_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+074  HOST     V     C        00:37:10:06 00:37:25:03 00:16:15:29 00:16:30:26
+* FROM CLIP NAME:  74_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+075  HOST     V     C        00:37:30:16 00:37:35:04 00:16:30:26 00:16:35:14
+* FROM CLIP NAME:  75_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+076  HOST     V     C        00:37:36:12 00:37:49:07 00:16:35:14 00:16:48:09
+* FROM CLIP NAME:  76_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+077  HOST     V     C        00:37:52:13 00:37:57:21 00:16:48:09 00:16:53:17
+* FROM CLIP NAME:  77_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+078  HOST     V     C        00:37:58:10 00:38:16:26 00:16:53:17 00:17:12:03
+* FROM CLIP NAME:  78_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+079  HOST     V     C        00:38:19:07 00:38:24:05 00:17:12:03 00:17:17:01
+* FROM CLIP NAME:  79_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+080  HOST     V     C        00:38:30:03 00:38:57:06 00:17:17:01 00:17:44:04
+* FROM CLIP NAME:  80_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+081  HOST     V     C        00:39:00:18 00:39:06:01 00:17:44:04 00:17:49:17
+* FROM CLIP NAME:  81_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+082  HOST     V     C        00:39:14:02 00:39:40:12 00:17:49:17 00:18:15:27
+* FROM CLIP NAME:  82_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+083  HOST     V     C        00:39:45:16 00:39:48:16 00:18:15:27 00:18:18:27
+* FROM CLIP NAME:  83_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+084  HOST     V     C        00:39:48:23 00:40:02:02 00:18:18:27 00:18:32:06
+* FROM CLIP NAME:  84_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+085  HOST     V     C        00:40:04:29 00:40:10:28 00:18:32:06 00:18:38:05
+* FROM CLIP NAME:  85_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+086  HOST     V     C        00:40:33:25 00:40:55:21 00:18:38:05 00:19:00:01
+* FROM CLIP NAME:  86_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+087  HOST     V     C        00:40:57:24 00:41:03:00 00:19:00:01 00:19:05:07
+* FROM CLIP NAME:  87_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+088  HOST     V     C        00:41:18:16 00:41:41:15 00:19:05:07 00:19:28:06
+* FROM CLIP NAME:  88_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+089  HOST     V     C        00:41:44:13 00:41:49:09 00:19:28:06 00:19:33:02
+* FROM CLIP NAME:  89_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+090  HOST     V     C        00:41:53:04 00:42:27:02 00:19:33:02 00:20:07:00
+* FROM CLIP NAME:  90_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+091  HOST     V     C        00:42:29:03 00:42:40:28 00:20:07:00 00:20:18:25
+* FROM CLIP NAME:  91_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+092  HOST     V     C        00:43:03:19 00:43:07:17 00:20:18:25 00:20:22:23
+* FROM CLIP NAME:  92_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+093  HOST     V     C        00:43:16:00 00:43:28:01 00:20:22:23 00:20:34:24
+* FROM CLIP NAME:  93_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+094  HOST     V     C        00:44:40:07 00:45:08:00 00:20:34:24 00:21:02:17
+* FROM CLIP NAME:  94_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+095  HOST     V     C        00:45:14:19 00:45:42:22 00:21:02:17 00:21:30:20
+* FROM CLIP NAME:  95_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+096  HOST     V     C        00:45:46:01 00:45:49:20 00:21:30:20 00:21:34:09
+* FROM CLIP NAME:  96_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+097  HOST     V     C        00:45:49:20 00:45:54:19 00:21:34:09 00:21:39:08
+* FROM CLIP NAME:  97_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+098  HOST     V     C        00:46:01:10 00:46:13:09 00:21:39:08 00:21:51:07
+* FROM CLIP NAME:  98_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+099  HOST     V     C        00:46:14:27 00:46:20:21 00:21:51:07 00:21:57:01
+* FROM CLIP NAME:  99_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+100  HOST     V     C        00:46:42:11 00:46:51:08 00:21:57:01 00:22:05:28
+* FROM CLIP NAME:  100_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+101  HOST     V     C        00:47:04:19 00:47:25:19 00:22:05:28 00:22:26:28
+* FROM CLIP NAME:  101_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+102  HOST     V     C        00:47:26:12 00:47:31:28 00:22:26:28 00:22:32:14
+* FROM CLIP NAME:  102_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+103  HOST     V     C        00:47:35:04 00:48:14:10 00:22:32:14 00:23:11:20
+* FROM CLIP NAME:  103_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+104  HOST     V     C        00:48:14:10 00:48:20:01 00:23:11:20 00:23:17:11
+* FROM CLIP NAME:  104_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+105  HOST     V     C        00:48:25:10 00:48:43:15 00:23:17:11 00:23:35:16
+* FROM CLIP NAME:  105_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+106  HOST     V     C        00:48:43:27 00:48:46:23 00:23:35:16 00:23:38:12
+* FROM CLIP NAME:  106_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+107  HOST     V     C        00:48:46:29 00:48:55:05 00:23:38:12 00:23:46:18
+* FROM CLIP NAME:  107_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+108  HOST     V     C        00:49:00:06 00:49:09:17 00:23:46:18 00:23:55:29
+* FROM CLIP NAME:  108_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+109  HOST     V     C        00:49:12:29 00:49:18:21 00:23:55:29 00:24:01:21
+* FROM CLIP NAME:  109_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+110  HOST     V     C        00:50:10:07 00:50:36:04 00:24:01:21 00:24:27:18
+* FROM CLIP NAME:  110_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+111  HOST     V     C        00:50:49:04 00:51:07:05 00:24:27:18 00:24:45:19
+* FROM CLIP NAME:  111_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+112  HOST     V     C        00:51:10:05 00:51:16:01 00:24:45:19 00:24:51:15
+* FROM CLIP NAME:  112_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+113  HOST     V     C        00:51:32:01 00:51:36:18 00:24:51:15 00:24:56:02
+* FROM CLIP NAME:  113_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+114  HOST     V     C        00:51:36:22 00:51:40:07 00:24:56:02 00:24:59:17
+* FROM CLIP NAME:  114_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+115  HOST     V     C        00:51:40:13 00:51:51:12 00:24:59:17 00:25:10:16
+* FROM CLIP NAME:  115_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+116  HOST     V     C        00:52:38:22 00:53:03:28 00:25:10:16 00:25:35:22
+* FROM CLIP NAME:  116_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+117  HOST     V     C        00:53:17:27 00:53:28:04 00:25:35:22 00:25:45:29
+* FROM CLIP NAME:  117_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+118  HOST     V     C        00:53:36:29 00:53:41:29 00:25:45:29 00:25:50:29
+* FROM CLIP NAME:  118_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+119  HOST     V     C        00:53:55:23 00:54:07:06 00:25:50:29 00:26:02:12
+* FROM CLIP NAME:  119_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+120  HOST     V     C        00:56:16:14 00:56:21:09 00:26:02:12 00:26:07:07
+* FROM CLIP NAME:  120_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+121  HOST     V     C        00:57:16:11 00:57:28:22 00:26:07:07 00:26:19:18
+* FROM CLIP NAME:  121_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+122  HOST     V     C        00:58:17:08 00:58:20:13 00:26:19:18 00:26:22:23
+* FROM CLIP NAME:  122_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+123  HOST     V     C        00:58:20:20 00:58:36:20 00:26:22:23 00:26:38:23
+* FROM CLIP NAME:  123_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+124  HOST     V     C        00:58:39:03 00:58:44:03 00:26:38:23 00:26:43:23
+* FROM CLIP NAME:  124_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+125  HOST     V     C        00:58:50:27 00:59:03:18 00:26:43:23 00:26:56:14
+* FROM CLIP NAME:  125_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+126  HOST     V     C        00:59:24:27 00:59:26:25 00:26:56:14 00:26:58:12
+* FROM CLIP NAME:  126_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+127  HOST     V     C        00:59:28:06 00:59:33:04 00:26:58:12 00:27:03:10
+* FROM CLIP NAME:  127_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+128  HOST     V     C        00:59:39:24 00:59:47:10 00:27:03:10 00:27:10:26
+* FROM CLIP NAME:  128_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+129  HOST     V     C        01:00:00:09 01:00:12:05 00:27:10:26 00:27:22:22
+* FROM CLIP NAME:  129_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+130  HOST     V     C        01:00:50:02 01:00:51:26 00:27:22:22 00:27:24:16
+* FROM CLIP NAME:  130_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+131  HOST     V     C        01:00:55:04 01:01:03:28 00:27:24:16 00:27:33:10
+* FROM CLIP NAME:  131_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+132  HOST     V     C        01:01:06:17 01:01:12:02 00:27:33:10 00:27:38:25
+* FROM CLIP NAME:  132_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+133  HOST     V     C        01:01:12:02 01:01:39:20 00:27:38:25 00:28:06:13
+* FROM CLIP NAME:  133_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+134  HOST     V     C        01:01:44:14 01:01:48:13 00:28:06:13 00:28:10:12
+* FROM CLIP NAME:  134_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+135  HOST     V     C        01:02:00:26 01:02:09:16 00:28:10:12 00:28:19:02
+* FROM CLIP NAME:  135_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+136  HOST     V     C        01:02:18:06 01:02:31:23 00:28:19:02 00:28:32:19
+* FROM CLIP NAME:  136_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+137  HOST     V     C        01:02:35:02 01:02:37:08 00:28:32:19 00:28:34:25
+* FROM CLIP NAME:  137_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+138  HOST     V     C        01:02:49:08 01:02:55:02 00:28:34:25 00:28:40:19
+* FROM CLIP NAME:  138_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+139  HOST     V     C        01:03:48:00 01:03:52:12 00:28:40:19 00:28:45:01
+* FROM CLIP NAME:  139_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+140  HOST     V     C        01:03:56:28 01:04:26:02 00:28:45:01 00:29:14:05
+* FROM CLIP NAME:  140_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+141  HOST     V     C        01:04:31:00 01:04:36:06 00:29:14:05 00:29:19:11
+* FROM CLIP NAME:  141_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+142  HOST     V     C        01:04:38:04 01:05:07:22 00:29:19:11 00:29:48:29
+* FROM CLIP NAME:  142_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+143  HOST     V     C        01:05:11:11 01:05:16:08 00:29:48:29 00:29:53:26
+* FROM CLIP NAME:  143_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+144  HOST     V     C        01:05:59:07 01:06:16:04 00:29:53:26 00:30:10:23
+* FROM CLIP NAME:  144_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+145  HOST     V     C        01:06:21:25 01:06:45:02 00:30:10:23 00:30:34:00
+* FROM CLIP NAME:  145_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+146  HOST     V     C        01:06:50:23 01:06:53:17 00:30:34:00 00:30:36:24
+* FROM CLIP NAME:  146_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+147  HOST     V     C        01:07:03:24 01:07:13:06 00:30:36:24 00:30:46:06
+* FROM CLIP NAME:  147_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+148  HOST     V     C        01:07:17:13 01:07:42:08 00:30:46:06 00:31:11:01
+* FROM CLIP NAME:  148_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+149  HOST     V     C        01:07:49:08 01:08:00:01 00:31:11:01 00:31:21:24
+* FROM CLIP NAME:  149_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+150  HOST     V     C        01:08:03:07 01:08:08:29 00:31:21:24 00:31:27:16
+* FROM CLIP NAME:  150_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+151  HOST     V     C        01:08:27:28 01:08:37:16 00:31:27:16 00:31:37:04
+* FROM CLIP NAME:  151_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+152  HOST     V     C        01:08:39:28 01:08:43:16 00:31:37:04 00:31:40:22
+* FROM CLIP NAME:  152_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+153  HOST     V     C        01:09:03:19 01:09:12:11 00:31:40:22 00:31:49:14
+* FROM CLIP NAME:  153_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+154  HOST     V     C        01:09:15:15 01:09:18:03 00:31:49:14 00:31:52:02
+* FROM CLIP NAME:  154_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+155  HOST     V     C        01:09:18:17 01:09:24:01 00:31:52:02 00:31:57:16
+* FROM CLIP NAME:  155_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+156  HOST     V     C        01:09:25:14 01:09:30:27 00:31:57:16 00:32:02:29
+* FROM CLIP NAME:  156_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+157  HOST     V     C        01:09:38:04 01:09:43:01 00:32:02:29 00:32:07:26
+* FROM CLIP NAME:  157_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+158  HOST     V     C        01:09:56:13 01:10:06:24 00:32:07:26 00:32:18:07
+* FROM CLIP NAME:  158_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+159  HOST     V     C        01:10:29:07 01:10:34:15 00:32:18:07 00:32:23:15
+* FROM CLIP NAME:  159_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+160  HOST     V     C        01:10:35:03 01:10:50:03 00:32:23:15 00:32:38:15
+* FROM CLIP NAME:  160_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+161  HOST     V     C        01:10:51:16 01:11:20:10 00:32:38:15 00:33:07:09
+* FROM CLIP NAME:  161_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+162  HOST     V     C        01:11:32:15 01:11:59:10 00:33:07:09 00:33:34:04
+* FROM CLIP NAME:  162_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+163  HOST     V     C        01:11:59:10 01:12:05:01 00:33:34:04 00:33:39:25
+* FROM CLIP NAME:  163_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+164  HOST     V     C        01:12:22:21 01:12:32:29 00:33:39:25 00:33:50:03
+* FROM CLIP NAME:  164_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+165  HOST     V     C        01:12:34:23 01:12:39:00 00:33:50:03 00:33:54:10
+* FROM CLIP NAME:  165_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+166  HOST     V     C        01:13:49:11 01:13:54:19 00:33:54:10 00:33:59:18
+* FROM CLIP NAME:  166_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+167  HOST     V     C        01:14:00:12 01:14:31:13 00:33:59:18 00:34:30:19
+* FROM CLIP NAME:  167_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+168  HOST     V     C        01:14:35:14 01:14:39:08 00:34:30:19 00:34:34:13
+* FROM CLIP NAME:  168_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+169  HOST     V     C        01:14:54:01 01:15:00:06 00:34:34:13 00:34:40:18
+* FROM CLIP NAME:  169_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+170  HOST     V     C        01:15:02:04 01:15:15:03 00:34:40:18 00:34:53:17
+* FROM CLIP NAME:  170_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+171  HOST     V     C        01:15:15:03 01:15:21:01 00:34:53:17 00:34:59:15
+* FROM CLIP NAME:  171_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+172  HOST     V     C        01:15:31:07 01:15:52:08 00:34:59:15 00:35:20:16
+* FROM CLIP NAME:  172_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+173  HOST     V     C        01:16:10:22 01:16:16:20 00:35:20:16 00:35:26:14
+* FROM CLIP NAME:  173_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+174  HOST     V     C        01:16:16:22 01:16:31:26 00:35:26:14 00:35:41:18
+* FROM CLIP NAME:  174_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+175  HOST     V     C        01:16:39:13 01:16:45:15 00:35:41:18 00:35:47:20
+* FROM CLIP NAME:  175_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+176  HOST     V     C        01:16:45:15 01:16:51:01 00:35:47:20 00:35:53:06
+* FROM CLIP NAME:  176_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+177  HOST     V     C        01:16:56:12 01:17:17:13 00:35:53:06 00:36:14:07
+* FROM CLIP NAME:  177_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+178  HOST     V     C        01:17:20:08 01:17:26:05 00:36:14:07 00:36:20:04
+* FROM CLIP NAME:  178_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+179  HOST     V     C        01:17:40:07 01:17:45:00 00:36:20:04 00:36:24:27
+* FROM CLIP NAME:  179_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+180  HOST     V     C        01:17:57:22 01:18:14:11 00:36:24:27 00:36:41:16
+* FROM CLIP NAME:  180_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+181  HOST     V     C        01:18:19:11 01:18:30:16 00:36:41:16 00:36:52:21
+* FROM CLIP NAME:  181_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+182  HOST     V     C        01:18:34:28 01:18:40:17 00:36:52:21 00:36:58:10
+* FROM CLIP NAME:  182_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+183  HOST     V     C        01:19:03:29 01:19:08:20 00:36:58:10 00:37:03:01
+* FROM CLIP NAME:  183_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+184  HOST     V     C        01:19:12:16 01:19:16:11 00:37:03:01 00:37:06:26
+* FROM CLIP NAME:  184_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+185  HOST     V     C        01:19:25:25 01:19:35:07 00:37:06:26 00:37:16:08
+* FROM CLIP NAME:  185_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+186  HOST     V     C        01:19:37:10 01:19:58:26 00:37:16:08 00:37:37:24
+* FROM CLIP NAME:  186_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+187  HOST     V     C        01:20:02:21 01:20:08:02 00:37:37:24 00:37:43:05
+* FROM CLIP NAME:  187_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+188  HOST     V     C        01:20:19:10 01:20:34:18 00:37:43:05 00:37:58:13
+* FROM CLIP NAME:  188_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+189  HOST     V     C        01:20:40:11 01:20:44:13 00:37:58:13 00:38:02:15
+* FROM CLIP NAME:  189_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+190  HOST     V     C        01:20:57:14 01:21:08:25 00:38:02:15 00:38:13:26
+* FROM CLIP NAME:  190_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+191  HOST     V     C        01:21:13:26 01:21:46:20 00:38:13:26 00:38:46:20
+* FROM CLIP NAME:  191_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+192  HOST     V     C        01:21:49:19 01:21:54:15 00:38:46:20 00:38:51:16
+* FROM CLIP NAME:  192_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+193  HOST     V     C        01:21:59:16 01:22:11:27 00:38:51:16 00:39:03:27
+* FROM CLIP NAME:  193_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+194  HOST     V     C        01:22:11:27 01:22:27:21 00:39:03:27 00:39:19:21
+* FROM CLIP NAME:  194_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+195  HOST     V     C        01:22:31:11 01:22:43:00 00:39:19:21 00:39:31:10
+* FROM CLIP NAME:  195_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+196  HOST     V     C        01:22:46:26 01:23:06:17 00:39:31:10 00:39:51:01
+* FROM CLIP NAME:  196_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+197  HOST     V     C        01:23:09:12 01:23:15:00 00:39:51:01 00:39:56:19
+* FROM CLIP NAME:  197_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+198  HOST     V     C        01:23:17:01 01:23:30:27 00:39:56:19 00:40:10:15
+* FROM CLIP NAME:  198_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+199  HOST     V     C        01:23:33:09 01:23:49:06 00:40:10:15 00:40:26:12
+* FROM CLIP NAME:  199_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+200  HOST     V     C        01:23:50:17 01:23:55:26 00:40:26:12 00:40:31:21
+* FROM CLIP NAME:  200_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+201  HOST     V     C        01:23:58:00 01:24:12:10 00:40:31:21 00:40:46:01
+* FROM CLIP NAME:  201_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+202  HOST     V     C        01:24:14:14 01:24:16:23 00:40:46:01 00:40:48:10
+* FROM CLIP NAME:  202_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+203  HOST     V     C        01:24:19:03 01:24:26:19 00:40:48:10 00:40:55:26
+* FROM CLIP NAME:  203_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+204  HOST     V     C        01:24:37:10 01:24:47:23 00:40:55:26 00:41:06:09
+* FROM CLIP NAME:  204_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+205  HOST     V     C        01:25:17:07 01:25:21:18 00:41:06:09 00:41:10:20
+* FROM CLIP NAME:  205_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+206  HOST     V     C        01:25:26:01 01:25:29:10 00:41:10:20 00:41:13:29
+* FROM CLIP NAME:  206_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+207  HOST     V     C        01:25:48:07 01:26:09:22 00:41:13:29 00:41:35:14
+* FROM CLIP NAME:  207_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+208  HOST     V     C        01:26:22:20 01:26:25:19 00:41:35:14 00:41:38:13
+* FROM CLIP NAME:  208_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+209  HOST     V     C        01:26:25:26 01:26:31:28 00:41:38:13 00:41:44:15
+* FROM CLIP NAME:  209_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+210  HOST     V     C        01:26:38:04 01:26:51:11 00:41:44:15 00:41:57:22
+* FROM CLIP NAME:  210_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+211  HOST     V     C        01:26:54:17 01:27:25:01 00:41:57:22 00:42:28:06
+* FROM CLIP NAME:  211_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+212  HOST     V     C        01:27:27:16 01:27:31:02 00:42:28:06 00:42:31:22
+* FROM CLIP NAME:  212_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+213  HOST     V     C        01:27:31:02 01:27:49:24 00:42:31:22 00:42:50:14
+* FROM CLIP NAME:  213_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+214  HOST     V     C        01:27:53:02 01:28:00:16 00:42:50:14 00:42:57:28
+* FROM CLIP NAME:  214_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+215  HOST     V     C        01:28:00:16 01:28:01:26 00:42:57:28 00:42:59:08
+* FROM CLIP NAME:  215_panel
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PANEL
+216  HOST     V     C        01:28:03:15 01:28:07:00 00:42:59:08 00:43:02:23
+* FROM CLIP NAME:  216_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+217  HOST     V     C        01:28:32:25 01:28:47:11 00:43:02:23 00:43:17:09
+* FROM CLIP NAME:  217_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+218  HOST     V     C        01:28:50:04 01:28:55:14 00:43:17:09 00:43:22:19
+* FROM CLIP NAME:  218_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+219  HOST     V     C        01:28:55:14 01:29:06:01 00:43:22:19 00:43:33:06
+* FROM CLIP NAME:  219_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+220  HOST     V     C        01:29:06:04 01:29:25:29 00:43:33:06 00:43:53:01
+* FROM CLIP NAME:  220_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+221  HOST     V     C        01:29:27:11 01:29:41:21 00:43:53:01 00:44:07:11
+* FROM CLIP NAME:  221_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+222  HOST     V     C        01:29:42:29 01:29:46:13 00:44:07:11 00:44:10:25
+* FROM CLIP NAME:  222_pip_circles
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     PIP_CIRCLES
+223  HOST     V     C        01:29:48:26 01:29:59:24 00:44:10:25 00:44:21:23
+* FROM CLIP NAME:  223_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+224  HOST     V     C        01:30:14:01 01:30:46:27 00:44:21:23 00:44:54:19
+* FROM CLIP NAME:  224_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL
+225  HOST     V     C        01:30:50:08 01:31:19:11 00:44:54:19 00:45:23:22
+* FROM CLIP NAME:  225_hosts_full
+* FROM CLIP: file:///I:/Repo%20Man/Watch%20Repo%20Man.mov
+* LOC: 00:00:00:00 RED     HOSTS_FULL

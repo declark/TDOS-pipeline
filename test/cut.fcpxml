@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.8">
+    <resources>
+        <format id="r1" frameDuration="1/30s" name="FFVideoFormat1080p30" width="1920" height="1080" />
+        <asset name="Watch Repo Man.mov" src="file:///I:/Repo%20Man/Watch%20Repo%20Man.mov" format="r1" id="r2" duration="164531/30s" start="0s" hasAudio="1" hasVideo="1" audioSources="1" audioChannels="2" audioRate="48000" />
+        <asset name="Repo Man (1984).mkv" src="file:///I:/Repo%20Man/Repo%20Man%20%281984%29.mkv" format="r1" id="r3" duration="150791/30s" start="0s" hasAudio="1" hasVideo="1" audioSources="1" audioChannels="2" audioRate="48000" />
+    </resources>
+    <library>
+        <event name="tdos_pipeline_verify_cut">
+            <project name="tdos_pipeline_verify_cut" uid="">
+                <sequence duration="40856/15s" format="r1" tcStart="3600s" tcFormat="NDF">
+                    <spine>
+                        <asset-clip name="01_hosts_full" ref="r2" offset="3600s" duration="158/15s" start="197/30s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="158/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="02_hosts_full" ref="r2" offset="54158/15s" duration="397/15s" start="2309/10s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="397/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="03_panel" ref="r2" offset="3637s" duration="64/15s" start="2811/10s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="64/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="04_pip_circles" ref="r2" offset="54619/15s" duration="157/30s" start="4493/15s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="157/30s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="05_hosts_full" ref="r2" offset="7293/2s" duration="14/1s" start="9491/30s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="14s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="06_hosts_full" ref="r2" offset="7321/2s" duration="47/5s" start="3757/10s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="47/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="07_panel" ref="r2" offset="36699/10s" duration="101/30s" start="3851/10s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="101/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="08_hosts_full" ref="r2" offset="55099/15s" duration="217/30s" start="11731/30s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="217/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="09_pip_circles" ref="r2" offset="7361/2s" duration="6/5s" start="12089/30s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="6/5s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="10_hosts_full" ref="r2" offset="36817/10s" duration="63/5s" start="12623/30s" format="r1" tcFormat="NDF">
+                            <marker start="0s" duration="63/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="11_hosts_full" ref="r2" offset="36943/10s" duration="401/15s" start="1396/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="11_hosts_full_movie" ref="r3" lane="1" offset="1396/3s" duration="401/15s" start="22/3s" format="r1" />
+                            <marker start="0s" duration="401/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="12_hosts_full" ref="r2" offset="111631/30s" duration="25/1s" start="1682/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="12_hosts_full_movie" ref="r3" lane="1" offset="1682/3s" duration="25/1s" start="308/3s" format="r1" />
+                            <marker start="0s" duration="25s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="13_panel" ref="r2" offset="112381/30s" duration="64/15s" start="1205/2s" format="r1" tcFormat="NDF">
+                            <asset-clip name="13_panel_movie" ref="r3" lane="1" offset="1205/2s" duration="64/15s" start="289/2s" format="r1" />
+                            <marker start="0s" duration="64/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="14_hosts_full" ref="r2" offset="37503/10s" duration="197/10s" start="9274/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="14_hosts_full_movie" ref="r3" lane="1" offset="9274/15s" duration="197/10s" start="2404/15s" format="r1" />
+                            <marker start="0s" duration="197/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="15_panel" ref="r2" offset="3770s" duration="26/5s" start="19139/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="15_panel_movie" ref="r3" lane="1" offset="19139/30s" duration="26/5s" start="5399/30s" format="r1" />
+                            <marker start="0s" duration="26/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="16_hosts_full" ref="r2" offset="18876/5s" duration="302/15s" start="9796/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="16_hosts_full_movie" ref="r3" lane="1" offset="9796/15s" duration="302/15s" start="2926/15s" format="r1" />
+                            <marker start="0s" duration="302/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="17_hosts_full" ref="r2" offset="11386/3s" duration="137/5s" start="10526/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="17_hosts_full_movie" ref="r3" lane="1" offset="10526/15s" duration="137/5s" start="3656/15s" format="r1" />
+                            <marker start="0s" duration="137/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="18_panel" ref="r2" offset="57341/15s" duration="25/6s" start="3653/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="18_panel_movie" ref="r3" lane="1" offset="3653/5s" duration="25/6s" start="1363/5s" format="r1" />
+                            <marker start="0s" duration="25/6s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="19_hosts_full" ref="r2" offset="38269/10s" duration="127/10s" start="22321/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="19_hosts_full_movie" ref="r3" lane="1" offset="22321/30s" duration="127/10s" start="8581/30s" format="r1" />
+                            <marker start="0s" duration="127/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="20_hosts_full" ref="r2" offset="19198/5s" duration="88/3s" start="11417/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="20_hosts_full_movie" ref="r3" lane="1" offset="11417/15s" duration="88/3s" start="4547/15s" format="r1" />
+                            <marker start="0s" duration="88/3s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="21_panel" ref="r2" offset="58034/15s" duration="71/15s" start="11902/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="21_panel_movie" ref="r3" lane="1" offset="11902/15s" duration="71/15s" start="5032/15s" format="r1" />
+                            <marker start="0s" duration="71/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="22_pip_circles" ref="r2" offset="11621/3s" duration="6/1s" start="24581/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="22_pip_circles_movie" ref="r3" lane="1" offset="24581/30s" duration="6/1s" start="10841/30s" format="r1" />
+                            <marker start="0s" duration="6s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="23_hosts_full" ref="r2" offset="11639/3s" duration="737/30s" start="2555/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="23_hosts_full_movie" ref="r3" lane="1" offset="2555/3s" duration="737/30s" start="1181/3s" format="r1" />
+                            <marker start="0s" duration="737/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="24_panel" ref="r2" offset="117127/30s" duration="12/5s" start="2710/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="24_panel_movie" ref="r3" lane="1" offset="2710/3s" duration="12/5s" start="1336/3s" format="r1" />
+                            <marker start="0s" duration="12/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="25_hosts_full" ref="r2" offset="117199/30s" duration="293/30s" start="4531/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="25_hosts_full_movie" ref="r3" lane="1" offset="4531/5s" duration="293/30s" start="2241/5s" format="r1" />
+                            <marker start="0s" duration="293/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="26_hosts_full" ref="r2" offset="19582/5s" duration="727/30s" start="919s" format="r1" tcFormat="NDF">
+                            <asset-clip name="26_hosts_full_movie" ref="r3" lane="1" offset="919s" duration="727/30s" start="461s" format="r1" />
+                            <marker start="0s" duration="727/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="27_hosts_full" ref="r2" offset="118219/30s" duration="236/15s" start="28399/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="27_hosts_full_movie" ref="r3" lane="1" offset="28399/30s" duration="236/15s" start="14659/30s" format="r1" />
+                            <marker start="0s" duration="236/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="28_pip_circles" ref="r2" offset="118691/30s" duration="56/15s" start="9681/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="28_pip_circles_movie" ref="r3" lane="1" offset="9681/10s" duration="56/15s" start="5101/10s" format="r1" />
+                            <marker start="0s" duration="56/15s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="29_hosts_full" ref="r2" offset="39601/10s" duration="78/5s" start="29167/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="29_hosts_full_movie" ref="r3" lane="1" offset="29167/30s" duration="78/5s" start="15427/30s" format="r1" />
+                            <marker start="0s" duration="78/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="30_panel" ref="r2" offset="39757/10s" duration="137/30s" start="14873/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="30_panel_movie" ref="r3" lane="1" offset="14873/15s" duration="137/30s" start="8003/15s" format="r1" />
+                            <marker start="0s" duration="137/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="31_hosts_full" ref="r2" offset="59704/15s" duration="164/5s" start="29981/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="31_hosts_full_movie" ref="r3" lane="1" offset="29981/30s" duration="164/5s" start="16241/30s" format="r1" />
+                            <marker start="0s" duration="164/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="32_panel" ref="r2" offset="60196/15s" duration="59/10s" start="5171/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="32_panel_movie" ref="r3" lane="1" offset="5171/5s" duration="59/10s" start="2881/5s" format="r1" />
+                            <marker start="0s" duration="59/10s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="33_hosts_full" ref="r2" offset="120569/30s" duration="383/15s" start="15869/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="33_hosts_full_movie" ref="r3" lane="1" offset="15869/15s" duration="383/15s" start="8999/15s" format="r1" />
+                            <marker start="0s" duration="383/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="34_pip_circles" ref="r2" offset="8089/2s" duration="74/15s" start="32611/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="34_pip_circles_movie" ref="r3" lane="1" offset="32611/30s" duration="74/15s" start="18871/30s" format="r1" />
+                            <marker start="0s" duration="74/15s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="35_hosts_full" ref="r2" offset="121483/30s" duration="289/15s" start="6565/6s" format="r1" tcFormat="NDF">
+                            <asset-clip name="35_hosts_full_movie" ref="r3" lane="1" offset="6565/6s" duration="289/15s" start="3817/6s" format="r1" />
+                            <marker start="0s" duration="289/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="36_panel" ref="r2" offset="40687/10s" duration="149/30s" start="1116s" format="r1" tcFormat="NDF">
+                            <asset-clip name="36_panel_movie" ref="r3" lane="1" offset="1116s" duration="149/30s" start="658s" format="r1" />
+                            <marker start="0s" duration="149/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="37_hosts_full" ref="r2" offset="12221/3s" duration="248/15s" start="34111/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="37_hosts_full_movie" ref="r3" lane="1" offset="34111/30s" duration="248/15s" start="20371/30s" format="r1" />
+                            <marker start="0s" duration="248/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="38_pip_circles" ref="r2" offset="20451/5s" duration="161/30s" start="11747/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="38_pip_circles_movie" ref="r3" lane="1" offset="11747/10s" duration="161/30s" start="7167/10s" format="r1" />
+                            <marker start="0s" duration="161/30s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="39_hosts_full" ref="r2" offset="122867/30s" duration="383/30s" start="17792/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="39_hosts_full_movie" ref="r3" lane="1" offset="17792/15s" duration="383/30s" start="10922/15s" format="r1" />
+                            <marker start="0s" duration="383/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="40_hosts_full" ref="r2" offset="12325/3s" duration="953/30s" start="6008/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="40_hosts_full_movie" ref="r3" lane="1" offset="6008/5s" duration="953/30s" start="3718/5s" format="r1" />
+                            <marker start="0s" duration="953/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="41_hosts_full" ref="r2" offset="41401/10s" duration="263/30s" start="18659/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="41_hosts_full_movie" ref="r3" lane="1" offset="18659/15s" duration="263/30s" start="11789/15s" format="r1" />
+                            <marker start="0s" duration="263/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="42_panel" ref="r2" offset="62233/15s" duration="53/10s" start="2577/2s" format="r1" tcFormat="NDF">
+                            <asset-clip name="42_panel_movie" ref="r3" lane="1" offset="2577/2s" duration="53/10s" start="1661/2s" format="r1" />
+                            <marker start="0s" duration="53/10s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="43_hosts_full" ref="r2" offset="24925/6s" duration="63/5s" start="12973/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="43_hosts_full_movie" ref="r3" lane="1" offset="12973/10s" duration="63/5s" start="8393/10s" format="r1" />
+                            <marker start="0s" duration="63/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="44_panel" ref="r2" offset="125003/30s" duration="143/30s" start="19699/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="44_panel_movie" ref="r3" lane="1" offset="19699/15s" duration="143/30s" start="12829/15s" format="r1" />
+                            <marker start="0s" duration="143/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="45_hosts_full" ref="r2" offset="62573/15s" duration="703/30s" start="39619/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="45_hosts_full_movie" ref="r3" lane="1" offset="39619/30s" duration="703/30s" start="25879/30s" format="r1" />
+                            <marker start="0s" duration="703/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="46_hosts_full" ref="r2" offset="125849/30s" duration="779/30s" start="4043/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="46_hosts_full_movie" ref="r3" lane="1" offset="4043/3s" duration="779/30s" start="2669/3s" format="r1" />
+                            <marker start="0s" duration="779/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="47_hosts_full" ref="r2" offset="63314/15s" duration="446/15s" start="20752/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="47_hosts_full_movie" ref="r3" lane="1" offset="20752/15s" duration="446/15s" start="13882/15s" format="r1" />
+                            <marker start="0s" duration="446/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="48_panel" ref="r2" offset="12752/3s" duration="127/30s" start="7087/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="48_panel_movie" ref="r3" lane="1" offset="7087/5s" duration="127/30s" start="4797/5s" format="r1" />
+                            <marker start="0s" duration="127/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="49_hosts_full" ref="r2" offset="42549/10s" duration="487/30s" start="42977/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="49_hosts_full_movie" ref="r3" lane="1" offset="42977/30s" duration="487/30s" start="29237/30s" format="r1" />
+                            <marker start="0s" duration="487/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="50_pip_circles" ref="r2" offset="64067/15s" duration="62/15s" start="4390/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="50_pip_circles_movie" ref="r3" lane="1" offset="4390/3s" duration="62/15s" start="3016/3s" format="r1" />
+                            <marker start="0s" duration="62/15s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="51_hosts_full" ref="r2" offset="64129/15s" duration="229/30s" start="1468s" format="r1" tcFormat="NDF">
+                            <asset-clip name="51_hosts_full_movie" ref="r3" lane="1" offset="1468s" duration="229/30s" start="1010s" format="r1" />
+                            <marker start="0s" duration="229/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="52_pip_circles" ref="r2" offset="42829/10s" duration="4/1s" start="47059/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="52_pip_circles_movie" ref="r3" lane="1" offset="47059/30s" duration="4/1s" start="33319/30s" format="r1" />
+                            <marker start="0s" duration="4s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="53_hosts_full" ref="r2" offset="42869/10s" duration="41/2s" start="7864/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="53_hosts_full_movie" ref="r3" lane="1" offset="7864/5s" duration="41/2s" start="5574/5s" format="r1" />
+                            <marker start="0s" duration="41/2s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="54_hosts_full" ref="r2" offset="21537/5s" duration="146/5s" start="4916/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="54_hosts_full_movie" ref="r3" lane="1" offset="4916/3s" duration="146/5s" start="3542/3s" format="r1" />
+                            <marker start="0s" duration="146/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="55_hosts_full" ref="r2" offset="21683/5s" duration="253/30s" start="5149/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="55_hosts_full_movie" ref="r3" lane="1" offset="5149/3s" duration="253/30s" start="3775/3s" format="r1" />
+                            <marker start="0s" duration="253/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="56_pip_circles" ref="r2" offset="130351/30s" duration="14/3s" start="52933/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="56_pip_circles_movie" ref="r3" lane="1" offset="52933/30s" duration="14/3s" start="39193/30s" format="r1" />
+                            <marker start="0s" duration="14/3s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="57_hosts_full" ref="r2" offset="43497/10s" duration="29/10s" start="53143/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="57_hosts_full_movie" ref="r3" lane="1" offset="53143/30s" duration="29/10s" start="39403/30s" format="r1" />
+                            <marker start="0s" duration="29/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="58_pip_circles" ref="r2" offset="21763/5s" duration="74/15s" start="53437/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="58_pip_circles_movie" ref="r3" lane="1" offset="53437/30s" duration="74/15s" start="39697/30s" format="r1" />
+                            <marker start="0s" duration="74/15s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="59_hosts_full" ref="r2" offset="65363/15s" duration="971/30s" start="18047/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="59_hosts_full_movie" ref="r3" lane="1" offset="18047/10s" duration="971/30s" start="13467/10s" format="r1" />
+                            <marker start="0s" duration="971/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="60_panel" ref="r2" offset="43899/10s" duration="86/15s" start="27677/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="60_panel_movie" ref="r3" lane="1" offset="27677/15s" duration="86/15s" start="20807/15s" format="r1" />
+                            <marker start="0s" duration="86/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="61_panel" ref="r2" offset="131869/30s" duration="23/5s" start="9453/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="61_panel_movie" ref="r3" lane="1" offset="9453/5s" duration="23/5s" start="7163/5s" format="r1" />
+                            <marker start="0s" duration="23/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="62_hosts_full" ref="r2" offset="132007/30s" duration="124/5s" start="56921/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="62_hosts_full_movie" ref="r3" lane="1" offset="56921/30s" duration="124/5s" start="43181/30s" format="r1" />
+                            <marker start="0s" duration="124/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="63_panel" ref="r2" offset="132751/30s" duration="18/5s" start="57749/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="63_panel_movie" ref="r3" lane="1" offset="57749/30s" duration="18/5s" start="44009/30s" format="r1" />
+                            <marker start="0s" duration="18/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="64_hosts_full" ref="r2" offset="132859/30s" duration="421/15s" start="58189/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="64_hosts_full_movie" ref="r3" lane="1" offset="58189/30s" duration="421/15s" start="44449/30s" format="r1" />
+                            <marker start="0s" duration="421/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="65_hosts_full" ref="r2" offset="44567/10s" duration="397/15s" start="59243/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="65_hosts_full_movie" ref="r3" lane="1" offset="59243/30s" duration="397/15s" start="45503/30s" format="r1" />
+                            <marker start="0s" duration="397/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="66_panel" ref="r2" offset="26899/6s" duration="61/15s" start="10379/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="66_panel_movie" ref="r3" lane="1" offset="10379/5s" duration="61/15s" start="8089/5s" format="r1" />
+                            <marker start="0s" duration="61/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="67_hosts_full" ref="r2" offset="134617/30s" duration="253/30s" start="10439/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="67_hosts_full_movie" ref="r3" lane="1" offset="10439/5s" duration="253/30s" start="8149/5s" format="r1" />
+                            <marker start="0s" duration="253/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="68_panel" ref="r2" offset="13487/3s" duration="61/15s" start="2107s" format="r1" tcFormat="NDF">
+                            <asset-clip name="68_panel_movie" ref="r3" lane="1" offset="2107s" duration="61/15s" start="1649s" format="r1" />
+                            <marker start="0s" duration="61/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="69_hosts_full" ref="r2" offset="67496/15s" duration="389/30s" start="31667/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="69_hosts_full_movie" ref="r3" lane="1" offset="31667/15s" duration="389/30s" start="24797/15s" format="r1" />
+                            <marker start="0s" duration="389/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="70_hosts_full" ref="r2" offset="45127/10s" duration="189/10s" start="21283/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="70_hosts_full_movie" ref="r3" lane="1" offset="21283/10s" duration="189/10s" start="16703/10s" format="r1" />
+                            <marker start="0s" duration="189/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="71_hosts_full" ref="r2" offset="22658/5s" duration="883/30s" start="6464/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="71_hosts_full_movie" ref="r3" lane="1" offset="6464/3s" duration="883/30s" start="5090/3s" format="r1" />
+                            <marker start="0s" duration="883/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="72_pip_circles" ref="r2" offset="136831/30s" duration="28/5s" start="33067/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="72_pip_circles_movie" ref="r3" lane="1" offset="33067/15s" duration="28/5s" start="26197/15s" format="r1" />
+                            <marker start="0s" duration="28/5s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="73_hosts_full" ref="r2" offset="136999/30s" duration="28/3s" start="11051/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="73_hosts_full_movie" ref="r3" lane="1" offset="11051/5s" duration="28/3s" start="8761/5s" format="r1" />
+                            <marker start="0s" duration="28/3s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="74_hosts_full" ref="r2" offset="137279/30s" duration="149/10s" start="11151/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="74_hosts_full_movie" ref="r3" lane="1" offset="11151/5s" duration="149/10s" start="8861/5s" format="r1" />
+                            <marker start="0s" duration="149/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="75_panel" ref="r2" offset="68863/15s" duration="23/5s" start="33758/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="75_panel_movie" ref="r3" lane="1" offset="33758/15s" duration="23/5s" start="26888/15s" format="r1" />
+                            <marker start="0s" duration="23/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="76_hosts_full" ref="r2" offset="68932/15s" duration="77/6s" start="11282/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="76_hosts_full_movie" ref="r3" lane="1" offset="11282/5s" duration="77/6s" start="8992/5s" format="r1" />
+                            <marker start="0s" duration="77/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="77_panel" ref="r2" offset="46083/10s" duration="79/15s" start="68173/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="77_panel_movie" ref="r3" lane="1" offset="68173/30s" duration="79/15s" start="54433/30s" format="r1" />
+                            <marker start="0s" duration="79/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="78_hosts_full" ref="r2" offset="138407/30s" duration="278/15s" start="6835/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="78_hosts_full_movie" ref="r3" lane="1" offset="6835/3s" duration="278/15s" start="5461/3s" format="r1" />
+                            <marker start="0s" duration="278/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="79_panel" ref="r2" offset="46321/10s" duration="74/15s" start="68977/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="79_panel_movie" ref="r3" lane="1" offset="68977/30s" duration="74/15s" start="55237/30s" format="r1" />
+                            <marker start="0s" duration="74/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="80_hosts_full" ref="r2" offset="139111/30s" duration="271/10s" start="23101/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="80_hosts_full_movie" ref="r3" lane="1" offset="23101/10s" duration="271/10s" start="18521/10s" format="r1" />
+                            <marker start="0s" duration="271/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="81_panel" ref="r2" offset="69962/15s" duration="163/30s" start="11703/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="81_panel_movie" ref="r3" lane="1" offset="11703/5s" duration="163/30s" start="9413/5s" format="r1" />
+                            <marker start="0s" duration="163/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="82_hosts_full" ref="r2" offset="140087/30s" duration="79/3s" start="35311/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="82_hosts_full_movie" ref="r3" lane="1" offset="35311/15s" duration="79/3s" start="28441/15s" format="r1" />
+                            <marker start="0s" duration="79/3s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="83_pip_circles" ref="r2" offset="46959/10s" duration="3/1s" start="35783/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="83_pip_circles_movie" ref="r3" lane="1" offset="35783/15s" duration="3/1s" start="28913/15s" format="r1" />
+                            <marker start="0s" duration="3s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="84_hosts_full" ref="r2" offset="46989/10s" duration="133/10s" start="71663/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="84_hosts_full_movie" ref="r3" lane="1" offset="71663/30s" duration="133/10s" start="57923/30s" format="r1" />
+                            <marker start="0s" duration="133/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="85_panel" ref="r2" offset="23561/5s" duration="179/30s" start="72149/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="85_panel_movie" ref="r3" lane="1" offset="72149/30s" duration="179/30s" start="58409/30s" format="r1" />
+                            <marker start="0s" duration="179/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="86_hosts_full" ref="r2" offset="28309/6s" duration="328/15s" start="14603/6s" format="r1" tcFormat="NDF">
+                            <asset-clip name="86_hosts_full_movie" ref="r3" lane="1" offset="14603/6s" duration="328/15s" start="11855/6s" format="r1" />
+                            <marker start="0s" duration="328/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="87_panel" ref="r2" offset="142201/30s" duration="26/5s" start="12289/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="87_panel_movie" ref="r3" lane="1" offset="12289/5s" duration="26/5s" start="9999/5s" format="r1" />
+                            <marker start="0s" duration="26/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="88_hosts_full" ref="r2" offset="142357/30s" duration="689/30s" start="37178/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="88_hosts_full_movie" ref="r3" lane="1" offset="37178/15s" duration="689/30s" start="30308/15s" format="r1" />
+                            <marker start="0s" duration="689/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="89_panel" ref="r2" offset="23841/5s" duration="73/15s" start="75133/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="89_panel_movie" ref="r3" lane="1" offset="75133/30s" duration="73/15s" start="61393/30s" format="r1" />
+                            <marker start="0s" duration="73/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="90_hosts_full" ref="r2" offset="71596/15s" duration="509/15s" start="37697/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="90_hosts_full_movie" ref="r3" lane="1" offset="37697/15s" duration="509/15s" start="30827/15s" format="r1" />
+                            <marker start="0s" duration="509/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="91_hosts_full" ref="r2" offset="4807s" duration="71/6s" start="25491/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="91_hosts_full_movie" ref="r3" lane="1" offset="25491/10s" duration="71/6s" start="20911/10s" format="r1" />
+                            <marker start="0s" duration="71/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="92_panel" ref="r2" offset="28913/6s" duration="59/15s" start="77509/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="92_panel_movie" ref="r3" lane="1" offset="77509/30s" duration="59/15s" start="63769/30s" format="r1" />
+                            <marker start="0s" duration="59/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="93_hosts_full" ref="r2" offset="144683/30s" duration="361/30s" start="2596s" format="r1" tcFormat="NDF">
+                            <asset-clip name="93_hosts_full_movie" ref="r3" lane="1" offset="2596s" duration="361/30s" start="2138s" format="r1" />
+                            <marker start="0s" duration="361/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="94_hosts_full" ref="r2" offset="24174/5s" duration="833/30s" start="80407/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="94_hosts_full_movie" ref="r3" lane="1" offset="80407/30s" duration="833/30s" start="66667/30s" format="r1" />
+                            <marker start="0s" duration="833/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="95_hosts_full" ref="r2" offset="145877/30s" duration="281/10s" start="81439/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="95_hosts_full_movie" ref="r3" lane="1" offset="81439/30s" duration="281/10s" start="67699/30s" format="r1" />
+                            <marker start="0s" duration="281/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="96_pip_circles" ref="r2" offset="14672/3s" duration="109/30s" start="82381/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="96_pip_circles_movie" ref="r3" lane="1" offset="82381/30s" duration="109/30s" start="68641/30s" format="r1" />
+                            <marker start="0s" duration="109/30s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="97_hosts_full" ref="r2" offset="48943/10s" duration="149/30s" start="8249/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="97_hosts_full_movie" ref="r3" lane="1" offset="8249/3s" duration="149/30s" start="6875/3s" format="r1" />
+                            <marker start="0s" duration="149/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="98_hosts_full" ref="r2" offset="73489/15s" duration="359/30s" start="8284/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="98_hosts_full_movie" ref="r3" lane="1" offset="8284/3s" duration="359/30s" start="6910/3s" format="r1" />
+                            <marker start="0s" duration="359/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="99_panel" ref="r2" offset="147337/30s" duration="29/5s" start="27749/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="99_panel_movie" ref="r3" lane="1" offset="27749/10s" duration="29/5s" start="23169/10s" format="r1" />
+                            <marker start="0s" duration="29/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="100_hosts_full" ref="r2" offset="147511/30s" duration="89/10s" start="84071/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="100_hosts_full_movie" ref="r3" lane="1" offset="84071/30s" duration="89/10s" start="70331/30s" format="r1" />
+                            <marker start="0s" duration="89/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="101_hosts_full" ref="r2" offset="73889/15s" duration="21/1s" start="84739/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="101_hosts_full_movie" ref="r3" lane="1" offset="84739/30s" duration="21/1s" start="70999/30s" format="r1" />
+                            <marker start="0s" duration="21s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="102_panel" ref="r2" offset="74204/15s" duration="83/15s" start="14232/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="102_panel_movie" ref="r3" lane="1" offset="14232/5s" duration="83/15s" start="11942/5s" format="r1" />
+                            <marker start="0s" duration="83/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="103_hosts_full" ref="r2" offset="74287/15s" duration="196/5s" start="42827/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="103_hosts_full_movie" ref="r3" lane="1" offset="42827/15s" duration="196/5s" start="35957/15s" format="r1" />
+                            <marker start="0s" duration="196/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="104_panel" ref="r2" offset="14975/3s" duration="57/10s" start="8683/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="104_panel_movie" ref="r3" lane="1" offset="8683/3s" duration="57/10s" start="7309/3s" format="r1" />
+                            <marker start="0s" duration="57/10s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="105_hosts_full" ref="r2" offset="149921/30s" duration="109/6s" start="8716/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="105_hosts_full_movie" ref="r3" lane="1" offset="8716/3s" duration="109/6s" start="7342/3s" format="r1" />
+                            <marker start="0s" duration="109/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="106_panel" ref="r2" offset="75233/15s" duration="43/15s" start="29239/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="106_panel_movie" ref="r3" lane="1" offset="29239/10s" duration="43/15s" start="24659/10s" format="r1" />
+                            <marker start="0s" duration="43/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="107_hosts_full" ref="r2" offset="25092/5s" duration="41/5s" start="87809/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="107_hosts_full_movie" ref="r3" lane="1" offset="87809/30s" duration="41/5s" start="74069/30s" format="r1" />
+                            <marker start="0s" duration="41/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="108_hosts_full" ref="r2" offset="25133/5s" duration="281/30s" start="14701/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="108_hosts_full_movie" ref="r3" lane="1" offset="14701/5s" duration="281/30s" start="12411/5s" format="r1" />
+                            <marker start="0s" duration="281/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="109_pip_circles" ref="r2" offset="151079/30s" duration="86/15s" start="88589/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="109_pip_circles_movie" ref="r3" lane="1" offset="88589/30s" duration="86/15s" start="74849/30s" format="r1" />
+                            <marker start="0s" duration="86/15s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="110_hosts_full" ref="r2" offset="50417/10s" duration="259/10s" start="90307/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="110_hosts_full_movie" ref="r3" lane="1" offset="90307/30s" duration="259/10s" start="76567/30s" format="r1" />
+                            <marker start="0s" duration="259/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="111_hosts_full" ref="r2" offset="25338/5s" duration="541/30s" start="45737/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="111_hosts_full_movie" ref="r3" lane="1" offset="45737/15s" duration="541/30s" start="38867/15s" format="r1" />
+                            <marker start="0s" duration="541/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="112_panel" ref="r2" offset="152569/30s" duration="88/15s" start="18421/6s" format="r1" tcFormat="NDF">
+                            <asset-clip name="112_panel_movie" ref="r3" lane="1" offset="18421/6s" duration="88/15s" start="15673/6s" format="r1" />
+                            <marker start="0s" duration="88/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="113_hosts_full" ref="r2" offset="10183/2s" duration="137/30s" start="92761/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="113_hosts_full_movie" ref="r3" lane="1" offset="92761/30s" duration="137/30s" start="79021/30s" format="r1" />
+                            <marker start="0s" duration="137/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="114_panel" ref="r2" offset="76441/15s" duration="7/2s" start="46451/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="114_panel_movie" ref="r3" lane="1" offset="46451/15s" duration="7/2s" start="39581/15s" format="r1" />
+                            <marker start="0s" duration="7/2s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="115_hosts_full" ref="r2" offset="152987/30s" duration="329/30s" start="93013/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="115_hosts_full_movie" ref="r3" lane="1" offset="93013/30s" duration="329/30s" start="79273/30s" format="r1" />
+                            <marker start="0s" duration="329/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="116_hosts_full" ref="r2" offset="76658/15s" duration="126/5s" start="47381/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="116_hosts_full_movie" ref="r3" lane="1" offset="47381/15s" duration="126/5s" start="40511/15s" format="r1" />
+                            <marker start="0s" duration="126/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="117_hosts_full" ref="r2" offset="77036/15s" duration="307/30s" start="31979/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="117_hosts_full_movie" ref="r3" lane="1" offset="31979/10s" duration="307/30s" start="27399/10s" format="r1" />
+                            <marker start="0s" duration="307/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="118_panel" ref="r2" offset="154379/30s" duration="5/1s" start="96509/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="118_panel_movie" ref="r3" lane="1" offset="96509/30s" duration="5/1s" start="82769/30s" format="r1" />
+                            <marker start="0s" duration="5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="119_hosts_full" ref="r2" offset="154529/30s" duration="343/30s" start="97073/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="119_hosts_full_movie" ref="r3" lane="1" offset="97073/30s" duration="343/30s" start="83333/30s" format="r1" />
+                            <marker start="0s" duration="343/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="120_hosts_full" ref="r2" offset="25812/5s" duration="29/6s" start="50647/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="120_hosts_full_movie" ref="r3" lane="1" offset="50647/15s" duration="29/6s" start="43777/15s" format="r1" />
+                            <marker start="0s" duration="29/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="121_hosts_full" ref="r2" offset="155017/30s" duration="371/30s" start="103091/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="121_hosts_full_movie" ref="r3" lane="1" offset="103091/30s" duration="371/30s" start="89351/30s" format="r1" />
+                            <marker start="0s" duration="371/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="122_pip_circles" ref="r2" offset="25898/5s" duration="19/6s" start="52459/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="122_pip_circles_movie" ref="r3" lane="1" offset="52459/15s" duration="19/6s" start="45589/15s" format="r1" />
+                            <marker start="0s" duration="19/6s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="123_hosts_full" ref="r2" offset="155483/30s" duration="16/1s" start="10502/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="123_hosts_full_movie" ref="r3" lane="1" offset="10502/3s" duration="16/1s" start="9128/3s" format="r1" />
+                            <marker start="0s" duration="16s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="124_pip_circles" ref="r2" offset="155963/30s" duration="5/1s" start="35191/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="124_pip_circles_movie" ref="r3" lane="1" offset="35191/10s" duration="5/1s" start="30611/10s" format="r1" />
+                            <marker start="0s" duration="5s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="125_hosts_full" ref="r2" offset="156113/30s" duration="127/10s" start="35309/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="125_hosts_full_movie" ref="r3" lane="1" offset="35309/10s" duration="127/10s" start="30729/10s" format="r1" />
+                            <marker start="0s" duration="127/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="126_hosts_full" ref="r2" offset="78247/15s" duration="29/15s" start="35649/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="126_hosts_full_movie" ref="r3" lane="1" offset="35649/10s" duration="29/15s" start="31069/10s" format="r1" />
+                            <marker start="0s" duration="29/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="127_panel" ref="r2" offset="26092/5s" duration="74/15s" start="17841/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="127_panel_movie" ref="r3" lane="1" offset="17841/5s" duration="74/15s" start="15551/5s" format="r1" />
+                            <marker start="0s" duration="74/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="128_hosts_full" ref="r2" offset="15670/3s" duration="113/15s" start="17899/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="128_hosts_full_movie" ref="r3" lane="1" offset="17899/5s" duration="113/15s" start="15609/5s" format="r1" />
+                            <marker start="0s" duration="113/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="129_hosts_full" ref="r2" offset="78463/15s" duration="178/15s" start="36003/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="129_hosts_full_movie" ref="r3" lane="1" offset="36003/10s" duration="178/15s" start="31423/10s" format="r1" />
+                            <marker start="0s" duration="178/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="130_pip_circles" ref="r2" offset="78641/15s" duration="9/5s" start="54751/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="130_pip_circles_movie" ref="r3" lane="1" offset="54751/15s" duration="9/5s" start="47881/15s" format="r1" />
+                            <marker start="0s" duration="9/5s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="131_hosts_full" ref="r2" offset="78668/15s" duration="44/5s" start="54827/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="131_hosts_full_movie" ref="r3" lane="1" offset="54827/15s" duration="44/5s" start="47957/15s" format="r1" />
+                            <marker start="0s" duration="44/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="132_panel" ref="r2" offset="15760/3s" duration="11/2s" start="109997/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="132_panel_movie" ref="r3" lane="1" offset="109997/30s" duration="11/2s" start="96257/30s" format="r1" />
+                            <marker start="0s" duration="11/2s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="133_hosts_full" ref="r2" offset="31553/6s" duration="138/5s" start="55081/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="133_hosts_full_movie" ref="r3" lane="1" offset="55081/15s" duration="138/5s" start="48211/15s" format="r1" />
+                            <marker start="0s" duration="138/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="134_panel" ref="r2" offset="158593/30s" duration="119/30s" start="55567/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="134_panel_movie" ref="r3" lane="1" offset="55567/15s" duration="119/30s" start="48697/15s" format="r1" />
+                            <marker start="0s" duration="119/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="135_hosts_full" ref="r2" offset="26452/5s" duration="26/3s" start="55813/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="135_hosts_full_movie" ref="r3" lane="1" offset="55813/15s" duration="26/3s" start="48943/15s" format="r1" />
+                            <marker start="0s" duration="26/3s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="136_hosts_full" ref="r2" offset="79486/15s" duration="407/30s" start="18691/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="136_hosts_full_movie" ref="r3" lane="1" offset="18691/5s" duration="407/30s" start="16401/5s" format="r1" />
+                            <marker start="0s" duration="407/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="137_pip_circles" ref="r2" offset="159379/30s" duration="11/5s" start="56326/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="137_pip_circles_movie" ref="r3" lane="1" offset="56326/15s" duration="11/5s" start="49456/15s" format="r1" />
+                            <marker start="0s" duration="11/5s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="138_hosts_full" ref="r2" offset="31889/6s" duration="29/5s" start="56539/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="138_hosts_full_movie" ref="r3" lane="1" offset="56539/15s" duration="29/5s" start="49669/15s" format="r1" />
+                            <marker start="0s" duration="29/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="139_hosts_full" ref="r2" offset="159619/30s" duration="22/5s" start="3828s" format="r1" tcFormat="NDF">
+                            <asset-clip name="139_hosts_full_movie" ref="r3" lane="1" offset="3828s" duration="22/5s" start="3370s" format="r1" />
+                            <marker start="0s" duration="22/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="140_hosts_full" ref="r2" offset="159751/30s" duration="437/15s" start="57554/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="140_hosts_full_movie" ref="r3" lane="1" offset="57554/15s" duration="437/15s" start="50684/15s" format="r1" />
+                            <marker start="0s" duration="437/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="141_panel" ref="r2" offset="32125/6s" duration="26/5s" start="3871s" format="r1" tcFormat="NDF">
+                            <asset-clip name="141_panel_movie" ref="r3" lane="1" offset="3871s" duration="26/5s" start="3413s" format="r1" />
+                            <marker start="0s" duration="26/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="142_hosts_full" ref="r2" offset="160781/30s" duration="148/5s" start="58172/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="142_hosts_full_movie" ref="r3" lane="1" offset="58172/15s" duration="148/5s" start="51302/15s" format="r1" />
+                            <marker start="0s" duration="148/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="143_panel" ref="r2" offset="161669/30s" duration="49/10s" start="117341/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="143_panel_movie" ref="r3" lane="1" offset="117341/30s" duration="49/10s" start="103601/30s" format="r1" />
+                            <marker start="0s" duration="49/10s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="144_hosts_full" ref="r2" offset="80908/15s" duration="169/10s" start="118777/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="144_hosts_full_movie" ref="r3" lane="1" offset="118777/30s" duration="169/10s" start="105037/30s" format="r1" />
+                            <marker start="0s" duration="169/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="145_hosts_full" ref="r2" offset="162323/30s" duration="697/30s" start="23891/6s" format="r1" tcFormat="NDF">
+                            <asset-clip name="145_hosts_full_movie" ref="r3" lane="1" offset="23891/6s" duration="697/30s" start="21143/6s" format="r1" />
+                            <marker start="0s" duration="697/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="146_panel" ref="r2" offset="5434s" duration="14/5s" start="120323/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="146_panel_movie" ref="r3" lane="1" offset="120323/30s" duration="14/5s" start="106583/30s" format="r1" />
+                            <marker start="0s" duration="14/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="147_hosts_full" ref="r2" offset="27184/5s" duration="47/5s" start="20119/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="147_hosts_full_movie" ref="r3" lane="1" offset="20119/5s" duration="47/5s" start="17829/5s" format="r1" />
+                            <marker start="0s" duration="47/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="148_hosts_full" ref="r2" offset="27231/5s" duration="149/6s" start="121123/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="148_hosts_full_movie" ref="r3" lane="1" offset="121123/30s" duration="149/6s" start="107383/30s" format="r1" />
+                            <marker start="0s" duration="149/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="149_hosts_full" ref="r2" offset="164131/30s" duration="323/30s" start="61039/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="149_hosts_full_movie" ref="r3" lane="1" offset="61039/15s" duration="323/30s" start="54169/15s" format="r1" />
+                            <marker start="0s" duration="323/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="150_panel" ref="r2" offset="27409/5s" duration="86/15s" start="122497/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="150_panel_movie" ref="r3" lane="1" offset="122497/30s" duration="86/15s" start="108757/30s" format="r1" />
+                            <marker start="0s" duration="86/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="151_hosts_full" ref="r2" offset="82313/15s" duration="48/5s" start="61619/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="151_hosts_full_movie" ref="r3" lane="1" offset="61619/15s" duration="48/5s" start="54749/15s" format="r1" />
+                            <marker start="0s" duration="48/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="152_panel" ref="r2" offset="82457/15s" duration="18/5s" start="61799/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="152_panel_movie" ref="r3" lane="1" offset="61799/15s" duration="18/5s" start="54929/15s" format="r1" />
+                            <marker start="0s" duration="18/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="153_hosts_full" ref="r2" offset="82511/15s" duration="131/15s" start="124309/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="153_hosts_full_movie" ref="r3" lane="1" offset="124309/30s" duration="131/15s" start="110569/30s" format="r1" />
+                            <marker start="0s" duration="131/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="154_panel" ref="r2" offset="82642/15s" duration="13/5s" start="8311/2s" format="r1" tcFormat="NDF">
+                            <asset-clip name="154_panel_movie" ref="r3" lane="1" offset="8311/2s" duration="13/5s" start="7395/2s" format="r1" />
+                            <marker start="0s" duration="13/5s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="155_hosts_full" ref="r2" offset="82681/15s" duration="82/15s" start="124757/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="155_hosts_full_movie" ref="r3" lane="1" offset="124757/30s" duration="82/15s" start="111017/30s" format="r1" />
+                            <marker start="0s" duration="82/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="156_panel" ref="r2" offset="82763/15s" duration="163/30s" start="62482/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="156_panel_movie" ref="r3" lane="1" offset="62482/15s" duration="163/30s" start="55612/15s" format="r1" />
+                            <marker start="0s" duration="163/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="157_hosts_full" ref="r2" offset="165689/30s" duration="49/10s" start="62672/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="157_hosts_full_movie" ref="r3" lane="1" offset="62672/15s" duration="49/10s" start="55802/15s" format="r1" />
+                            <marker start="0s" duration="49/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="158_hosts_full" ref="r2" offset="82918/15s" duration="311/30s" start="125893/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="158_hosts_full_movie" ref="r3" lane="1" offset="125893/30s" duration="311/30s" start="112153/30s" format="r1" />
+                            <marker start="0s" duration="311/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="159_panel" ref="r2" offset="166147/30s" duration="79/15s" start="126877/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="159_panel_movie" ref="r3" lane="1" offset="126877/30s" duration="79/15s" start="113137/30s" format="r1" />
+                            <marker start="0s" duration="79/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="160_hosts_full" ref="r2" offset="11087/2s" duration="15/1s" start="42351/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="160_hosts_full_movie" ref="r3" lane="1" offset="42351/10s" duration="15/1s" start="37771/10s" format="r1" />
+                            <marker start="0s" duration="15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="161_hosts_full" ref="r2" offset="11117/2s" duration="144/5s" start="63773/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="161_hosts_full_movie" ref="r3" lane="1" offset="63773/15s" duration="144/5s" start="56903/15s" format="r1" />
+                            <marker start="0s" duration="144/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="162_hosts_full" ref="r2" offset="55873/10s" duration="161/6s" start="8585/2s" format="r1" tcFormat="NDF">
+                            <asset-clip name="162_hosts_full_movie" ref="r3" lane="1" offset="8585/2s" duration="161/6s" start="7669/2s" format="r1" />
+                            <marker start="0s" duration="161/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="163_panel" ref="r2" offset="84212/15s" duration="57/10s" start="12958/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="163_panel_movie" ref="r3" lane="1" offset="12958/3s" duration="57/10s" start="11584/3s" format="r1" />
+                            <marker start="0s" duration="57/10s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="164_hosts_full" ref="r2" offset="33719/6s" duration="154/15s" start="43427/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="164_hosts_full_movie" ref="r3" lane="1" offset="43427/10s" duration="154/15s" start="38847/10s" format="r1" />
+                            <marker start="0s" duration="154/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="165_panel" ref="r2" offset="56301/10s" duration="127/30s" start="130643/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="165_panel_movie" ref="r3" lane="1" offset="130643/30s" duration="127/30s" start="116903/30s" format="r1" />
+                            <marker start="0s" duration="127/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="166_pip_circles" ref="r2" offset="16903/3s" duration="79/15s" start="132881/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="166_pip_circles_movie" ref="r3" lane="1" offset="132881/30s" duration="79/15s" start="119141/30s" format="r1" />
+                            <marker start="0s" duration="79/15s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="167_hosts_full" ref="r2" offset="28198/5s" duration="931/30s" start="22202/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="167_hosts_full_movie" ref="r3" lane="1" offset="22202/5s" duration="931/30s" start="19912/5s" format="r1" />
+                            <marker start="0s" duration="931/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="168_pip_circles" ref="r2" offset="170119/30s" duration="19/5s" start="67132/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="168_pip_circles_movie" ref="r3" lane="1" offset="67132/15s" duration="19/5s" start="60262/15s" format="r1" />
+                            <marker start="0s" duration="19/5s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="169_hosts_full" ref="r2" offset="170233/30s" duration="37/6s" start="134821/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="169_hosts_full_movie" ref="r3" lane="1" offset="134821/30s" duration="37/6s" start="121081/30s" format="r1" />
+                            <marker start="0s" duration="37/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="170_hosts_full" ref="r2" offset="28403/5s" duration="389/30s" start="67532/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="170_hosts_full_movie" ref="r3" lane="1" offset="67532/15s" duration="389/30s" start="60662/15s" format="r1" />
+                            <marker start="0s" duration="389/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="171_panel" ref="r2" offset="170807/30s" duration="89/15s" start="45151/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="171_panel_movie" ref="r3" lane="1" offset="45151/10s" duration="89/15s" start="40571/10s" format="r1" />
+                            <marker start="0s" duration="89/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="172_hosts_full" ref="r2" offset="11399/2s" duration="631/30s" start="135937/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="172_hosts_full_movie" ref="r3" lane="1" offset="135937/30s" duration="631/30s" start="122197/30s" format="r1" />
+                            <marker start="0s" duration="631/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="173_panel" ref="r2" offset="85808/15s" duration="89/15s" start="68561/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="173_panel_movie" ref="r3" lane="1" offset="68561/15s" duration="89/15s" start="61691/15s" format="r1" />
+                            <marker start="0s" duration="89/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="174_hosts_full" ref="r2" offset="85897/15s" duration="227/15s" start="68651/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="174_hosts_full_movie" ref="r3" lane="1" offset="68651/15s" duration="227/15s" start="61781/15s" format="r1" />
+                            <marker start="0s" duration="227/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="175_hosts_full" ref="r2" offset="28708/5s" duration="91/15s" start="137983/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="175_hosts_full_movie" ref="r3" lane="1" offset="137983/30s" duration="91/15s" start="124243/30s" format="r1" />
+                            <marker start="0s" duration="91/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="176_panel" ref="r2" offset="17243/3s" duration="83/15s" start="9211/2s" format="r1" tcFormat="NDF">
+                            <asset-clip name="176_panel_movie" ref="r3" lane="1" offset="9211/2s" duration="83/15s" start="8295/2s" format="r1" />
+                            <marker start="0s" duration="83/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="177_hosts_full" ref="r2" offset="28766/5s" duration="631/30s" start="23082/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="177_hosts_full_movie" ref="r3" lane="1" offset="23082/5s" duration="631/30s" start="20792/5s" format="r1" />
+                            <marker start="0s" duration="631/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="178_panel" ref="r2" offset="173227/30s" duration="59/10s" start="69604/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="178_panel_movie" ref="r3" lane="1" offset="69604/15s" duration="59/10s" start="62734/15s" format="r1" />
+                            <marker start="0s" duration="59/10s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="179_pip_circles" ref="r2" offset="86702/15s" duration="143/30s" start="139807/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="179_pip_circles_movie" ref="r3" lane="1" offset="139807/30s" duration="143/30s" start="126067/30s" format="r1" />
+                            <marker start="0s" duration="143/30s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="180_hosts_full" ref="r2" offset="57849/10s" duration="499/30s" start="70166/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="180_hosts_full_movie" ref="r3" lane="1" offset="70166/15s" duration="499/30s" start="63296/15s" format="r1" />
+                            <marker start="0s" duration="499/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="181_hosts_full" ref="r2" offset="87023/15s" duration="67/6s" start="140981/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="181_hosts_full_movie" ref="r3" lane="1" offset="140981/30s" duration="67/6s" start="127241/30s" format="r1" />
+                            <marker start="0s" duration="67/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="182_panel" ref="r2" offset="58127/10s" duration="169/30s" start="70724/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="182_panel_movie" ref="r3" lane="1" offset="70724/15s" duration="169/30s" start="63854/15s" format="r1" />
+                            <marker start="0s" duration="169/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="183_hosts_full" ref="r2" offset="17455/3s" duration="47/10s" start="142319/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="183_hosts_full_movie" ref="r3" lane="1" offset="142319/30s" duration="47/10s" start="128579/30s" format="r1" />
+                            <marker start="0s" duration="47/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="184_panel" ref="r2" offset="174691/30s" duration="23/6s" start="71288/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="184_panel_movie" ref="r3" lane="1" offset="71288/15s" duration="23/6s" start="64418/15s" format="r1" />
+                            <marker start="0s" duration="23/6s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="185_hosts_full" ref="r2" offset="87403/15s" duration="47/5s" start="28595/6s" format="r1" tcFormat="NDF">
+                            <asset-clip name="185_hosts_full_movie" ref="r3" lane="1" offset="28595/6s" duration="47/5s" start="25847/6s" format="r1" />
+                            <marker start="0s" duration="47/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="186_hosts_full" ref="r2" offset="87544/15s" duration="323/15s" start="14332/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="186_hosts_full_movie" ref="r3" lane="1" offset="14332/3s" duration="323/15s" start="12958/3s" format="r1" />
+                            <marker start="0s" duration="323/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="187_panel" ref="r2" offset="29289/5s" duration="161/30s" start="48027/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="187_panel_movie" ref="r3" lane="1" offset="48027/10s" duration="161/30s" start="43447/10s" format="r1" />
+                            <marker start="0s" duration="161/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="188_hosts_full" ref="r2" offset="35179/6s" duration="229/15s" start="14458/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="188_hosts_full_movie" ref="r3" lane="1" offset="14458/3s" duration="229/15s" start="13084/3s" format="r1" />
+                            <marker start="0s" duration="229/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="189_panel" ref="r2" offset="176353/30s" duration="61/15s" start="145211/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="189_panel_movie" ref="r3" lane="1" offset="145211/30s" duration="61/15s" start="131471/30s" format="r1" />
+                            <marker start="0s" duration="61/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="190_hosts_full" ref="r2" offset="11765/2s" duration="341/30s" start="72862/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="190_hosts_full_movie" ref="r3" lane="1" offset="72862/15s" duration="341/30s" start="65992/15s" format="r1" />
+                            <marker start="0s" duration="341/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="191_hosts_full" ref="r2" offset="88408/15s" duration="164/5s" start="73108/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="191_hosts_full_movie" ref="r3" lane="1" offset="73108/15s" duration="164/5s" start="66238/15s" format="r1" />
+                            <marker start="0s" duration="164/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="192_panel" ref="r2" offset="17780/3s" duration="73/15s" start="147289/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="192_panel_movie" ref="r3" lane="1" offset="147289/30s" duration="73/15s" start="133549/30s" format="r1" />
+                            <marker start="0s" duration="73/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="193_hosts_full" ref="r2" offset="88973/15s" duration="371/30s" start="73793/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="193_hosts_full_movie" ref="r3" lane="1" offset="73793/15s" duration="371/30s" start="66923/15s" format="r1" />
+                            <marker start="0s" duration="371/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="194_hosts_full" ref="r2" offset="59439/10s" duration="79/5s" start="49319/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="194_hosts_full_movie" ref="r3" lane="1" offset="49319/10s" duration="79/5s" start="44739/10s" format="r1" />
+                            <marker start="0s" duration="79/5s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="195_hosts_full" ref="r2" offset="59597/10s" duration="349/30s" start="148541/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="195_hosts_full_movie" ref="r3" lane="1" offset="148541/30s" duration="349/30s" start="134801/30s" format="r1" />
+                            <marker start="0s" duration="349/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="196_hosts_full" ref="r2" offset="17914/3s" duration="197/10s" start="74503/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="196_hosts_full_movie" ref="r3" lane="1" offset="74503/15s" duration="197/10s" start="67633/15s" format="r1" />
+                            <marker start="0s" duration="197/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="197_pip_circles" ref="r2" offset="179731/30s" duration="28/5s" start="24947/5s" format="r1" tcFormat="NDF">
+                            <asset-clip name="197_pip_circles_movie" ref="r3" lane="1" offset="24947/5s" duration="28/5s" start="22657/5s" format="r1" />
+                            <marker start="0s" duration="28/5s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="198_hosts_full" ref="r2" offset="179899/30s" duration="208/15s" start="149911/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="198_hosts_full_movie" ref="r3" lane="1" offset="149911/30s" duration="208/15s" start="136171/30s" format="r1" />
+                            <marker start="0s" duration="208/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="199_hosts_full" ref="r2" offset="12021/2s" duration="159/10s" start="50133/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="199_hosts_full_movie" ref="r3" lane="1" offset="50133/10s" duration="159/10s" start="45553/10s" format="r1" />
+                            <marker start="0s" duration="159/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="200_panel" ref="r2" offset="30132/5s" duration="53/10s" start="150917/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="200_panel_movie" ref="r3" lane="1" offset="150917/30s" duration="53/10s" start="137177/30s" format="r1" />
+                            <marker start="0s" duration="53/10s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="201_hosts_full" ref="r2" offset="60317/10s" duration="43/3s" start="5038s" format="r1" tcFormat="NDF">
+                            <asset-clip name="201_hosts_full_movie" ref="r3" lane="1" offset="5038s" duration="43/3s" start="4580s" format="r1" />
+                            <marker start="0s" duration="43/3s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="202_panel" ref="r2" offset="181381/30s" duration="23/10s" start="75817/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="202_panel_movie" ref="r3" lane="1" offset="75817/15s" duration="23/10s" start="68947/15s" format="r1" />
+                            <marker start="0s" duration="23/10s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="203_hosts_full" ref="r2" offset="18145/3s" duration="113/15s" start="50591/10s" format="r1" tcFormat="NDF">
+                            <asset-clip name="203_hosts_full_movie" ref="r3" lane="1" offset="50591/10s" duration="113/15s" start="46011/10s" format="r1" />
+                            <marker start="0s" duration="113/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="204_hosts_full" ref="r2" offset="90838/15s" duration="313/30s" start="15232/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="204_hosts_full_movie" ref="r3" lane="1" offset="15232/3s" duration="313/30s" start="13858/3s" format="r1" />
+                            <marker start="0s" duration="313/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="205_panel" ref="r2" offset="60663/10s" duration="131/30s" start="153517/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="205_panel_movie" ref="r3" lane="1" offset="153517/30s" duration="131/30s" start="139777/30s" format="r1" />
+                            <marker start="0s" duration="131/30s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="206_hosts_full" ref="r2" offset="18212/3s" duration="33/10s" start="153781/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="206_hosts_full_movie" ref="r3" lane="1" offset="153781/30s" duration="33/10s" start="140041/30s" format="r1" />
+                            <marker start="0s" duration="33/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="207_hosts_full" ref="r2" offset="182219/30s" duration="43/2s" start="154447/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="207_hosts_full_movie" ref="r3" lane="1" offset="154447/30s" duration="43/2s" start="140707/30s" format="r1" />
+                            <marker start="0s" duration="43/2s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="208_pip_circles" ref="r2" offset="91432/15s" duration="89/30s" start="15548/3s" format="r1" tcFormat="NDF">
+                            <asset-clip name="208_pip_circles_movie" ref="r3" lane="1" offset="15548/3s" duration="89/30s" start="14174/3s" format="r1" />
+                            <marker start="0s" duration="89/30s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="209_hosts_full" ref="r2" offset="182953/30s" duration="91/15s" start="77788/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="209_hosts_full_movie" ref="r3" lane="1" offset="77788/15s" duration="91/15s" start="70918/15s" format="r1" />
+                            <marker start="0s" duration="91/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="210_hosts_full" ref="r2" offset="12209/2s" duration="397/30s" start="77972/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="210_hosts_full_movie" ref="r3" lane="1" offset="77972/15s" duration="397/30s" start="71102/15s" format="r1" />
+                            <marker start="0s" duration="397/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="211_hosts_full" ref="r2" offset="91766/15s" duration="457/15s" start="156437/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="211_hosts_full_movie" ref="r3" lane="1" offset="156437/30s" duration="457/15s" start="142697/30s" format="r1" />
+                            <marker start="0s" duration="457/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="212_panel" ref="r2" offset="30741/5s" duration="53/15s" start="78713/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="212_panel_movie" ref="r3" lane="1" offset="78713/15s" duration="53/15s" start="71843/15s" format="r1" />
+                            <marker start="0s" duration="53/15s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="213_hosts_full" ref="r2" offset="92276/15s" duration="281/15s" start="78766/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="213_hosts_full_movie" ref="r3" lane="1" offset="78766/15s" duration="281/15s" start="71896/15s" format="r1" />
+                            <marker start="0s" duration="281/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="214_hosts_full" ref="r2" offset="92557/15s" duration="112/15s" start="79096/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="214_hosts_full_movie" ref="r3" lane="1" offset="79096/15s" duration="112/15s" start="72226/15s" format="r1" />
+                            <marker start="0s" duration="112/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="215_panel" ref="r2" offset="92669/15s" duration="4/3s" start="79208/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="215_panel_movie" ref="r3" lane="1" offset="79208/15s" duration="4/3s" start="72338/15s" format="r1" />
+                            <marker start="0s" duration="4/3s" value="panel" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="216_hosts_full" ref="r2" offset="92689/15s" duration="7/2s" start="10567/2s" format="r1" tcFormat="NDF">
+                            <asset-clip name="216_hosts_full_movie" ref="r3" lane="1" offset="10567/2s" duration="7/2s" start="9651/2s" format="r1" />
+                            <marker start="0s" duration="7/2s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="217_hosts_full" ref="r2" offset="185483/30s" duration="218/15s" start="31877/6s" format="r1" tcFormat="NDF">
+                            <asset-clip name="217_hosts_full_movie" ref="r3" lane="1" offset="31877/6s" duration="218/15s" start="29129/6s" format="r1" />
+                            <marker start="0s" duration="218/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="218_pip_circles" ref="r2" offset="61973/10s" duration="16/3s" start="79952/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="218_pip_circles_movie" ref="r3" lane="1" offset="79952/15s" duration="16/3s" start="73082/15s" format="r1" />
+                            <marker start="0s" duration="16/3s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="219_hosts_full" ref="r2" offset="186079/30s" duration="317/30s" start="80032/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="219_hosts_full_movie" ref="r3" lane="1" offset="80032/15s" duration="317/30s" start="73162/15s" format="r1" />
+                            <marker start="0s" duration="317/30s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="220_hosts_full" ref="r2" offset="31066/5s" duration="119/6s" start="80192/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="220_hosts_full_movie" ref="r3" lane="1" offset="80192/15s" duration="119/6s" start="73322/15s" format="r1" />
+                            <marker start="0s" duration="119/6s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="221_hosts_full" ref="r2" offset="186991/30s" duration="43/3s" start="161021/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="221_hosts_full_movie" ref="r3" lane="1" offset="161021/30s" duration="43/3s" start="147281/30s" format="r1" />
+                            <marker start="0s" duration="43/3s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="222_pip_circles" ref="r2" offset="187421/30s" duration="52/15s" start="161489/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="222_pip_circles_movie" ref="r3" lane="1" offset="161489/30s" duration="52/15s" start="147749/30s" format="r1" />
+                            <marker start="0s" duration="52/15s" value="pip_circles" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="223_hosts_full" ref="r2" offset="37505/6s" duration="164/15s" start="80833/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="223_hosts_full_movie" ref="r3" lane="1" offset="80833/15s" duration="164/15s" start="73963/15s" format="r1" />
+                            <marker start="0s" duration="164/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="224_hosts_full" ref="r2" offset="187853/30s" duration="493/15s" start="162421/30s" format="r1" tcFormat="NDF">
+                            <asset-clip name="224_hosts_full_movie" ref="r3" lane="1" offset="162421/30s" duration="493/15s" start="148681/30s" format="r1" />
+                            <marker start="0s" duration="493/15s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                        <asset-clip name="225_hosts_full" ref="r2" offset="188839/30s" duration="291/10s" start="81754/15s" format="r1" tcFormat="NDF">
+                            <asset-clip name="225_hosts_full_movie" ref="r3" lane="1" offset="81754/15s" duration="291/10s" start="74884/15s" format="r1" />
+                            <marker start="0s" duration="291/10s" value="hosts_full" completed="0" />
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>
