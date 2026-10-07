@@ -1,0 +1,25 @@
+{
+  "title": "The Thing",
+  "movie_offset_seconds": 179.17,
+  "shorts": [
+    {
+      "name": "Blood test",
+      "type": "moment",
+      "film_beat": "Palmer's blood jumps; Palmer-Thing kills Windows",
+      "score": { "iconic": 5, "reaction": 5, "instant_read": 4, "dynamic": 4, "loop": 3 },
+      "yt_title": "The blood test scene 😱 The Thing (1982) reaction",
+      "hook_text": "They did NOT expect this one",
+      "description": "First time watching the blood test in John Carpenter's The Thing. #TheThing #moviereaction #firsttimewatching #johncarpenter #practicaleffects",
+      "segments": [
+        { "start": 5186.62, "end": 5188.52, "layout": "panel_hosts_only",
+          "reason": "HOOK - flash-forward: our 'Dude, that scared me.' over the Palmer-Thing chaos; film muted so the line reads" },
+        { "start": 5152.76, "end": 5154.08, "layout": "panel",
+          "reason": "SETUP - MacReady to Garry: 'We'll do you last.' Everyone suspects Garry" },
+        { "start": 5161.27, "end": 5173.92, "layout": "panel",
+          "reason": "PAYOFF - hot wire into Palmer's sample, the blood leaps out of the dish, our 'It's him, it's him... Oh my god.' Held as one take because the silence before the jump is the tension and the reveal is the picture; film audio has no words here, so check the jump lands in this range on the timeline" },
+        { "start": 5211.18, "end": 5213.84, "layout": "panel",
+          "reason": "BUTTON - 'Oh my gosh. He just picked him up by the head.' Palmer-Thing lifts Windows; loops into the hook" }
+      ]
+    }
+  ]
+}

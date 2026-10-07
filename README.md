@@ -8,6 +8,27 @@ timeline as an instance of the same multicam clip, trimmed to that segment's
 in/out. It drives Resolve Studio directly through its scripting API - there is
 no FCPXML or EDL in the middle.
 
+## Setup
+
+```
+python src/new_project.py
+```
+
+```
+python src/transcribe.py --project cuts/[movie].media.json
+```
+ 
+
+## Movie Clip Setups
+
+Hosts with movie
+
+![Alt text](/docs/images/hosts-panel.png)
+
+Hosts PIP
+
+![hosts pip](/docs/images/pip.png)
+
 ## How it works
 
 The multicam clip's **angles are the layouts** (`panel`, `pip_circles`,
@@ -18,7 +39,7 @@ according to the layout the cut list asked for, and you switch the angle by
 hand during review. The colour is the suggestion; the angle is your call.
 
 Cut selection itself is a separate, human/LLM step - the rules live in
-[`config/RULES.md`](config/RULES.md) and produce the cut list this consumes.
+[`config/SKILL.md`](config/SKILL.md) and produce the cut list this consumes.
 
 ## Setup
 
@@ -37,13 +58,13 @@ Per episode, the only thing you supply is the cut list. Nothing in
 
 ```
 # See the plan without touching Resolve - always do this first
-python3 src/build_timeline.py --cuts cuts/<episode>.json --dry-run
+python src/build_timeline.py --cuts cuts/<episode>.json --dry-run
 
 # Build it
-python3 src/build_timeline.py --cuts cuts/<episode>.json
+python src/build_timeline.py --cuts cuts/<episode>.json
 
 # CSV works identically
-python3 src/build_timeline.py --cuts cuts/<episode>.csv
+python src/build_timeline.py --cuts cuts/<episode>.csv
 ```
 
 **The multicam clip is found automatically.** A project normally holds exactly
@@ -65,12 +86,39 @@ project's.
 
 The dry run prints every segment's source in/out, duration, timeline position,
 layout and colour, plus total runtime and the layout split by runtime - enough
-to check a cut against `RULES.md`'s 35-45 minute and 60-75% targets before
+to check a cut against `config/SKILL.md`'s 35-45 minute and 60-75% targets before
 building anything.
 
 Each run creates a **new** timeline. Nothing is ever overwritten - a name
 collision gets a numeric suffix ("Repo Man 2"), so you can iterate on a cut
 list and compare versions side by side.
+
+## Shorts
+
+Shorts are the film's most iconic moments with our reactions, one vertical
+timeline each. Unlike the long cut, they don't tell the film's story.
+Selection rules live in [`config/SHORTS.md`](config/SHORTS.md). The
+`select-shorts` skill mines `cuts/<slug>.research.md` (the beat sheet the
+long cut's research step writes), ranks candidates by how iconic the moment
+is and how big our reaction was, and writes `cuts/<slug>.shorts.json`.
+
+```
+python src/build_timeline.py --cuts cuts/<episode>.shorts.json --dry-run
+python src/build_timeline.py --cuts cuts/<episode>.shorts.json            # all shorts
+python src/build_timeline.py --cuts cuts/<episode>.shorts.json --short 2  # just one
+```
+
+The builder spots a shorts file by its `"shorts"` array. For each short it
+creates a 1080×1920 timeline named `<Title> Short <n> - <name>` and lays the
+segments down **in the order listed**. Shorts aren't chronological: a hook
+can flash forward, and segments may repeat source time.
+
+It cuts from the project's **portrait** multicam: a vertical multicam with
+the same angles in the same order as the 16:9 one, recomposed for 9:16
+(Stack / Movie focus / Hosts stack; see SHORTS.md's LAYOUTS). With both
+multicams in one project, the long cut picks the landscape one and shorts the
+portrait one, so neither needs `--multicam`. If there's no portrait multicam,
+shorts fall back to the only multicam and say so, and you reframe by hand.
 
 ## Cut list format
 
@@ -83,7 +131,12 @@ don't affect the build.
   "film_beat": "...", "iconic": true, "reason": "..." }
 ```
 
-Times are seconds from the start of the recording, per `config/RULES.md`
+An optional `fix` note flags a segment for rework by hand. A flagged segment gets
+the `fix_color` clip colour instead of its layout colour, and a red timeline
+marker spanning it, with the note in the marker. Resolve has no red clip colour,
+so the marker is the red. The dry run lists the flagged segments.
+
+Times are seconds from the start of the recording, per `config/SKILL.md`
 (Resolve exports SRT with a 01:00:00:00 start, so subtract 3600).
 
 A JSON object wrapping the array under `segments`, `cuts` or `edit` is also
@@ -98,7 +151,7 @@ facts belong in that wrapper**, which is what keeps the config generic:
 
 `title` overrides the timeline name (optional - the project name covers it).
 `movie_offset_seconds` is the offset that converts
-film-subtitle times to recording time - `RULES.md` needs it as `[OFFSET]` when
+film-subtitle times to recording time - `config/SKILL.md` needs it as `[OFFSET]` when
 selecting cuts; the builder just carries it. See `cuts/repo-man.json`.
 
 ## Config
@@ -113,6 +166,8 @@ Everything here is a standing preference, set once and left alone:
 | `sync_offset_seconds` | added to every timestamp. `0` while multicam frame 0 == recording time 0 |
 | `timeline_start_timecode` | `01:00:00:00` |
 | `layout_colors` | layout -> one of Resolve's 16 clip colours |
+| `shorts_resolution` | `[width, height]` of each shorts timeline. Default `[1080, 1920]` |
+| `fix_color` | clip colour for segments flagged with `fix`. Default `Orange` |
 
 `multicam_clip_name` and `timeline_name` are accepted but deliberately absent:
 both are per-episode, and both are derived automatically. Set them only to pin
@@ -123,7 +178,7 @@ an unusual project, or pass `--multicam` / `--timeline-name` for a one-off.
 Both endpoints are converted from absolute seconds with `Fraction`, so 29.97
 and 23.976 stay exact and **error never accumulates** over a 40-minute
 timeline. Every cut lands within half a frame of its true time, which is the
-property that matters: `RULES.md` requires each timestamp to be an SRT cue
+property that matters: `config/SKILL.md` requires each timestamp to be an SRT cue
 boundary, and cuts that drift land mid-word. A segment's duration is a derived
 consequence and may differ from nominal by at most one frame.
 

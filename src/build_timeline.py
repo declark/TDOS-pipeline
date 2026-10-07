@@ -14,9 +14,13 @@ Nothing here is per-episode. The multicam clip is found by scanning the project,
 the timeline is named after the cut list, and the config holds only things that
 stay the same from one episode to the next.
 
+A shorts file (cuts/<episode>.shorts.json, from config/SHORTS.md) builds one
+vertical timeline per short instead, cut from the project's portrait multicam.
+
 Usage:
-    python3 src/build_timeline.py --cuts cuts/<episode>.json --dry-run
-    python3 src/build_timeline.py --cuts cuts/<episode>.json
+    python src/build_timeline.py --cuts cuts/<episode>.json --dry-run
+    python src/build_timeline.py --cuts cuts/<episode>.json
+    python src/build_timeline.py --cuts cuts/<episode>.shorts.json --short 2
 """
 
 import argparse
@@ -179,6 +183,13 @@ def load_config(path):
     config.setdefault("timeline_start_timecode", "01:00:00:00")
     config.setdefault("multicam_clip_name", None)  # None -> find it in the project
     config.setdefault("timeline_name", None)       # None -> name it after the cut list
+    config.setdefault("shorts_resolution", [1080, 1920])
+    # Resolve has no red clip colour, so flagged segments take Orange (unused by
+    # any layout) and also get a red timeline marker - see lay_down.
+    config.setdefault("fix_color", "Orange")
+    if config["fix_color"] not in RESOLVE_CLIP_COLORS:
+        raise BuildError("fix_color {!r} isn't a Resolve clip colour. Valid colours: {}".format(
+            config["fix_color"], ", ".join(sorted(RESOLVE_CLIP_COLORS))))
     return config
 
 
@@ -213,6 +224,9 @@ def _coerce_cut_row(row, index, source):
         "film_beat": row.get("film_beat") or None,
         "iconic": bool(iconic),
         "reason": row.get("reason") or "",
+        # Optional review note: the segment needs reworking by hand. It gets
+        # fix_color instead of its layout colour and a red marker carrying the note.
+        "fix": str(row.get("fix") or "").strip(),
     }
 
 
@@ -274,7 +288,44 @@ def load_cuts(path):
     return [_coerce_cut_row(row, i, path) for i, row in enumerate(rows)], meta
 
 
-def validate_cuts(cuts, config, rate):
+def is_shorts_file(path):
+    """A shorts file is a JSON object with a "shorts" array (config/SHORTS.md)."""
+    if os.path.splitext(path)[1].lower() != ".json" or not os.path.exists(path):
+        return False
+    with open(path, "r", encoding="utf-8") as handle:
+        data = json.load(handle)
+    return isinstance(data, dict) and isinstance(data.get("shorts"), list)
+
+
+def load_shorts(path):
+    """Read a shorts file. Returns (shorts, meta).
+
+    Each short is a dict with "name", the short's own metadata, and "cuts" in
+    the same internal shape load_cuts produces.
+    """
+    with open(path, "r", encoding="utf-8") as handle:
+        data = json.load(handle)
+    meta = {k: v for k, v in data.items() if k != "shorts"}
+    if not data["shorts"]:
+        raise BuildError("{}: shorts list is empty.".format(path))
+
+    shorts = []
+    for number, short in enumerate(data["shorts"], start=1):
+        label = "{} short {}".format(path, number)
+        if not isinstance(short, dict) or not isinstance(short.get("segments"), list) \
+                or not short["segments"]:
+            raise BuildError("{}: needs a non-empty 'segments' array.".format(label))
+        entry = {k: v for k, v in short.items() if k != "segments"}
+        entry["number"] = number
+        entry["name"] = str(short.get("name") or "Short {}".format(number)).strip()
+        entry["cuts"] = [
+            _coerce_cut_row(row, i, label) for i, row in enumerate(short["segments"])
+        ]
+        shorts.append(entry)
+    return shorts, meta
+
+
+def validate_cuts(cuts, config, rate, chronological=True):
     """Reject a cut list that would produce a wrong or confusing timeline."""
     errors = []
     known_layouts = set(config["layout_colors"])
@@ -302,9 +353,11 @@ def validate_cuts(cuts, config, rate):
                 )
             )
 
-    # The edit stays chronological (RULES.md), so out-of-order or overlapping
-    # segments are a mistake in the cut list, not something to silently accept.
-    for prev, cur in zip(cuts, cuts[1:]):
+    # The long edit stays chronological (config/SKILL.md), so out-of-order or
+    # overlapping segments are a mistake in the cut list, not something to
+    # silently accept. Shorts are exempt: a flash-forward hook plays a reaction
+    # first and may repeat it later (config/SHORTS.md).
+    for prev, cur in zip(cuts, cuts[1:]) if chronological else ():
         if cur["start"] < prev["end"]:
             errors.append(
                 "segments {} and {} overlap: {} ends at {}s, {} starts at {}s.".format(
@@ -350,28 +403,55 @@ def plan_segments(cuts, config, rate):
         entry["start_frame"] = start_frame
         entry["end_frame"] = end_frame_exclusive  # exclusive, per Resolve
         entry["duration_frames"] = end_frame_exclusive - start_frame
-        entry["color"] = config["layout_colors"][cut["layout"]]
+        entry["color"] = (config["fix_color"] if cut["fix"]
+                          else config["layout_colors"][cut["layout"]])
         plan.append(entry)
     return plan
 
 
-def print_plan(plan, config, rate):
-    """Preflight table - what will be laid down, before touching Resolve."""
-    start_tc_frames = timecode_to_frames(config["timeline_start_timecode"], rate)
-    fps_label = float(rate)
-
+def print_plan_header(config, rate, timeline_label, multicam_label):
     print("")
-    print("Multicam clip : {}".format(
-        config.get("multicam_clip_name") or "auto (the project's only multicam)"))
-    print("Timeline      : {}".format(
-        config["timeline_name"]
-        or "auto (Resolve project name, else {!r})".format(
-            name_from_filename(config["cuts_path"]))))
+    print("Multicam clip : {}".format(config.get("multicam_clip_name") or multicam_label))
+    print("Timeline      : {}".format(timeline_label))
     print("fps           : {} (exact {}/{})".format(
-        fps_label, rate.numerator, rate.denominator))
+        float(rate), rate.numerator, rate.denominator))
     print("Start TC      : {}".format(config["timeline_start_timecode"]))
     print("Sync offset   : {}s".format(config["sync_offset_seconds"]))
+
+
+def print_plan(plan, config, rate):
+    """Preflight table - what will be laid down, before touching Resolve."""
+    print_plan_header(
+        config, rate,
+        config["timeline_name"]
+        or "auto (Resolve project name, else {!r})".format(
+            name_from_filename(config["cuts_path"])),
+        "auto (the project's landscape multicam)",
+    )
     print("Segments      : {}".format(len(plan)))
+    print_plan_table(plan, config, rate)
+
+
+def print_shorts_plan(shorts, config, rate, base_label):
+    width, height = config["shorts_resolution"]
+    print_plan_header(
+        config, rate,
+        "one per short, {}x{}, named \"{} Short <n> - <name>\"".format(
+            width, height, base_label),
+        "auto (the project's portrait multicam)",
+    )
+    print("Shorts        : {}".format(len(shorts)))
+    for short in shorts:
+        print("")
+        print("=== Short {}: {} ===".format(short["number"], short["name"]))
+        for key in ("yt_title", "hook_text"):
+            if short.get(key):
+                print("{:<13} : {}".format(key, short[key]))
+        print_plan_table(short["plan"], config, rate)
+
+
+def print_plan_table(plan, config, rate):
+    start_tc_frames = timecode_to_frames(config["timeline_start_timecode"], rate)
     print("")
     print("  #  source in    source out   dur      timeline in   layout              colour")
     print("  -- ------------ ------------ -------- ------------- ------------------- ----------")
@@ -385,7 +465,7 @@ def print_plan(plan, config, rate):
             entry["duration_frames"],
             frames_to_timecode(start_tc_frames + record_frames, rate),
             entry["layout"],
-            entry["color"],
+            entry["color"] + ("  FIX: " + entry["fix"] if entry["fix"] else ""),
         ))
         record_frames += entry["duration_frames"]
 
@@ -410,6 +490,12 @@ def print_plan(plan, config, rate):
             layout, share, float(Fraction(frames) / rate) / 60.0,
             config["layout_colors"][layout],
         ))
+    flagged = [e for e in plan if e["fix"]]
+    if flagged:
+        print("")
+        print("Flagged for fixing: {} segment(s), {:.1f}s (clip colour {}, red marker).".format(
+            len(flagged), float(Fraction(sum(e["duration_frames"] for e in flagged)) / rate),
+            config["fix_color"]))
     print("")
 
 
@@ -458,29 +544,53 @@ def is_multicam(item):
     return (item.GetClipProperty("Type") or "").lower().startswith("multicam")
 
 
-def find_multicam_item(media_pool, name=None):
+def orientation(item):
+    """"portrait" or "landscape" from a clip's Resolution ("1080x1920"), else None."""
+    match = re.match(r"\s*(\d+)\s*x\s*(\d+)", item.GetClipProperty("Resolution") or "")
+    if not match:
+        return None
+    width, height = int(match.group(1)), int(match.group(2))
+    return "portrait" if height > width else "landscape"
+
+
+def find_multicam_item(media_pool, name=None, want="landscape"):
     """Find the multicam clip to cut from.
 
     With no name, scan the project: if it holds exactly one multicam clip, that
     is unambiguously the one to use. This is what keeps the tool generic - a new
     episode means a new project with its own multicam, and no config to edit.
-    Only a genuinely ambiguous project (two or more multicams) needs a name.
+
+    A project with both the 16:9 multicam and a vertical one for shorts is
+    still unambiguous: the long cut wants the landscape one, shorts the portrait
+    one. Only two or more of the same orientation need a name.
     """
     items = list(iter_media_pool_items(media_pool.GetRootFolder()))
 
     if name is None:
         multicams = [i for i in items if is_multicam(i)]
-        if len(multicams) == 1:
-            return multicams[0]
         if not multicams:
             raise BuildError(
                 "No multicam clip in this project's Media Pool. Create one, or "
                 "open the project that has it."
             )
+        matching = [i for i in multicams if orientation(i) == want]
+        if len(matching) == 1:
+            return matching[0]
+        if len(multicams) == 1:
+            # The only multicam is the wrong shape - e.g. shorts cut from the
+            # 16:9 multicam into a vertical timeline, to be reframed by hand.
+            print(
+                "NOTE: no {} multicam in this project; using {!r} ({}).".format(
+                    want, multicams[0].GetName(), orientation(multicams[0]) or "unknown shape"
+                ),
+                file=sys.stderr,
+            )
+            return multicams[0]
         raise BuildError(
-            "This project has {} multicam clips, so the target is ambiguous: {}.\n"
-            "Pick one with --multicam \"<name>\".".format(
-                len(multicams), ", ".join(sorted(i.GetName() for i in multicams))
+            "This project has {} multicam clips and {} of them are {}, so the "
+            "target is ambiguous: {}.\nPick one with --multicam \"<name>\".".format(
+                len(multicams), len(matching), want,
+                ", ".join(sorted(i.GetName() for i in multicams))
             )
         )
 
@@ -554,12 +664,13 @@ def unique_timeline_name(project, base):
     return "{} {}".format(base, n)
 
 
-def build_timeline(plan, config, rate):
+def open_multicam(config, rate, want):
+    """Connect to Resolve and find the multicam to cut from, checking its fps."""
     resolve = connect_resolve()
     project = get_project(resolve)
     media_pool = project.GetMediaPool()
 
-    multicam = find_multicam_item(media_pool, config.get("multicam_clip_name"))
+    multicam = find_multicam_item(media_pool, config.get("multicam_clip_name"), want)
     print("Using multicam: {!r}".format(multicam.GetName()))
 
     clip_fps = multicam.GetClipProperty("FPS")
@@ -576,16 +687,100 @@ def build_timeline(plan, config, rate):
                 )
         except ValueError:
             pass
+    return project, media_pool, multicam
 
+
+def extent_errors(plan, multicam):
+    """Segments that run past the end of the multicam clip.
+
+    AppendToTimeline doesn't say which segment it couldn't place - it just
+    returns nothing - so catch this before Resolve is asked, per segment.
+    Returns [] when the clip's length isn't readable.
+    """
+    try:
+        total = int(multicam.GetClipProperty("Frames"))
+    except (TypeError, ValueError):
+        return []
+    return [
+        "segment {} ends at frame {} but multicam {!r} is only {} frames long.".format(
+            entry["index"] + 1, entry["end_frame"], multicam.GetName(), total)
+        for entry in plan
+        if entry["end_frame"] > total
+    ]
+
+
+def build_timeline(plan, config, rate):
+    project, media_pool, multicam = open_multicam(config, rate, "landscape")
+    errors = extent_errors(plan, multicam)
+    if errors:
+        raise BuildError("\n  - ".join(["Cut list doesn't fit the multicam:"] + errors))
     name = unique_timeline_name(
         project,
         resolve_timeline_name(config["timeline_name"], config["cuts_path"], project),
     )
+    return lay_down(project, media_pool, multicam, name, plan, config)
+
+
+def build_shorts(shorts, config, rate, explicit_title):
+    """Build every short it can. One bad short never stops the rest.
+
+    Returns (built_names, failures), failures being "short N (name): why".
+    """
+    project, media_pool, multicam = open_multicam(config, rate, "portrait")
+    base = resolve_timeline_name(explicit_title, config["cuts_path"], project)
+    built, failures = [], []
+    for short in shorts:
+        label = "short {} ({})".format(short["number"], short["name"])
+        errors = extent_errors(short["plan"], multicam)
+        if errors:
+            failures.append("{}: {}".format(label, " ".join(errors)))
+            continue
+        name = unique_timeline_name(
+            project, "{} Short {} - {}".format(base, short["number"], short["name"])
+        )
+        try:
+            built.append(lay_down(project, media_pool, multicam, name, short["plan"],
+                                  config, resolution=config["shorts_resolution"]))
+        except BuildError as exc:
+            failures.append("{}: {}".format(label, exc))
+
+    print("")
+    print("Built {} of {} short(s).".format(len(built), len(shorts)))
+    for failure in failures:
+        print("  FAILED {}".format(failure), file=sys.stderr)
+    return built, failures
+
+
+def discard_timeline(media_pool, timeline):
+    """Delete a timeline this run just created and couldn't fill."""
+    if not media_pool.DeleteTimelines([timeline]):
+        print("WARNING: couldn't remove empty timeline {!r}; delete it by hand.".format(
+            timeline.GetName()), file=sys.stderr)
+
+
+def lay_down(project, media_pool, multicam, name, plan, config, resolution=None):
+    """Create timeline `name` and append the plan's segments to it."""
     timeline = media_pool.CreateEmptyTimeline(name)
     if timeline is None:
         raise BuildError("Resolve refused to create a timeline named {!r}.".format(name))
     if not project.SetCurrentTimeline(timeline):
+        discard_timeline(media_pool, timeline)
         raise BuildError("Couldn't make {!r} the current timeline.".format(name))
+
+    # Set before anything is appended, so clips are sized for the frame they
+    # land in rather than rescaled after the fact.
+    if resolution:
+        width, height = resolution
+        if not timeline.SetSettings({
+            "useCustomSettings": "1",
+            "timelineResolutionWidth": str(width),
+            "timelineResolutionHeight": str(height),
+        }):
+            print(
+                "WARNING: couldn't set {!r} to {}x{}; set it in the timeline's "
+                "settings by hand.".format(name, width, height),
+                file=sys.stderr,
+            )
 
     if not timeline.SetStartTimecode(config["timeline_start_timecode"]):
         print(
@@ -611,10 +806,13 @@ def build_timeline(plan, config, rate):
     # segment by segment.
     appended = media_pool.AppendToTimeline(clip_infos)
     if not appended:
+        # Don't leave an empty timeline behind: it would just push the next
+        # attempt's name to "... 2".
+        discard_timeline(media_pool, timeline)
         raise BuildError(
             "AppendToTimeline returned nothing. The multicam clip may not cover "
-            "the requested frame range - the last cut ends at frame {}.".format(
-                plan[-1]["end_frame"]
+            "the requested frame range - the latest cut ends at frame {}.".format(
+                max(entry["end_frame"] for entry in plan)
             )
         )
     if len(appended) != len(plan):
@@ -631,11 +829,57 @@ def build_timeline(plan, config, rate):
         if item.SetClipColor(entry["color"]):
             colored += 1
 
-    print("Created timeline {!r}: {} segments, {} coloured.".format(
-        name, len(appended), colored))
+    # AppendToTimeline returns only the video timeline items, so the linked
+    # audio clips keep Resolve's default colour and can't be selected by
+    # colour. Colour them too, matching the plan positionally within each audio
+    # track. Every segment came from the same multicam appended in order into a
+    # fresh timeline, so the Nth clip on any audio track is the Nth segment.
+    audio_colored = 0
+    audio_total = 0
+    for track in range(1, timeline.GetTrackCount("audio") + 1):
+        items = timeline.GetItemListInTrack("audio", track) or []
+        if len(items) != len(plan):
+            print(
+                "WARNING: audio track {} has {} clip(s) but the plan has {}; "
+                "colouring by position may be misaligned, so verify by hand.".format(
+                    track, len(items), len(plan)
+                ),
+                file=sys.stderr,
+            )
+        for entry, item in zip(plan, items):
+            audio_total += 1
+            if item.SetClipColor(entry["color"]):
+                audio_colored += 1
+
+    # Segments flagged with "fix" get a red marker spanning the segment, with the
+    # note in it, so they're easy to find on the timeline and in the Edit Index.
+    # AddMarker's frameId is an offset from the timeline start, not a timecode.
+    flagged = [e for e in plan if e["fix"]]
+    marked = 0
+    record = 0
+    for entry in plan:
+        if entry["fix"] and timeline.AddMarker(
+                record, "Red", "Fix: {}".format(entry.get("film_beat") or "host footage")[:60],
+                entry["fix"], entry["duration_frames"]):
+            marked += 1
+        record += entry["duration_frames"]
+
+    print("Created timeline {!r}: {} segments, {} video / {} audio clip(s) coloured.".format(
+        name, len(appended), colored, audio_colored))
+    if flagged:
+        print("{} segment(s) flagged for fixing: {} red marker(s) added, clips coloured {}.".format(
+            len(flagged), marked, config["fix_color"]))
+        if marked != len(flagged):
+            print("WARNING: {} fix marker(s) didn't take.".format(len(flagged) - marked),
+                  file=sys.stderr)
     if colored != len(appended):
         print(
-            "WARNING: {} segment(s) didn't take a colour.".format(len(appended) - colored),
+            "WARNING: {} video segment(s) didn't take a colour.".format(len(appended) - colored),
+            file=sys.stderr,
+        )
+    if audio_total and audio_colored != audio_total:
+        print(
+            "WARNING: {} audio clip(s) didn't take a colour.".format(audio_total - audio_colored),
             file=sys.stderr,
         )
     return name
@@ -658,18 +902,27 @@ def main(argv=None):
                         help="Timeline name. Default: taken from the cut list.")
     parser.add_argument("--dry-run", action="store_true",
                         help="Print the plan and exit without touching Resolve.")
+    parser.add_argument("--short", type=int, action="append", metavar="N",
+                        help="Shorts file only: build just short N (1-based). Repeatable.")
     args = parser.parse_args(argv)
 
     try:
         config = load_config(args.config)
         rate = resolve_fps(config["fps"])
+        if args.multicam:
+            config["multicam_clip_name"] = args.multicam
+        config["cuts_path"] = args.cuts
+
+        if is_shorts_file(args.cuts):
+            return run_shorts(args, config, rate)
+        if args.short:
+            raise BuildError("--short only applies to a shorts file (one with a "
+                             "\"shorts\" array).")
+
         cuts, meta = load_cuts(args.cuts)
 
         # Precedence, most explicit first. Both fall back to something derived,
         # so neither ever needs to be set for a routine episode.
-        if args.multicam:
-            config["multicam_clip_name"] = args.multicam
-        config["cuts_path"] = args.cuts
         config["timeline_name"] = explicit_timeline_name(
             args.timeline_name, config.get("timeline_name"), meta
         )
@@ -684,6 +937,36 @@ def main(argv=None):
         print("ERROR: {}".format(exc), file=sys.stderr)
         return 1
     return 0
+
+
+def run_shorts(args, config, rate):
+    """Plan, and unless --dry-run build, one vertical timeline per short."""
+    shorts, meta = load_shorts(args.cuts)
+    if args.short:
+        bad = [n for n in args.short if not 1 <= n <= len(shorts)]
+        if bad:
+            raise BuildError("--short {}: the file has shorts 1-{}.".format(
+                ", ".join(str(n) for n in bad), len(shorts)))
+        shorts = [s for s in shorts if s["number"] in set(args.short)]
+
+    errors = []
+    for short in shorts:
+        try:
+            validate_cuts(short["cuts"], config, rate, chronological=False)
+            short["plan"] = plan_segments(short["cuts"], config, rate)
+        except BuildError as exc:
+            errors.append("short {} ({}): {}".format(short["number"], short["name"], exc))
+    if errors:
+        raise BuildError("\n".join(errors))
+
+    title = explicit_timeline_name(args.timeline_name, config.get("timeline_name"), meta)
+    print_shorts_plan(shorts, config, rate,
+                      title or "<Resolve project name>")
+    if args.dry_run:
+        print("Dry run - Resolve was not touched.")
+        return 0
+    _, failures = build_shorts(shorts, config, rate, title)
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ transcribe.py --project cuts/<slug>.media.json reads this file back and
 transcribes both clips.
 
 Usage:
-    python3 src/new_project.py
+    python src/new_project.py
 """
 
 import json
@@ -78,7 +78,7 @@ def main():
         handle.write("\n")
 
     print("\nWrote {}".format(out_path))
-    print("Next: python3 src/transcribe.py --project {}".format(out_path))
+    print("Next: python src/transcribe.py --project {}".format(out_path))
 
 
 if __name__ == "__main__":

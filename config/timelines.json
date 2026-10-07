@@ -4,6 +4,14 @@
     "2 Hosts Plus Movie Audio",
     "3 Hosts Plus Movie",
     "4 Hosts PIP",
-    "5 Movie Only"
-  ]
+    "5 Hosts PIP Movie Audio",
+    "6 Movie Audio Only",
+    "7 Movie Only"
+  ],
+
+  "vertical": {
+    "suffix": " Vertical",
+    "bin": "Vertical Timelines",
+    "resolution": [1080, 1920]
+  }
 }

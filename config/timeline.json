@@ -5,9 +5,13 @@
 
   "timeline_start_timecode": "01:00:00:00",
 
+  "shorts_resolution": [1080, 1920],
+
   "layout_colors": {
     "panel": "Blue",
+    "panel_hosts_only": "Tan",
     "pip_circles": "Teal",
+    "pip_circles_hosts_only": "Lime",
     "hosts_movie_audio": "Purple",
     "hosts_full": "Green"
   }
