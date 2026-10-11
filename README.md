@@ -67,11 +67,17 @@ python src/build_timeline.py --cuts cuts/<episode>.json
 python src/build_timeline.py --cuts cuts/<episode>.csv
 ```
 
-**The multicam clip is found automatically.** A project normally holds exactly
-one, and that is unambiguously the one to cut from. Only a project with two or
-more needs `--multicam "<name>"`, and the error lists the candidates.
+**The multicam clip and timeline come from the project template.** Every
+episode's project starts from the same Resolve template, which holds a multicam
+called `Movie Reaction Multicam` and an empty timeline called `Main Reaction`.
+`config/timeline.json` names both, so the long cut is taken from that multicam
+and laid into that timeline. For a project that isn't from the template, pass
+`--multicam "<name>"` / `--timeline-name "<name>"`; if the multicam name isn't
+found, the error lists the candidates.
 
-**The timeline names itself.** In precedence order:
+With `multicam_clip_name` removed from the config, the multicam is found by
+scanning the project (it must hold exactly one landscape multicam). With
+`timeline_name` removed, the timeline names itself, in precedence order:
 
 ```
 --timeline-name  >  config timeline_name  >  cut list "title"
@@ -89,9 +95,10 @@ layout and colour, plus total runtime and the layout split by runtime - enough
 to check a cut against `config/SKILL.md`'s 35-45 minute and 60-75% targets before
 building anything.
 
-Each run creates a **new** timeline. Nothing is ever overwritten - a name
-collision gets a numeric suffix ("Repo Man 2"), so you can iterate on a cut
-list and compare versions side by side.
+The first run fills the template's empty `Main Reaction` timeline. Nothing is
+ever overwritten - once that timeline holds a cut, each later run creates a new
+one with a numeric suffix ("Main Reaction 2"), so you can iterate on a cut list
+and compare versions side by side.
 
 ## Shorts
 
@@ -169,9 +176,12 @@ Everything here is a standing preference, set once and left alone:
 | `shorts_resolution` | `[width, height]` of each shorts timeline. Default `[1080, 1920]` |
 | `fix_color` | clip colour for segments flagged with `fix`. Default `Orange` |
 
-`multicam_clip_name` and `timeline_name` are accepted but deliberately absent:
-both are per-episode, and both are derived automatically. Set them only to pin
-an unusual project, or pass `--multicam` / `--timeline-name` for a one-off.
+| `multicam_clip_name` | the template's multicam for the long cut: `Movie Reaction Multicam` |
+| `timeline_name` | the template's empty timeline the long cut fills: `Main Reaction` |
+
+Both names apply to the long cut only. Shorts still find the portrait multicam
+themselves and are named after the episode. Pass `--multicam` /
+`--timeline-name` for a one-off.
 
 ## Frame accuracy
 

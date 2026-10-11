@@ -1,6 +1,9 @@
 {
   "fps": 30,
 
+  "multicam_clip_name": "Movie Reaction Multicam",
+  "timeline_name": "Main Reaction",
+
   "sync_offset_seconds": 0,
 
   "timeline_start_timecode": "01:00:00:00",

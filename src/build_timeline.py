@@ -10,9 +10,10 @@ This talks to Resolve directly through its scripting API (Resolve Studio), so
 there is no FCPXML/EDL intermediate and none of that format's limitations:
 no file:// path escaping, no <library> wrapping, and no silently-dropped markers.
 
-Nothing here is per-episode. The multicam clip is found by scanning the project,
-the timeline is named after the cut list, and the config holds only things that
-stay the same from one episode to the next.
+Nothing here is per-episode. Every episode starts from the same Resolve project
+template, so the config names the template's multicam clip and its empty main
+timeline, and the cut lands there. The config holds only things that stay the
+same from one episode to the next.
 
 A shorts file (cuts/<episode>.shorts.json, from config/SHORTS.md) builds one
 vertical timeline per short instead, cut from the project's portrait multicam.
@@ -158,8 +159,8 @@ def load_config(path):
     with open(path, "r", encoding="utf-8") as handle:
         config = json.load(handle)
 
-    # multicam_clip_name and timeline_name are deliberately NOT required: both
-    # are per-episode, and the point is that a new episode needs no config edit.
+    # multicam_clip_name and timeline_name are NOT required: the project
+    # template fixes both names, and without them both are derived.
     missing = [k for k in ("fps", "layout_colors") if k not in config]
     if missing:
         raise BuildError(
@@ -664,6 +665,24 @@ def unique_timeline_name(project, base):
     return "{} {}".format(base, n)
 
 
+def find_empty_timeline(project, name):
+    """The timeline called `name` if it exists and holds no clips, else None.
+
+    The project template ships an empty main timeline for the cut to land in.
+    One that already has clips is a previous build, and is left alone.
+    """
+    for i in range(1, project.GetTimelineCount() + 1):
+        timeline = project.GetTimelineByIndex(i)
+        if timeline.GetName() != name:
+            continue
+        for kind in ("video", "audio", "subtitle"):
+            for track in range(1, timeline.GetTrackCount(kind) + 1):
+                if timeline.GetItemListInTrack(kind, track):
+                    return None
+        return timeline
+    return None
+
+
 def open_multicam(config, rate, want):
     """Connect to Resolve and find the multicam to cut from, checking its fps."""
     resolve = connect_resolve()
@@ -714,11 +733,12 @@ def build_timeline(plan, config, rate):
     errors = extent_errors(plan, multicam)
     if errors:
         raise BuildError("\n  - ".join(["Cut list doesn't fit the multicam:"] + errors))
-    name = unique_timeline_name(
-        project,
-        resolve_timeline_name(config["timeline_name"], config["cuts_path"], project),
-    )
-    return lay_down(project, media_pool, multicam, name, plan, config)
+    base = resolve_timeline_name(config["timeline_name"], config["cuts_path"], project)
+    # Fill the template's empty timeline if it's there; once it holds a cut,
+    # later runs get a numbered timeline of their own.
+    timeline = find_empty_timeline(project, base)
+    name = base if timeline else unique_timeline_name(project, base)
+    return lay_down(project, media_pool, multicam, name, plan, config, timeline=timeline)
 
 
 def build_shorts(shorts, config, rate, explicit_title):
@@ -758,13 +778,17 @@ def discard_timeline(media_pool, timeline):
             timeline.GetName()), file=sys.stderr)
 
 
-def lay_down(project, media_pool, multicam, name, plan, config, resolution=None):
-    """Create timeline `name` and append the plan's segments to it."""
-    timeline = media_pool.CreateEmptyTimeline(name)
-    if timeline is None:
-        raise BuildError("Resolve refused to create a timeline named {!r}.".format(name))
+def lay_down(project, media_pool, multicam, name, plan, config, resolution=None,
+             timeline=None):
+    """Append the plan's segments to `timeline`, creating it as `name` if not given."""
+    created = timeline is None
+    if created:
+        timeline = media_pool.CreateEmptyTimeline(name)
+        if timeline is None:
+            raise BuildError("Resolve refused to create a timeline named {!r}.".format(name))
     if not project.SetCurrentTimeline(timeline):
-        discard_timeline(media_pool, timeline)
+        if created:
+            discard_timeline(media_pool, timeline)
         raise BuildError("Couldn't make {!r} the current timeline.".format(name))
 
     # Set before anything is appended, so clips are sized for the frame they
@@ -807,8 +831,9 @@ def lay_down(project, media_pool, multicam, name, plan, config, resolution=None)
     appended = media_pool.AppendToTimeline(clip_infos)
     if not appended:
         # Don't leave an empty timeline behind: it would just push the next
-        # attempt's name to "... 2".
-        discard_timeline(media_pool, timeline)
+        # attempt's name to "... 2". The template's own timeline stays.
+        if created:
+            discard_timeline(media_pool, timeline)
         raise BuildError(
             "AppendToTimeline returned nothing. The multicam clip may not cover "
             "the requested frame range - the latest cut ends at frame {}.".format(
@@ -864,8 +889,8 @@ def lay_down(project, media_pool, multicam, name, plan, config, resolution=None)
             marked += 1
         record += entry["duration_frames"]
 
-    print("Created timeline {!r}: {} segments, {} video / {} audio clip(s) coloured.".format(
-        name, len(appended), colored, audio_colored))
+    print("{} timeline {!r}: {} segments, {} video / {} audio clip(s) coloured.".format(
+        "Created" if created else "Filled", name, len(appended), colored, audio_colored))
     if flagged:
         print("{} segment(s) flagged for fixing: {} red marker(s) added, clips coloured {}.".format(
             len(flagged), marked, config["fix_color"]))
@@ -914,6 +939,11 @@ def main(argv=None):
         config["cuts_path"] = args.cuts
 
         if is_shorts_file(args.cuts):
+            # The config's multicam and timeline names are the template's long
+            # cut ones. Shorts keep finding the portrait multicam and naming
+            # themselves after the episode.
+            config["multicam_clip_name"] = args.multicam
+            config["timeline_name"] = None
             return run_shorts(args, config, rate)
         if args.short:
             raise BuildError("--short only applies to a shorts file (one with a "
