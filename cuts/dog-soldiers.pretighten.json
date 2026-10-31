@@ -1,0 +1,5683 @@
+{
+  "title": "Dog Soldiers",
+  "movie_offset_seconds": 128.03,
+  "hook": {
+    "start": 2076.67,
+    "end": 2090.53,
+    "note": "Run to the road: \"Get to the Jeep. Get to the Jeep ... He's a werewolf driving the Jeep\" - our biggest spoken reaction, on a must beat (Megan's Land Rover). Runner-up: Joe's death, 4437-4457 (silence while the werewolf drags him, then \"Eating somebody. Oh, I just ripped his head off\")."
+  },
+  "near_misses": [
+    {
+      "start": 86.4,
+      "end": 97.0,
+      "note": "Rest of the intro pitch: \"So we are gonna see if I was totally wrong ... melting into one little movie, baby movie, baby.\" Would push the intro past 20s."
+    },
+    {
+      "start": 3105.1,
+      "end": 3107.5,
+      "note": "\"Holy crap, that's...\" before Megan's werewolf explanation; fragment, the line it starts lands 40s later."
+    },
+    {
+      "start": 5104.7,
+      "end": 5148.4,
+      "note": "\"Is he a werewolf, is that what he's asking? ... she's like too cool, she's been there two years ... full moon\" - our read on Megan before the reveal; lost out for runtime and is half-mumbled."
+    },
+    {
+      "start": 6382.0,
+      "end": 6407.8,
+      "note": "Verdict tail: \"she just came out of nowhere ... I didn't like change on demand\" - good disagreement, cut to keep the outro under 90s; swap in if the outro can run longer."
+    },
+    {
+      "start": 1809.78,
+      "end": 1828.83,
+      "note": "Woods attack opening, three chunks with our recap over them (\"I'm on this practice exercise ... wiped out their camp\"). Dropped in review as narration; the film there is dark running through trees."
+    },
+    {
+      "start": 5912.3,
+      "end": 5918.2,
+      "note": "\"There is no spoon.\" - Matrix gag after Spoon's death (found by a no-VAD whisper pass; not in the VAD transcript). Could replace segment at 5913.97 if checked by ear."
+    }
+  ],
+  "segments": [
+    {
+      "start": 70.26,
+      "end": 86.2,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Hey there, welcome to TD off script tonight. We are watching dog soldiers Teresa picked this one. So tell us about it I Watched the trailer for this movie and all I could think about is if the American werewolf in London and the thing had a baby It would be this movie.\". Intro: the film, Teresa's pick, The Thing + American Werewolf had a baby, going in cold"
+    },
+    {
+      "start": 138.0,
+      "end": 141.3,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 148.8,
+      "end": 152.6,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 161.82,
+      "end": 164.71,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "us: \"Scotland. Yeah, you\""
+    },
+    {
+      "start": 172.17,
+      "end": 174.21,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film: \"This is definitely better than being at work.\" (trimmed to the line; was 4.9s with a throwaway \"You were right\")"
+    },
+    {
+      "start": 178.85,
+      "end": 180.69,
+      "layout": "pip_circles",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film: \"Are you a big girl's blouse?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 184.37,
+      "end": 187.39,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film: \"I'm seeing as I've bullied you to come all the way out here to celebrate the fact.\""
+    },
+    {
+      "start": 194.0,
+      "end": 196.24,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film: \"Here.\" - he hands her the gift box"
+    },
+    {
+      "start": 198.4,
+      "end": 200.36,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film: \"No knight should be without his sword.\" - the gift line the whole ending pays off (and the source of our \"sword\" running joke)"
+    },
+    {
+      "start": 207.82,
+      "end": 212.79,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film: \"It's perfect. Yeah, and it's also solid silver, so don't lose it.\" / us: \"Is it a letter opener? Yeah, that's a letter opener.\" Runs past 4s: \"solid silver\" is the setup for the silver letter-opener kill at the end and the line runs to 212.69; we talk over it."
+    },
+    {
+      "start": 212.79,
+      "end": 217.38,
+      "layout": "panel_hosts_only",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"I thought it was a sword. You said it was a sword. It's a little mini sword\" - the start of the \"sword\" running joke"
+    },
+    {
+      "start": 224.0,
+      "end": 226.8,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 228.9,
+      "end": 232.3,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 236.1,
+      "end": 237.9,
+      "layout": "pip_circles",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 240.1,
+      "end": 243.4,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 246.1,
+      "end": 248.7,
+      "layout": "panel",
+      "film_beat": "Camping couple in the Highlands; he gives her the solid-silver letter opener",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 252.95,
+      "end": 255.43,
+      "layout": "panel_hosts_only",
+      "film_beat": "The couple are attacked and killed in the tent (unseen werewolves)",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Why don't go camping?\""
+    },
+    {
+      "start": 256.0,
+      "end": 259.8,
+      "layout": "panel",
+      "film_beat": "The couple are attacked and killed in the tent (unseen werewolves)",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 268.76,
+      "end": 270.0,
+      "layout": "panel",
+      "film_beat": "The couple are attacked and killed in the tent (unseen werewolves)",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 270.32,
+      "end": 273.0,
+      "layout": "panel_hosts_only",
+      "film_beat": "The couple are attacked and killed in the tent (unseen werewolves)",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Where's the sword now? Get the sword.\""
+    },
+    {
+      "start": 283.37,
+      "end": 289.33,
+      "layout": "panel_hosts_only",
+      "film_beat": "The couple are attacked and killed in the tent (unseen werewolves)",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Oh, yeah, and there's werewolves That was a that was an interesting start\""
+    },
+    {
+      "start": 297.95,
+      "end": 304.13,
+      "layout": "panel_hosts_only",
+      "film_beat": "The couple are attacked and killed in the tent (unseen werewolves)",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"I just not like that ladies body just get ripped in half. I Think so\""
+    },
+    {
+      "start": 316.0,
+      "end": 319.6,
+      "layout": "panel",
+      "film_beat": "Cooper's selection run through the woods",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 322.6,
+      "end": 325.0,
+      "layout": "panel",
+      "film_beat": "Cooper's selection run through the woods",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 329.35,
+      "end": 331.35,
+      "layout": "panel_hosts_only",
+      "film_beat": "Cooper's selection run through the woods",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"It's like James Bond\""
+    },
+    {
+      "start": 342.54,
+      "end": 343.43,
+      "layout": "pip_circles",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"the head of the class.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 346.89,
+      "end": 348.49,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"Life's not in running and hiding,\""
+    },
+    {
+      "start": 351.39,
+      "end": 355.39,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 357.49,
+      "end": 360.29,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 364.44,
+      "end": 365.6,
+      "layout": "pip_circles",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"Sorry, sir, what?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 367.8,
+      "end": 369.6,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 372.26,
+      "end": 376.28,
+      "layout": "panel_hosts_only",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Why? Just like the thing\""
+    },
+    {
+      "start": 377.34,
+      "end": 379.52,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"That's a direct order, Cooper.\" / us: \"dog the\""
+    },
+    {
+      "start": 383.35,
+      "end": 386.75,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"He thinks I'm pulling his leg. Do I look like a shotting comedian?\""
+    },
+    {
+      "start": 392.42,
+      "end": 395.36,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"won't do it. You don't have a choice. Finish the job.\""
+    },
+    {
+      "start": 400.07,
+      "end": 401.57,
+      "layout": "pip_circles",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 403.97,
+      "end": 406.87,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 410.83,
+      "end": 416.29,
+      "layout": "pip_circles",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"the... I didn't say I couldn't kill a dog, sir. I just will not kill that dog for no reason.\". Runs past 4s: Cooper's refusal is one line: \"I didn't say I couldn't kill a dog, sir. I just will not kill that dog for no reason\""
+    },
+    {
+      "start": 421.33,
+      "end": 424.17,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"You're failing me for this. You failed yourself.\""
+    },
+    {
+      "start": 431.17,
+      "end": 433.42,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"that, I need men of action.\""
+    },
+    {
+      "start": 436.42,
+      "end": 439.52,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 444.94,
+      "end": 446.8,
+      "layout": "pip_circles",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"It's the dog, that's all.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 449.69,
+      "end": 451.72,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"into your thick skull,\""
+    },
+    {
+      "start": 459.02,
+      "end": 460.06,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"you don't.\""
+    },
+    {
+      "start": 476.08,
+      "end": 478.64,
+      "layout": "panel",
+      "film_beat": "Ryan orders Cooper to shoot the dog; Cooper refuses and fails selection",
+      "iconic": true,
+      "reason": "Film: \"to you, this pathetic piece of shit.\""
+    },
+    {
+      "start": 503.2,
+      "end": 507.0,
+      "layout": "panel",
+      "film_beat": "Titles; squad dropped into the Highlands",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 508.55,
+      "end": 514.91,
+      "layout": "panel_hosts_only",
+      "film_beat": "Titles; squad dropped into the Highlands",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"pretty, huh? It's the Highlands of Scotland But there's lots of whiskey out there\""
+    },
+    {
+      "start": 606.62,
+      "end": 608.79,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"I want to be the move in three minutes. Sign it, Sarge.\""
+    },
+    {
+      "start": 614.24,
+      "end": 616.49,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"your big fat lardy arse and mate like a soldier.\""
+    },
+    {
+      "start": 629.12,
+      "end": 632.08,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"Bullets, I don't believe this. What is it now with the spoon?\""
+    },
+    {
+      "start": 639.99,
+      "end": 643.46,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"And you'll be taking my boat out your mouth in a minute, Joe, you baldy twat.\""
+    },
+    {
+      "start": 649.84,
+      "end": 651.91,
+      "layout": "pip_circles",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"And I'm stuck up the backside of beyond\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 655.17,
+      "end": 658.46,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"Hey, it's England v. Germany, man. Full -on footy war.\""
+    },
+    {
+      "start": 663.3,
+      "end": 665.65,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"Thorne, better than a joy, you're fucking slaying me.\""
+    },
+    {
+      "start": 672.78,
+      "end": 674.61,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"Special forces, you plonker.\""
+    },
+    {
+      "start": 675.45,
+      "end": 681.41,
+      "layout": "panel_hosts_only",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Love their insults Love it you plunk up. Mm -hmm\""
+    },
+    {
+      "start": 682.88,
+      "end": 685.32,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"jump into a warm bed with a nice hot woman,\""
+    },
+    {
+      "start": 689.81,
+      "end": 692.14,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"Oh, all right, button it, private parts.\""
+    },
+    {
+      "start": 699.3,
+      "end": 702.76,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"I expect nothing less than gratuitous violence from the lot of you.\""
+    },
+    {
+      "start": 711.37,
+      "end": 712.78,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"Oh, I guarantee you, Joe,\""
+    },
+    {
+      "start": 717.26,
+      "end": 719.98,
+      "layout": "pip_circles",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"Scrambled. Yeah, a spoonie.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 723.77,
+      "end": 727.54,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"Remember, I want that back, son. What about you, Sarge?\""
+    },
+    {
+      "start": 735.02,
+      "end": 737.78,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"We're here. Front line is here.\""
+    },
+    {
+      "start": 746.96,
+      "end": 749.34,
+      "layout": "pip_circles",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"With one exception, right here.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 753.34,
+      "end": 755.74,
+      "layout": "panel",
+      "film_beat": "Squad intro and Wells' briefing - football, \"gratuitous violence\"",
+      "iconic": false,
+      "reason": "Film: \"And it's starting to have a patrol on it, but if we go at night,\""
+    },
+    {
+      "start": 760.9,
+      "end": 764.05,
+      "layout": "panel",
+      "film_beat": "Wells and Cooper square up about selection; tabbing off",
+      "iconic": false,
+      "reason": "Film: \"The fuck is all this about, then? Well, I like lately.\""
+    },
+    {
+      "start": 768.22,
+      "end": 771.4,
+      "layout": "panel",
+      "film_beat": "Wells and Cooper square up about selection; tabbing off",
+      "iconic": false,
+      "reason": "Film: \"Filing selection and all of that, but I've got to say, I'm not sorry.\""
+    },
+    {
+      "start": 778.88,
+      "end": 780.29,
+      "layout": "panel",
+      "film_beat": "Wells and Cooper square up about selection; tabbing off",
+      "iconic": false,
+      "reason": "Film: \"Listen, the only people that go looking for trouble\""
+    },
+    {
+      "start": 782.75,
+      "end": 784.54,
+      "layout": "pip_circles",
+      "film_beat": "Wells and Cooper square up about selection; tabbing off",
+      "iconic": false,
+      "reason": "Film: \"and full -on fucking fuckwits.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 852.22,
+      "end": 854.7,
+      "layout": "panel",
+      "film_beat": "Campfire story of the hikers who vanish here",
+      "iconic": false,
+      "reason": "Film: \"Didn't disappear out here. Happens all the time.\""
+    },
+    {
+      "start": 857.96,
+      "end": 860.74,
+      "layout": "panel",
+      "film_beat": "Campfire story of the hikers who vanish here",
+      "iconic": false,
+      "reason": "Film: \"Just last month, a young couple were hiking through these woods,\""
+    },
+    {
+      "start": 865.16,
+      "end": 868.11,
+      "layout": "panel",
+      "film_beat": "Campfire story of the hikers who vanish here",
+      "iconic": false,
+      "reason": "Film: \"Mountain Rescue Team found the remains of the camp a couple of days later.\""
+    },
+    {
+      "start": 875.8,
+      "end": 878.46,
+      "layout": "panel",
+      "film_beat": "Campfire story of the hikers who vanish here",
+      "iconic": false,
+      "reason": "Film: \"Locals claimed it was an escaped lunatic,\""
+    },
+    {
+      "start": 880.86,
+      "end": 882.8,
+      "layout": "pip_circles",
+      "film_beat": "Campfire story of the hikers who vanish here",
+      "iconic": false,
+      "reason": "Film: \"so nothing could be proved either way.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 885.51,
+      "end": 891.7,
+      "layout": "panel_hosts_only",
+      "film_beat": "Campfire story of the hikers who vanish here",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"The baby so it's a thing werewolf baby. Yeah,\""
+    },
+    {
+      "start": 940.95,
+      "end": 943.47,
+      "layout": "panel",
+      "film_beat": "Campfire story of the hikers who vanish here",
+      "iconic": false,
+      "reason": "Film: \"Tell them the flock is heading for the fold.\" - Ryan radios in (trimmed; was 4.6s with a mumbled \"No boss\" over it)"
+    },
+    {
+      "start": 943.79,
+      "end": 954.87,
+      "layout": "panel_hosts_only",
+      "film_beat": "Campfire story of the hikers who vanish here",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"That's the special ops guy Is it? Yeah, you didn't make the special ops team. Remember? I but he was like the instructor I wasn't sure if he was part of the team or not\""
+    },
+    {
+      "start": 957.71,
+      "end": 960.45,
+      "layout": "panel",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film: \"Just taking a piss now. What do you think, sir?\""
+    },
+    {
+      "start": 962.85,
+      "end": 963.83,
+      "layout": "panel",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film: \"Castration.\" - the Sarge's answer lands as the punchline (trimmed; was 5.1s across a dead pause)"
+    },
+    {
+      "start": 972.23,
+      "end": 975.85,
+      "layout": "panel",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film: \"A penalty shootout. Figures. Terry?\""
+    },
+    {
+      "start": 978.29,
+      "end": 979.57,
+      "layout": "pip_circles",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film: \"With Joe.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 982.36,
+      "end": 986.34,
+      "layout": "panel",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film: \"What about you, Coop? Spiders. And women.\""
+    },
+    {
+      "start": 986.34,
+      "end": 989.92,
+      "layout": "panel_hosts_only",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "The comic pause between \"Spiders. And women.\" and \"Spider women.\", picture held and film muted so the joke keeps its timing instead of a hard skip"
+    },
+    {
+      "start": 989.92,
+      "end": 990.78,
+      "layout": "panel",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film: \"Spider women.\""
+    },
+    {
+      "start": 992.21,
+      "end": 993.79,
+      "layout": "panel_hosts_only",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Spider -man,\""
+    },
+    {
+      "start": 995.06,
+      "end": 998.74,
+      "layout": "panel",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film: \"Piss off, man. Nothing scares the Sarge. I don't know about that.\""
+    },
+    {
+      "start": 1002.24,
+      "end": 1005.04,
+      "layout": "panel",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1007.9,
+      "end": 1011.45,
+      "layout": "panel",
+      "film_beat": "What scares you - \"Spiders. And women. Spider women\"",
+      "iconic": true,
+      "reason": "Film: \"stand up in the back of your neck.\""
+    },
+    {
+      "start": 1028.0,
+      "end": 1030.63,
+      "layout": "pip_circles",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"Me and this young fella. Called Eddie Oswald.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1036.64,
+      "end": 1039.76,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"He was a stocky hard case with a broken nose\" - Eddie Oswald introduced (trimmed from 4.3s)"
+    },
+    {
+      "start": 1047.13,
+      "end": 1050.78,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"Anyway, me and Eddie, we went and had a few drinks.\""
+    },
+    {
+      "start": 1058.87,
+      "end": 1060.45,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"And being a bit of a believer,\""
+    },
+    {
+      "start": 1065.51,
+      "end": 1069.01,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"But his flesh, well, his flesh was way beyond redemption.\""
+    },
+    {
+      "start": 1075.8,
+      "end": 1076.93,
+      "layout": "pip_circles",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"right on his arse.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1094.0,
+      "end": 1097.61,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"White, blind in lightning flash and a fucking\""
+    },
+    {
+      "start": 1106.25,
+      "end": 1108.15,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"Just bit some pieces of him.\""
+    },
+    {
+      "start": 1115.33,
+      "end": 1117.42,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"I'll tell you something, lads. It really puts things in perspective\""
+    },
+    {
+      "start": 1124.53,
+      "end": 1127.17,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"really did our nuts in that day\""
+    },
+    {
+      "start": 1130.71,
+      "end": 1132.4,
+      "layout": "pip_circles",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"you recognized a\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1135.46,
+      "end": 1137.32,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"toe and nose, a tooth.\""
+    },
+    {
+      "start": 1142.27,
+      "end": 1146.22,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"was when left -hand Charlie found a bit of Eddie with a tattoo on.\""
+    },
+    {
+      "start": 1150.54,
+      "end": 1152.7,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"Not this bit. This bit was perfect.\""
+    },
+    {
+      "start": 1156.21,
+      "end": 1157.74,
+      "layout": "pip_circles",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"fucking asshole off at us.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1166.47,
+      "end": 1168.02,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film: \"that's not all of it.\""
+    },
+    {
+      "start": 1172.6,
+      "end": 1175.62,
+      "layout": "pip_circles",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1177.72,
+      "end": 1180.62,
+      "layout": "panel",
+      "film_beat": "Wells' Eddie Oswald tattoo story - Satan saved his skin",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1194.1,
+      "end": 1197.7,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1199.9,
+      "end": 1202.3,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1206.0,
+      "end": 1208.14,
+      "layout": "pip_circles",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"so anyway, this bloke walks into a pub, right?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1212.36,
+      "end": 1215.02,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"The bartender's looking at him thinking, what the fuck is going on here?\""
+    },
+    {
+      "start": 1218.9,
+      "end": 1222.36,
+      "layout": "pip_circles",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"Fucking coach! I'll tell\""
+    },
+    {
+      "start": 1226.55,
+      "end": 1229.59,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"I'm firing blanks, man. Is everyone all right? Is everyone okay?\""
+    },
+    {
+      "start": 1234.95,
+      "end": 1237.81,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"Is it dead? Oh, yeah, it's dead all right.\""
+    },
+    {
+      "start": 1240.53,
+      "end": 1242.31,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"Oh, don't mind if it's dead, it's Eddie.\""
+    },
+    {
+      "start": 1246.98,
+      "end": 1248.36,
+      "layout": "pip_circles",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"I call it teeth marks.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1256.88,
+      "end": 1262.28,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"Bruce. There's no way I'm about to break radio silence because you lot got spooked by a dead fly fucking cow.\". Runs past 4s: Wells' most-quoted line is one sentence: \"There's no way I'm about to break radio silence because you lot got spooked by a dead fly fucking cow\""
+    },
+    {
+      "start": 1263.02,
+      "end": 1269.34,
+      "layout": "panel_hosts_only",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"to cow flying dead cow flying dead cow\""
+    },
+    {
+      "start": 1270.06,
+      "end": 1273.32,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"Right, so I want a watch posted. 2 -1 -4 off. Bruce C.\""
+    },
+    {
+      "start": 1276.64,
+      "end": 1279.4,
+      "layout": "panel",
+      "film_beat": "Spoon's dog joke cut off by a gutted cow landing on camp; \"dead flying fucking cow\"",
+      "iconic": true,
+      "reason": "Film: \"And in the meantime, Terry, sort your kit out.\""
+    },
+    {
+      "start": 1291.97,
+      "end": 1294.57,
+      "layout": "pip_circles_hosts_only",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Beautiful moon\""
+    },
+    {
+      "start": 1339.45,
+      "end": 1341.49,
+      "layout": "panel_hosts_only",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Sarge is done\""
+    },
+    {
+      "start": 1342.12,
+      "end": 1344.96,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film: \"Cow came in from this direction, straight off the edge.\""
+    },
+    {
+      "start": 1347.08,
+      "end": 1348.84,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film: \"Out of the frying pan under the fire.\""
+    },
+    {
+      "start": 1352.72,
+      "end": 1355.93,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film: \"Yeah, well, it's got a bit to leave some breadcrumbs for us to follow, aye?\""
+    },
+    {
+      "start": 1358.88,
+      "end": 1362.46,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film: \"Sarge, shouldn't we just report this when we get back?\""
+    },
+    {
+      "start": 1369.97,
+      "end": 1385.18,
+      "layout": "panel_hosts_only",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"So they're leaving without him What are you talking about? Wasn't that guy killed that was the like the leader of the Special Forces or whatever. That was the other guy Oh, it looks like the leader of this group. No, no, I was a different dude. Oh\""
+    },
+    {
+      "start": 1395.0,
+      "end": 1397.4,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1403.4,
+      "end": 1406.5,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1415.5,
+      "end": 1417.1,
+      "layout": "pip_circles",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1423.1,
+      "end": 1427.1,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1436.1,
+      "end": 1438.9,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1458.71,
+      "end": 1462.01,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1477.61,
+      "end": 1481.41,
+      "layout": "panel",
+      "film_beat": "Night falls, full moon; next morning they follow the cow's trail",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1498.18,
+      "end": 1499.32,
+      "layout": "pip_circles",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"Christ, Sarge.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1504.04,
+      "end": 1507.78,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"We've got casualties to locate. So ditch your bargains,\""
+    },
+    {
+      "start": 1512.14,
+      "end": 1514.94,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"We are now up against live,\""
+    },
+    {
+      "start": 1517.04,
+      "end": 1520.65,
+      "layout": "pip_circles",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"So, if little Red Riding Hood should show up in a bazooka and a bad aptitude,\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1526.13,
+      "end": 1528.46,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"every magazine is full and nobody got off a single round.\""
+    },
+    {
+      "start": 1534.91,
+      "end": 1538.89,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"Get on the net and call in on emergency airlift immediately. I'm on it.\""
+    },
+    {
+      "start": 1541.89,
+      "end": 1544.91,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "us: \"Oh, it was that guy just\""
+    },
+    {
+      "start": 1556.14,
+      "end": 1558.18,
+      "layout": "pip_circles",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"Captain Ryan, special ops.\""
+    },
+    {
+      "start": 1563.47,
+      "end": 1566.07,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"Spearhead patrol, this is spearhead patrol. You're receiving.\""
+    },
+    {
+      "start": 1568.49,
+      "end": 1571.08,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"I can plant him up, but he needs a medic right now.\""
+    },
+    {
+      "start": 1575.95,
+      "end": 1577.73,
+      "layout": "pip_circles",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"There was only supposed to be one.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1586.05,
+      "end": 1589.67,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"Shit. What's wrong, Bruce? Can't find a signal.\""
+    },
+    {
+      "start": 1597.6,
+      "end": 1599.8,
+      "layout": "pip_circles",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"Terry, this team must have had their own comms kit.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1604.19,
+      "end": 1608.01,
+      "layout": "pip_circles",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"See if you can find anything else useful. Yeah, but... Not now, Spoon.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1613.36,
+      "end": 1615.8,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"It was only supposed to be one.\""
+    },
+    {
+      "start": 1624.39,
+      "end": 1627.88,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"but this is part of our exercise. We're not advertising.\""
+    },
+    {
+      "start": 1631.46,
+      "end": 1634.72,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"This point, you mean it's some kind of covert action? Cobra action or not.\""
+    },
+    {
+      "start": 1639.65,
+      "end": 1642.22,
+      "layout": "pip_circles",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"Spearhead control, calling division HQ. Special war commissioner.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1649.31,
+      "end": 1652.28,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"What's he on about, Sarge? Terry, get back on stag now.\""
+    },
+    {
+      "start": 1659.58,
+      "end": 1663.46,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"They tore them to pieces. They're in front of my eye.\""
+    },
+    {
+      "start": 1666.3,
+      "end": 1667.78,
+      "layout": "pip_circles",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"he's going to die of hypothermia.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1672.15,
+      "end": 1674.75,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film: \"I don't know if you care, but in about half an hour, it's going to be dark.\""
+    },
+    {
+      "start": 1681.25,
+      "end": 1684.0,
+      "layout": "panel",
+      "film_beat": "They find the SAS camp torn apart; Ryan alive - \"There was only supposed to be one\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1696.0,
+      "end": 1699.41,
+      "layout": "panel",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"mate, bin it. I also found\""
+    },
+    {
+      "start": 1705.84,
+      "end": 1707.68,
+      "layout": "panel",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"Why would they put a bugging out radio?\""
+    },
+    {
+      "start": 1711.68,
+      "end": 1714.67,
+      "layout": "pip_circles",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"Bad news, Spoon. No, Terry, it's probably some joke.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1721.86,
+      "end": 1723.76,
+      "layout": "panel",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"a couple of magnesium flares.\""
+    },
+    {
+      "start": 1728.23,
+      "end": 1731.14,
+      "layout": "panel",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"the exercise is well and truly over.\""
+    },
+    {
+      "start": 1738.42,
+      "end": 1740.5,
+      "layout": "pip_circles",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"They won't die. Yeah, well.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1762.13,
+      "end": 1765.31,
+      "layout": "panel",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"All right, lads. Grab what you can. Head with the tree line.\""
+    },
+    {
+      "start": 1773.31,
+      "end": 1776.91,
+      "layout": "panel",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1782.52,
+      "end": 1784.92,
+      "layout": "panel",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"I need a volunteer for record action. I'll do it.\""
+    },
+    {
+      "start": 1792.92,
+      "end": 1795.2,
+      "layout": "panel",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"Right, Spoonie. You're on point.\""
+    },
+    {
+      "start": 1800.59,
+      "end": 1802.22,
+      "layout": "pip_circles",
+      "film_beat": "Radio fried, transmitter found, blanks ditched; first howls and the retreat",
+      "iconic": false,
+      "reason": "Film: \"Double time. Go.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1830.93,
+      "end": 1832.73,
+      "layout": "pip_circles",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1836.53,
+      "end": 1839.83,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1841.83,
+      "end": 1844.43,
+      "layout": "pip_circles",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1847.13,
+      "end": 1850.93,
+      "layout": "pip_circles",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1854.33,
+      "end": 1855.83,
+      "layout": "pip_circles",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1857.93,
+      "end": 1860.83,
+      "layout": "pip_circles",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1865.43,
+      "end": 1868.0,
+      "layout": "pip_circles",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1869.42,
+      "end": 1872.44,
+      "layout": "panel_hosts_only",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"have any what is going on? It's getting jammed.\""
+    },
+    {
+      "start": 1873.0,
+      "end": 1875.4,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1878.4,
+      "end": 1881.5,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1888.0,
+      "end": 1889.6,
+      "layout": "pip_circles",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1891.9,
+      "end": 1895.9,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1898.8,
+      "end": 1901.6,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1903.7,
+      "end": 1907.0,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1907.83,
+      "end": 1911.87,
+      "layout": "panel_hosts_only",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Into that like he ran into that\""
+    },
+    {
+      "start": 1913.0,
+      "end": 1914.8,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1918.8,
+      "end": 1922.1,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1928.1,
+      "end": 1930.7,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1933.7,
+      "end": 1937.5,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1941.5,
+      "end": 1943.0,
+      "layout": "pip_circles",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 1949.0,
+      "end": 1951.9,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1954.9,
+      "end": 1958.5,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1962.5,
+      "end": 1964.9,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1972.97,
+      "end": 1975.89,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film: \"Roy, it's a bloody hypocrite. Where's Bruce?\""
+    },
+    {
+      "start": 1978.21,
+      "end": 1980.5,
+      "layout": "hosts_full",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Jesus. Oh\""
+    },
+    {
+      "start": 1983.4,
+      "end": 1987.4,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 1990.81,
+      "end": 1993.81,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film: \"Oh, Jesus, I hit my camera out, goo.\""
+    },
+    {
+      "start": 1998.48,
+      "end": 1999.92,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film: \"Course they'll fit, man.\""
+    },
+    {
+      "start": 2002.16,
+      "end": 2003.71,
+      "layout": "panel",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Film: \"Come on. Come on.\""
+    },
+    {
+      "start": 2006.14,
+      "end": 2013.06,
+      "layout": "panel_hosts_only",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"is how he got the job for Grey's Anatomy. That's the guy from Grey's Anatomy. Holy crap\""
+    },
+    {
+      "start": 2018.43,
+      "end": 2020.43,
+      "layout": "pip_circles_hosts_only",
+      "film_beat": "Woods attack: running fight, Wells gutted, Bruce impaled",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"It's like predator vision.\""
+    },
+    {
+      "start": 2022.0,
+      "end": 2025.3,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2028.7,
+      "end": 2031.3,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2033.4,
+      "end": 2037.2,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2041.8,
+      "end": 2043.3,
+      "layout": "pip_circles",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2045.7,
+      "end": 2048.6,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2051.6,
+      "end": 2055.2,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2061.7,
+      "end": 2063.0,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2064.31,
+      "end": 2070.2,
+      "layout": "panel_hosts_only",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"What do you need to kill a werewolf? I thought it was like a silver spike\""
+    },
+    {
+      "start": 2071.0,
+      "end": 2074.1,
+      "layout": "pip_circles",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2076.67,
+      "end": 2090.53,
+      "layout": "pip_circles_hosts_only",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Yeah, get to the Jeep. Get to the Jeep. He was a Jeep. He's a werewolf driving the Jeep\""
+    },
+    {
+      "start": 2091.0,
+      "end": 2092.6,
+      "layout": "pip_circles",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2094.7,
+      "end": 2098.7,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2102.5,
+      "end": 2105.3,
+      "layout": "pip_circles",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2107.5,
+      "end": 2110.9,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2113.6,
+      "end": 2115.4,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2118.8,
+      "end": 2122.1,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2124.2,
+      "end": 2126.8,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2128.78,
+      "end": 2139.25,
+      "layout": "pip_circles_hosts_only",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Jesus how big is that friggin thing?\""
+    },
+    {
+      "start": 2141.65,
+      "end": 2143.15,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2146.15,
+      "end": 2149.05,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2155.55,
+      "end": 2159.15,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2161.45,
+      "end": 2163.85,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2166.75,
+      "end": 2168.0,
+      "layout": "pip_circles",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2168.69,
+      "end": 2173.54,
+      "layout": "hosts_full",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"My goodness That was intense\""
+    },
+    {
+      "start": 2181.71,
+      "end": 2185.71,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2187.94,
+      "end": 2190.85,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film: \"were attacked by a huge fucking owl and things.\""
+    },
+    {
+      "start": 2205.68,
+      "end": 2210.39,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film: \"Both need medical attention, but we need to address the Sergeant's wounds before we can take him too far.\" - Megan glances back and she and Ryan share the look our next line is about. Runs past 4s: the look (2206-2210) and the line both end at 2210.25."
+    },
+    {
+      "start": 2210.39,
+      "end": 2212.25,
+      "layout": "panel_hosts_only",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"she knows him for sure\" - the call that starts the Megan-knows-Ryan running bit, right after the look"
+    },
+    {
+      "start": 2212.25,
+      "end": 2215.8,
+      "layout": "panel",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Film: \"but the owners are friends. We can take your men there.\" - sets up the farmhouse (and Megan's lie: it's her family's house)"
+    },
+    {
+      "start": 2224.14,
+      "end": 2227.84,
+      "layout": "panel_hosts_only",
+      "film_beat": "Run to the road; Megan's Land Rover picks them up, a werewolf attacks the vehicle",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Why do you think she knows him? Like the way that they looked at each other\""
+    },
+    {
+      "start": 2230.63,
+      "end": 2243.74,
+      "layout": "panel_hosts_only",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"It's going to that creepy house It's better than no house to be in right? I guess I Mean I think just tore through a Jeep. I mean, I don't know what what's the house gonna do\""
+    },
+    {
+      "start": 2250.0,
+      "end": 2253.4,
+      "layout": "panel",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2259.4,
+      "end": 2261.2,
+      "layout": "pip_circles",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2270.2,
+      "end": 2273.5,
+      "layout": "panel",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2279.5,
+      "end": 2282.1,
+      "layout": "panel",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2291.1,
+      "end": 2294.9,
+      "layout": "panel",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2301.23,
+      "end": 2304.73,
+      "layout": "panel_hosts_only",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"little pigs little pigs. Is that what he said?\""
+    },
+    {
+      "start": 2340.81,
+      "end": 2342.45,
+      "layout": "panel",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "us: \"We had dog in there.\""
+    },
+    {
+      "start": 2348.95,
+      "end": 2351.85,
+      "layout": "panel",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2354.15,
+      "end": 2357.75,
+      "layout": "panel",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2360.65,
+      "end": 2363.05,
+      "layout": "panel",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2366.0,
+      "end": 2367.36,
+      "layout": "panel_hosts_only",
+      "film_beat": "Drive to the house",
+      "iconic": false,
+      "reason": "our take, heard clean: \"They're making soup\""
+    },
+    {
+      "start": 2391.04,
+      "end": 2395.04,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2397.74,
+      "end": 2400.54,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2405.53,
+      "end": 2407.93,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"Upstairs. Where\" / us: \"Whoa.\""
+    },
+    {
+      "start": 2410.64,
+      "end": 2411.96,
+      "layout": "pip_circles",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"the hell are we now?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2417.06,
+      "end": 2419.14,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"Spoon, get a field dressing on that wound.\""
+    },
+    {
+      "start": 2422.0,
+      "end": 2424.6,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2427.6,
+      "end": 2431.4,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2437.0,
+      "end": 2439.07,
+      "layout": "pip_circles",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"What? No. Still hot lads?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2443.75,
+      "end": 2446.49,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"Can't help myself. It's the training myth.\""
+    },
+    {
+      "start": 2451.68,
+      "end": 2453.56,
+      "layout": "hosts_full",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Oh, that's gotta be so painful\""
+    },
+    {
+      "start": 2467.6,
+      "end": 2471.12,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"Hold it. Hold it. Whoa.\""
+    },
+    {
+      "start": 2474.34,
+      "end": 2476.5,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"Yeah, we'll leave some for us, you greedy mongrels.\""
+    },
+    {
+      "start": 2481.5,
+      "end": 2483.1,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2488.46,
+      "end": 2490.72,
+      "layout": "pip_circles",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"What about the nearest population centre?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2497.16,
+      "end": 2499.71,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"Do you think your wounded can make it? We have to try.\""
+    },
+    {
+      "start": 2503.35,
+      "end": 2506.57,
+      "layout": "panel",
+      "film_beat": "Arrival at the empty farmhouse; stew on, no phone",
+      "iconic": false,
+      "reason": "Film: \"Will you take us? Right now. Well, unless your friends are just gone walk about,\" / us: \"Holy\""
+    },
+    {
+      "start": 2520.08,
+      "end": 2522.46,
+      "layout": "pip_circles",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film: \"Terry, watch him.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2527.06,
+      "end": 2530.36,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2532.76,
+      "end": 2535.36,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2538.36,
+      "end": 2542.16,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2548.66,
+      "end": 2550.16,
+      "layout": "pip_circles",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2552.46,
+      "end": 2555.36,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2558.26,
+      "end": 2560.0,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2565.16,
+      "end": 2566.32,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film: \"Go on.\""
+    },
+    {
+      "start": 2570.91,
+      "end": 2574.9,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film: \"back. I can't help it.\""
+    },
+    {
+      "start": 2577.24,
+      "end": 2577.96,
+      "layout": "pip_circles",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film: \"Go!\". no usable word boundary near 4s (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2583.73,
+      "end": 2586.43,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "us: \"for them. Oh Not\""
+    },
+    {
+      "start": 2588.67,
+      "end": 2590.95,
+      "layout": "pip_circles",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film: \"I put the kibosh on that plan.\" - the car run is over; they're trapped (was clipped to \"that plan.\")"
+    },
+    {
+      "start": 2600.0,
+      "end": 2603.4,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2608.89,
+      "end": 2610.75,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "us: \"Oh, I\""
+    },
+    {
+      "start": 2618.75,
+      "end": 2622.05,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2627.05,
+      "end": 2629.0,
+      "layout": "panel",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2630.85,
+      "end": 2640.83,
+      "layout": "panel_hosts_only",
+      "film_beat": "Car run blocked - the werewolves wreck the vehicle; they're trapped",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"don't think he's pulling on his intestines. It's like paint that stuff. It's just gauze I thought it was his intestines Well, it's still hurting him\""
+    },
+    {
+      "start": 2679.91,
+      "end": 2683.51,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"You know what to do. I want a secure perimeter with a clear field of fire\""
+    },
+    {
+      "start": 2695.6,
+      "end": 2698.91,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"Look, we've got limited ammunition. When you get as many pots and pans\""
+    },
+    {
+      "start": 2701.43,
+      "end": 2702.48,
+      "layout": "pip_circles",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"them on the boiler, all right?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2706.67,
+      "end": 2709.68,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"While you're at it, stick the kettle on. Could all do with the brew.\" / us: \"burn them.\""
+    },
+    {
+      "start": 2711.88,
+      "end": 2714.98,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2717.68,
+      "end": 2720.23,
+      "layout": "pip_circles",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"Terry. Get's on with this.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2726.09,
+      "end": 2729.31,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"Ah, you fool. You came here because of them, right?\" / us: \"I saw where the hell the people\""
+    },
+    {
+      "start": 2737.55,
+      "end": 2739.97,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"So this wasn't a rescue mission? What?\""
+    },
+    {
+      "start": 2744.97,
+      "end": 2748.12,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"What's happening at the hospital? Well, they're still moving around out there\""
+    },
+    {
+      "start": 2756.19,
+      "end": 2757.94,
+      "layout": "pip_circles",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"My guess is they're doing\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2762.94,
+      "end": 2766.15,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"I'm not about to second -guess these things. They're the enemy. Simple as that.\""
+    },
+    {
+      "start": 2790.75,
+      "end": 2796.07,
+      "layout": "panel_hosts_only",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"I think that dude's gonna turn into a dog person. I Don't know\""
+    },
+    {
+      "start": 2797.66,
+      "end": 2799.81,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"against 10 ,000 Zolo warriors.\""
+    },
+    {
+      "start": 2802.11,
+      "end": 2806.09,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"Surrounded. Staring death in the face. Not flinching for a moment.\""
+    },
+    {
+      "start": 2810.86,
+      "end": 2812.86,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"You're bloody loving this, aren't you?\""
+    },
+    {
+      "start": 2818.0,
+      "end": 2821.6,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 2825.4,
+      "end": 2827.8,
+      "layout": "pip_circles",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2830.25,
+      "end": 2833.26,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"Not entirely wolf. Nor all human\""
+    },
+    {
+      "start": 2836.79,
+      "end": 2838.07,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"Not a laugh, right?\""
+    },
+    {
+      "start": 2841.57,
+      "end": 2843.99,
+      "layout": "pip_circles",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"Stay here and drink tea.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2846.38,
+      "end": 2848.91,
+      "layout": "panel",
+      "film_beat": "Fortify the house - pots of boiling water, the kettle; \"Rorke's Drift\"",
+      "iconic": false,
+      "reason": "Film: \"but I guess I'm not. Just don't be an arsehole.\""
+    },
+    {
+      "start": 2853.07,
+      "end": 2856.42,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"How are you feeling?\""
+    },
+    {
+      "start": 2861.79,
+      "end": 2863.36,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"try and vacate the premises.\""
+    },
+    {
+      "start": 2869.94,
+      "end": 2873.47,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"What's that? Cheers.\""
+    },
+    {
+      "start": 2881.3,
+      "end": 2882.8,
+      "layout": "pip_circles",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"Why you no loud man?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2889.52,
+      "end": 2892.08,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"Do you have a name, soldier? Cooper.\""
+    },
+    {
+      "start": 2895.76,
+      "end": 2896.94,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"My name is Megan.\""
+    },
+    {
+      "start": 2902.9,
+      "end": 2906.17,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"Look, I need to get some super glue and some whiskey, all right?\""
+    },
+    {
+      "start": 2910.9,
+      "end": 2913.76,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"I've got a mean streak a mile across. Sorry.\""
+    },
+    {
+      "start": 2917.05,
+      "end": 2917.96,
+      "layout": "pip_circles",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"my gun, please?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2946.55,
+      "end": 2951.81,
+      "layout": "panel_hosts_only",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Oh, there's a real sword Here's a real sword way more. Give\""
+    },
+    {
+      "start": 2955.03,
+      "end": 2958.72,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"What's the glue for? Never wonder why the best thing\""
+    },
+    {
+      "start": 2963.13,
+      "end": 2965.27,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"Forget your grandma's chain of cups.\""
+    },
+    {
+      "start": 2967.9,
+      "end": 2969.51,
+      "layout": "pip_circles",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"to patch up broken soldiers.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 2986.09,
+      "end": 2988.78,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"You know what he's under. All right.\""
+    },
+    {
+      "start": 2995.23,
+      "end": 2997.6,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"I'll tell you something, mate. I'm going to fucking thank you.\""
+    },
+    {
+      "start": 3001.76,
+      "end": 3003.28,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"You got me out of there, mate.\""
+    },
+    {
+      "start": 3016.83,
+      "end": 3023.67,
+      "layout": "panel_hosts_only",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Feeling too good for his injuries I'm saying maybe he's turning into a dog person\""
+    },
+    {
+      "start": 3027.82,
+      "end": 3033.16,
+      "layout": "pip_circles",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"Jesus. Sausages.\". Runs past 4s: the guts reveal and \"Sausages\" land together"
+    },
+    {
+      "start": 3037.43,
+      "end": 3040.65,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"He's a skeezer here, right? He's my best mate.\""
+    },
+    {
+      "start": 3043.59,
+      "end": 3046.46,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"I mean, don't get me wrong. The rest of the skeezers in the squad, they're not all right, love.\""
+    },
+    {
+      "start": 3049.36,
+      "end": 3051.0,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3054.25,
+      "end": 3055.75,
+      "layout": "pip_circles",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3060.79,
+      "end": 3062.8,
+      "layout": "pip_circles",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"I love him. I love you!\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3086.34,
+      "end": 3089.93,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"Cooper. Knock\""
+    },
+    {
+      "start": 3093.62,
+      "end": 3095.86,
+      "layout": "pip_circles",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film: \"Oh, you fucking pussy, Eddie.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3099.0,
+      "end": 3102.1,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3105.1,
+      "end": 3107.56,
+      "layout": "panel_hosts_only",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "our take, heard clean: \"Holy crap, that's\""
+    },
+    {
+      "start": 3112.16,
+      "end": 3116.16,
+      "layout": "panel",
+      "film_beat": "Superglue-and-whiskey surgery on Wells' guts; \"Sausages\"; drunk \"I love you\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3120.0,
+      "end": 3123.12,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Say hello. You lived around here? Two years.\""
+    },
+    {
+      "start": 3127.12,
+      "end": 3130.74,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"I'm a zoologist. You've heard those stories as well then.\""
+    },
+    {
+      "start": 3138.6,
+      "end": 3141.03,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Straight out of college, I'd have laughed at the suggestion.\""
+    },
+    {
+      "start": 3148.59,
+      "end": 3155.91,
+      "layout": "panel_hosts_only",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"supposed to mean yeah, they don't know already that there's dog people outside walking around dog people It's werewolves.\""
+    },
+    {
+      "start": 3156.61,
+      "end": 3160.25,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Yeah. We glue people's guts together all the time out here.\""
+    },
+    {
+      "start": 3169.34,
+      "end": 3171.96,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Everyone tilled up? Tilled the nines.\""
+    },
+    {
+      "start": 3179.95,
+      "end": 3181.79,
+      "layout": "pip_circles",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Terry, look sharp.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3191.72,
+      "end": 3194.17,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"we still have a fighting chance, no more running.\""
+    },
+    {
+      "start": 3200.78,
+      "end": 3204.38,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Not just the one, Cooper. Exactly what is it we're fighting against?\""
+    },
+    {
+      "start": 3207.08,
+      "end": 3210.66,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Like and throats. You what? That's werewolves to you and me.\""
+    },
+    {
+      "start": 3214.62,
+      "end": 3219.06,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Makes perfect sense to me. What, you mean like full moon, silver bullets, and eyebrows that join in the middle?\" / us: \"it's silver\". Runs past 4s: the rules list is one line, ending at 3218.97; it was muted under our talk before."
+    },
+    {
+      "start": 3219.06,
+      "end": 3220.91,
+      "layout": "panel_hosts_only",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"bullets. It's a silver bullets.\""
+    },
+    {
+      "start": 3222.92,
+      "end": 3226.06,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"The full moon, the teeth, the claws, the howling.\""
+    },
+    {
+      "start": 3231.92,
+      "end": 3234.68,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"I've studied them, tried to understand them.\""
+    },
+    {
+      "start": 3241.68,
+      "end": 3243.92,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"at least 15 people have vanished.\""
+    },
+    {
+      "start": 3248.46,
+      "end": 3251.08,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"hunted down, torn apart, and developed.\""
+    },
+    {
+      "start": 3261.14,
+      "end": 3264.52,
+      "layout": "pip_circles",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"The eyebrows thing is nonsense. It's just dark-age paranoia.\" - the line fans quote from Megan's explanation (replaces a bare \"Just blood.\")"
+    },
+    {
+      "start": 3280.23,
+      "end": 3284.18,
+      "layout": "panel",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"What they may or may not be does not affect our immediate situation one bit.\""
+    },
+    {
+      "start": 3287.67,
+      "end": 3290.8,
+      "layout": "pip_circles",
+      "film_beat": "Megan explains the werewolves; \"it's just so fucking bone\"",
+      "iconic": true,
+      "reason": "Film: \"Anything else? Yeah. What does bone mean?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3299.0,
+      "end": 3300.73,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"Call signs. You need to be specific.\""
+    },
+    {
+      "start": 3304.6,
+      "end": 3307.62,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"You've got Spoon over there. The vomiting cavalier, Terry.\""
+    },
+    {
+      "start": 3311.02,
+      "end": 3312.54,
+      "layout": "pip_circles",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"Couldn't you forget someone?\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3330.0,
+      "end": 3332.4,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3335.67,
+      "end": 3339.51,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"Suit in a uniform does not make a soldier. He's with special ops.\""
+    },
+    {
+      "start": 3344.11,
+      "end": 3345.74,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"I'd advise you against pursuing this\""
+    },
+    {
+      "start": 3348.14,
+      "end": 3349.93,
+      "layout": "pip_circles",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"You're pulling rank of me now, Captain.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3361.67,
+      "end": 3363.99,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"We need each other. I don't.\""
+    },
+    {
+      "start": 3371.47,
+      "end": 3375.29,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"Circumstances change. What? Who else? It's Celtic.\""
+    },
+    {
+      "start": 3377.99,
+      "end": 3379.79,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3388.06,
+      "end": 3390.96,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"I kind of think of it, Ryan. How are you feeling? I'm fine.\""
+    },
+    {
+      "start": 3395.8,
+      "end": 3399.4,
+      "layout": "panel_hosts_only",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"telling you he's maybe he's on to him. He's on to him.\""
+    },
+    {
+      "start": 3401.29,
+      "end": 3403.54,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"of a man who, until recently,\""
+    },
+    {
+      "start": 3406.02,
+      "end": 3407.86,
+      "layout": "pip_circles",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"I have a strong constitution.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3410.56,
+      "end": 3414.52,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"He won't mind if I have a look at that wound of yours. Just assume you didn't.\""
+    },
+    {
+      "start": 3417.92,
+      "end": 3420.56,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film: \"Don't touch me. Get back!\""
+    },
+    {
+      "start": 3422.66,
+      "end": 3425.0,
+      "layout": "panel",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3439.31,
+      "end": 3446.93,
+      "layout": "panel_hosts_only",
+      "film_beat": "Cooper confronts Ryan - healed wound, no insignia; Ryan tied up",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"He's healed Yeah, but that means he's gonna turn into a friggin werewolf With super strength.\""
+    },
+    {
+      "start": 3452.86,
+      "end": 3455.58,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film: \"What now? They shut down the generator.\""
+    },
+    {
+      "start": 3458.16,
+      "end": 3459.72,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film: \"And you're afraid of it.\""
+    },
+    {
+      "start": 3462.9,
+      "end": 3466.66,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film: \"I'm gonna believe you. I think Joe might have worded it better.\""
+    },
+    {
+      "start": 3474.66,
+      "end": 3476.26,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film: \"Three lone bursts.\""
+    },
+    {
+      "start": 3479.1,
+      "end": 3480.07,
+      "layout": "pip_circles",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film: \"To only use\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3484.12,
+      "end": 3492.84,
+      "layout": "panel_hosts_only",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Okay. Why haven't they talked about how to kill the damn things yet? What do you mean? The woman said she knows how to kill them. Well, they don't friggin listen to women. That's the problem\""
+    },
+    {
+      "start": 3498.15,
+      "end": 3500.17,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film: \"He tries anything. Panning.\""
+    },
+    {
+      "start": 3512.0,
+      "end": 3514.6,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3518.6,
+      "end": 3522.4,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3529.4,
+      "end": 3530.9,
+      "layout": "pip_circles",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3534.9,
+      "end": 3537.8,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3544.8,
+      "end": 3548.4,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3552.4,
+      "end": 3554.8,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3560.0,
+      "end": 3563.1,
+      "layout": "pip_circles",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3569.1,
+      "end": 3570.7,
+      "layout": "pip_circles",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3580.0,
+      "end": 3584.0,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3586.3,
+      "end": 3589.1,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3592.0,
+      "end": 3595.4,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3615.95,
+      "end": 3626.25,
+      "layout": "panel_hosts_only",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"need a flamethrower Those things are ripped.\""
+    },
+    {
+      "start": 3634.0,
+      "end": 3635.8,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3643.8,
+      "end": 3647.1,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3652.1,
+      "end": 3654.7,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3662.7,
+      "end": 3666.5,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3671.5,
+      "end": 3673.0,
+      "layout": "pip_circles",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3681.0,
+      "end": 3683.9,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3693.0,
+      "end": 3695.4,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3697.8,
+      "end": 3700.9,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3706.0,
+      "end": 3707.6,
+      "layout": "pip_circles",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3714.31,
+      "end": 3729.51,
+      "layout": "panel_hosts_only",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"we're gonna cough his arm. Oh He's just gonna regrow another arm\""
+    },
+    {
+      "start": 3731.0,
+      "end": 3735.0,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3737.3,
+      "end": 3740.1,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3746.69,
+      "end": 3748.61,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "us: \"it's all I'm\""
+    },
+    {
+      "start": 3761.41,
+      "end": 3764.01,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3765.91,
+      "end": 3768.27,
+      "layout": "hosts_full",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Oh my god. Oh\""
+    },
+    {
+      "start": 3770.0,
+      "end": 3773.8,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3777.2,
+      "end": 3778.7,
+      "layout": "pip_circles",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3780.8,
+      "end": 3783.7,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3790.97,
+      "end": 3794.04,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "us: \"the window Holy crap,\""
+    },
+    {
+      "start": 3796.44,
+      "end": 3798.84,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3801.84,
+      "end": 3804.94,
+      "layout": "panel",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3812.83,
+      "end": 3818.79,
+      "layout": "panel_hosts_only",
+      "film_beat": "Generator cut; first full assault on the house",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"still alive. They are still kicking Hey, yeah, they can't be killed. So that's what the dude said.\""
+    },
+    {
+      "start": 3820.59,
+      "end": 3823.99,
+      "layout": "pip_circles",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film: \"Dogs. More like pussies.\""
+    },
+    {
+      "start": 3836.0,
+      "end": 3837.6,
+      "layout": "pip_circles",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3844.44,
+      "end": 3847.2,
+      "layout": "panel",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "us: \"wanted them. I think she's about to be\""
+    },
+    {
+      "start": 3853.2,
+      "end": 3856.0,
+      "layout": "panel",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3860.0,
+      "end": 3863.4,
+      "layout": "pip_circles",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3869.4,
+      "end": 3871.2,
+      "layout": "panel",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3875.2,
+      "end": 3878.5,
+      "layout": "panel",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3886.98,
+      "end": 3888.12,
+      "layout": "pip_circles",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film: \"Took Terry.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3891.52,
+      "end": 3895.42,
+      "layout": "panel",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film: \"Let me go and get him back. Too fucking right. Forget about him.\""
+    },
+    {
+      "start": 3899.0,
+      "end": 3900.5,
+      "layout": "pip_circles",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3905.1,
+      "end": 3908.0,
+      "layout": "panel",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3910.4,
+      "end": 3914.0,
+      "layout": "panel",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3917.0,
+      "end": 3919.4,
+      "layout": "panel",
+      "film_beat": "Terry: \"Dogs. More like pussies.\" - and Terry is taken",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 3925.56,
+      "end": 3927.28,
+      "layout": "pip_circles",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"Somebody must have heard something.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 3933.59,
+      "end": 3935.77,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"Pass us by. Do you have any idea what kind of luck\""
+    },
+    {
+      "start": 3946.65,
+      "end": 3950.65,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"Even if anyone did come by, they'd only end up lands for the slaughter like you.\""
+    },
+    {
+      "start": 3956.87,
+      "end": 3958.65,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"We did the best we could.\""
+    },
+    {
+      "start": 3971.75,
+      "end": 3981.73,
+      "layout": "panel_hosts_only",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"creepy guy in the house like what are they supposed to do with him? He's turning into a dog person. He's gonna join their dog crew the pack\""
+    },
+    {
+      "start": 4001.0,
+      "end": 4004.25,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"Think about it, Cooper. Up until today,\""
+    },
+    {
+      "start": 4009.68,
+      "end": 4011.95,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"but at least it was a line.\""
+    },
+    {
+      "start": 4017.95,
+      "end": 4019.62,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"If they're real, what else is real?\""
+    },
+    {
+      "start": 4025.24,
+      "end": 4028.06,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"You may never get another night's sleep as long as you live.\""
+    },
+    {
+      "start": 4032.24,
+      "end": 4033.72,
+      "layout": "pip_circles",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"Shut your mouth.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4038.84,
+      "end": 4040.44,
+      "layout": "pip_circles",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"I don't scare that easy.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4045.1,
+      "end": 4048.56,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"Yeah. Supposed\""
+    },
+    {
+      "start": 4051.83,
+      "end": 4055.13,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"You'll need a lot more than luck this time. Shut up, Ryan!\" / us: \"I\""
+    },
+    {
+      "start": 4060.31,
+      "end": 4062.88,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"That's all that matters. It's just a few more hours. Wait a minute.\""
+    },
+    {
+      "start": 4065.18,
+      "end": 4068.28,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4072.4,
+      "end": 4074.12,
+      "layout": "pip_circles",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"I was seconded to his team\" / us: \"knew him.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4076.91,
+      "end": 4080.85,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"What first? What the fuck are you talking about? They came to check out the stories.\""
+    },
+    {
+      "start": 4090.76,
+      "end": 4103.02,
+      "layout": "panel_hosts_only",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"I thought you meant that he knew she knew him the blonde guy She knows the special ops guy. Oh Well, I got that now after she said it.\""
+    },
+    {
+      "start": 4104.64,
+      "end": 4108.4,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film: \"Just in case. Stay sharp, everyone.\""
+    },
+    {
+      "start": 4110.6,
+      "end": 4114.0,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4117.62,
+      "end": 4118.84,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "us: \"He's sleepy.\""
+    },
+    {
+      "start": 4122.24,
+      "end": 4125.54,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4128.13,
+      "end": 4142.75,
+      "layout": "panel_hosts_only",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Oh, she's getting a gun. She's getting a gun You know what? She's doing that gun too. I think she She knows more than she's saying she\""
+    },
+    {
+      "start": 4143.0,
+      "end": 4145.6,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4150.2,
+      "end": 4154.0,
+      "layout": "panel",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4156.4,
+      "end": 4157.9,
+      "layout": "pip_circles",
+      "film_beat": "Waiting for sunrise; Ryan taunts Cooper; Megan let slip she knew Ryan's team",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4164.66,
+      "end": 4168.33,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"I mean, we filled those things with lead and they just kept on getting up and coming back at us.\""
+    },
+    {
+      "start": 4176.33,
+      "end": 4179.43,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"Well, one of us goes for help. By the time the cavalry get here,\""
+    },
+    {
+      "start": 4183.43,
+      "end": 4186.53,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4191.53,
+      "end": 4193.13,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4203.32,
+      "end": 4206.08,
+      "layout": "pip_circles",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"Decisions, decisions. Laugh.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4210.8,
+      "end": 4214.14,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"We'll fucking have it! Make it easy, big man. Calm down.\""
+    },
+    {
+      "start": 4219.86,
+      "end": 4223.16,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"I don't know where the keys are, but if one of you could break in and start it, then...\""
+    },
+    {
+      "start": 4231.36,
+      "end": 4232.56,
+      "layout": "pip_circles",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"the happier I'll be.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4237.5,
+      "end": 4239.22,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"Something fast and loud.\""
+    },
+    {
+      "start": 4241.22,
+      "end": 4243.82,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4268.1,
+      "end": 4271.36,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"You're serious about this werewolf thing, aren't you? Afraid so.\""
+    },
+    {
+      "start": 4275.66,
+      "end": 4279.0,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"Don't suppose you know who won the match? Didn't even know there was a game on.\""
+    },
+    {
+      "start": 4282.44,
+      "end": 4283.78,
+      "layout": "pip_circles",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"Everyone get ready.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4285.88,
+      "end": 4287.48,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4293.52,
+      "end": 4297.43,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"Joe. Good luck, man.\""
+    },
+    {
+      "start": 4301.0,
+      "end": 4303.8,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4306.5,
+      "end": 4309.0,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4310.21,
+      "end": 4312.31,
+      "layout": "panel_hosts_only",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"I mean, they're gonna see him\""
+    },
+    {
+      "start": 4325.0,
+      "end": 4326.8,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4340.68,
+      "end": 4343.14,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film: \"I think you're hurting up!\""
+    },
+    {
+      "start": 4349.14,
+      "end": 4352.94,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4364.61,
+      "end": 4366.0,
+      "layout": "panel",
+      "film_beat": "Plan to hotwire the Land Rover in the barn; Cooper as decoy",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4377.38,
+      "end": 4381.34,
+      "layout": "pip_circles_hosts_only",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"There's more than one one can be Oh God\""
+    },
+    {
+      "start": 4382.0,
+      "end": 4385.6,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4388.5,
+      "end": 4390.9,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4393.0,
+      "end": 4396.1,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4399.9,
+      "end": 4401.5,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4403.7,
+      "end": 4405.0,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4405.24,
+      "end": 4410.42,
+      "layout": "panel_hosts_only",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"You think he's gonna climb up? Climb up there the\""
+    },
+    {
+      "start": 4411.0,
+      "end": 4413.8,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4417.2,
+      "end": 4420.6,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4422.7,
+      "end": 4424.5,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4426.69,
+      "end": 4432.93,
+      "layout": "panel_hosts_only",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"flash the light. They don't like the light apparently. Oh All\""
+    },
+    {
+      "start": 4437.0,
+      "end": 4440.3,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4442.7,
+      "end": 4445.3,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4448.3,
+      "end": 4452.0,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4452.61,
+      "end": 4457.51,
+      "layout": "hosts_full",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Eating somebody. Oh, I just ripped his head off. That\""
+    },
+    {
+      "start": 4460.0,
+      "end": 4461.5,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4468.5,
+      "end": 4471.4,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4477.4,
+      "end": 4481.0,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4491.0,
+      "end": 4493.4,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4500.4,
+      "end": 4503.5,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4509.5,
+      "end": 4511.1,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4521.1,
+      "end": 4525.1,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4532.1,
+      "end": 4534.9,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4540.9,
+      "end": 4544.3,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4552.73,
+      "end": 4555.99,
+      "layout": "hosts_full",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"was gross That was gross\""
+    },
+    {
+      "start": 4557.0,
+      "end": 4558.8,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4561.2,
+      "end": 4564.5,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4567.58,
+      "end": 4578.76,
+      "layout": "panel_hosts_only",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"She's like part of the family or something like that. Those are her like family members. I don't know She said she was a zoologist from not there\""
+    },
+    {
+      "start": 4580.0,
+      "end": 4582.6,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4590.6,
+      "end": 4594.4,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4599.4,
+      "end": 4600.9,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4608.9,
+      "end": 4611.8,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4616.8,
+      "end": 4620.4,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4628.1,
+      "end": 4630.43,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "us: \"They're all like oh man, it's been a long\""
+    },
+    {
+      "start": 4632.74,
+      "end": 4635.84,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4638.54,
+      "end": 4640.14,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4643.54,
+      "end": 4647.54,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4649.64,
+      "end": 4652.44,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4657.04,
+      "end": 4660.44,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4662.84,
+      "end": 4664.64,
+      "layout": "pip_circles",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4681.16,
+      "end": 4683.57,
+      "layout": "panel",
+      "film_beat": "Land Rover escape - Joe killed by a werewolf in the back seat",
+      "iconic": true,
+      "reason": "Film: \"Pump's gone. Fan belt's bugging.\""
+    },
+    {
+      "start": 4699.66,
+      "end": 4702.72,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"We're down to 48 rounds. Check the right.\""
+    },
+    {
+      "start": 4705.36,
+      "end": 4712.78,
+      "layout": "panel_hosts_only",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"wouldn't he already be a werewolf if he was gonna be a werewolf? I don't know. Maybe it takes some time for him to transition. They\""
+    },
+    {
+      "start": 4713.0,
+      "end": 4714.5,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4717.11,
+      "end": 4719.83,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"They think it's all over and all that crap.\""
+    },
+    {
+      "start": 4725.1,
+      "end": 4727.78,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"Fucking live for it. Is this relevant?\""
+    },
+    {
+      "start": 4731.21,
+      "end": 4732.12,
+      "layout": "pip_circles",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"And now he's dead.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4737.66,
+      "end": 4741.58,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"You just can't get past the dog, can you? We're losing, Ryan.\" - the opening dog test comes back between them"
+    },
+    {
+      "start": 4744.3,
+      "end": 4746.82,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"At the very least, I wanna even the score.\" (was 5.6s of \"score. I understand your resentment,\")"
+    },
+    {
+      "start": 4754.32,
+      "end": 4757.07,
+      "layout": "pip_circles",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"because you weren't prepared to take that extra step.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4767.07,
+      "end": 4770.07,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"He's given the choice of taking orders from a toughy nose twat\""
+    },
+    {
+      "start": 4773.58,
+      "end": 4776.55,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"so you can take your precious selection, shove it up your arse,\""
+    },
+    {
+      "start": 4783.0,
+      "end": 4784.8,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4791.3,
+      "end": 4793.42,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"But you aren't like what I have to tell you.\""
+    },
+    {
+      "start": 4797.18,
+      "end": 4798.05,
+      "layout": "pip_circles",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"We'll be the judge\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4801.78,
+      "end": 4804.0,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"Ever heard of Special Weapons Division?\""
+    },
+    {
+      "start": 4808.02,
+      "end": 4809.85,
+      "layout": "pip_circles",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"to stick minds on submarines,\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4814.75,
+      "end": 4817.65,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"They saw an opportunity and called me in.\""
+    },
+    {
+      "start": 4820.13,
+      "end": 4823.19,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"And to bring it back. Alive, if possible.\""
+    },
+    {
+      "start": 4828.0,
+      "end": 4830.48,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"Underestimated? Out of a serious world where your head\""
+    },
+    {
+      "start": 4834.76,
+      "end": 4838.15,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"I planned and executed it. You loathed it up.\""
+    },
+    {
+      "start": 4841.04,
+      "end": 4842.46,
+      "layout": "pip_circles",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"We lost good men, Ryan.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4854.76,
+      "end": 4857.94,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"The reality is you're expendable,\""
+    },
+    {
+      "start": 4862.46,
+      "end": 4866.4,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"Head to the fucking point, Ryan.\""
+    },
+    {
+      "start": 4869.69,
+      "end": 4871.18,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"gap in enemy lines.\""
+    },
+    {
+      "start": 4876.72,
+      "end": 4879.74,
+      "layout": "pip_circles",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"That was your bait. You were mine.\""
+    },
+    {
+      "start": 4885.49,
+      "end": 4888.29,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"You bastard. I had to choose somebody.\""
+    },
+    {
+      "start": 4890.81,
+      "end": 4892.83,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film: \"Monkey C, monkey D.\""
+    },
+    {
+      "start": 4895.46,
+      "end": 4899.22,
+      "layout": "panel_hosts_only",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"you like literally picked his team because of him now\""
+    },
+    {
+      "start": 4904.7,
+      "end": 4908.5,
+      "layout": "panel",
+      "film_beat": "Ryan's confession - Special Weapons Division; \"You were bait\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4913.13,
+      "end": 4914.63,
+      "layout": "pip_circles",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4917.85,
+      "end": 4918.79,
+      "layout": "pip_circles",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "us: \"he's turning\". no usable word boundary near 4s"
+    },
+    {
+      "start": 4921.49,
+      "end": 4925.09,
+      "layout": "pip_circles",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4928.49,
+      "end": 4930.89,
+      "layout": "pip_circles",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4932.99,
+      "end": 4936.09,
+      "layout": "pip_circles",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4938.33,
+      "end": 4940.49,
+      "layout": "panel_hosts_only",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Yeah, what are you guys waiting for\""
+    },
+    {
+      "start": 4941.0,
+      "end": 4942.6,
+      "layout": "panel",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4945.0,
+      "end": 4949.0,
+      "layout": "panel",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4952.0,
+      "end": 4954.8,
+      "layout": "panel",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4956.44,
+      "end": 4967.17,
+      "layout": "panel_hosts_only",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"fetch fetch I would have killed him already he'd be dead.\""
+    },
+    {
+      "start": 4970.0,
+      "end": 4973.4,
+      "layout": "panel",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4975.7,
+      "end": 4977.5,
+      "layout": "panel",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 4980.07,
+      "end": 4985.21,
+      "layout": "panel_hosts_only",
+      "film_beat": "Ryan transforms and escapes",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Andy took the sword with him. He took the sword. Yeah sort of stuck in his body\""
+    },
+    {
+      "start": 4992.59,
+      "end": 4994.24,
+      "layout": "pip_circles",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"of their time in human form, right?\" / us: \"It's not gonna do\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 4996.87,
+      "end": 4998.52,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"around live right here.\""
+    },
+    {
+      "start": 5002.32,
+      "end": 5005.08,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"They are home. Yeah, well that makes perfect sense, doesn't it?\""
+    },
+    {
+      "start": 5007.83,
+      "end": 5010.1,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"we eat all their porridge, we sleep in their fucking bed.\""
+    },
+    {
+      "start": 5013.37,
+      "end": 5015.58,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"They're kind people. More of the pity.\""
+    },
+    {
+      "start": 5019.89,
+      "end": 5034.33,
+      "layout": "panel_hosts_only",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"think it's her family I said that already No, you didn't that's probably right now because you said it is right cuz I said it now\""
+    },
+    {
+      "start": 5050.11,
+      "end": 5053.05,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"Everything we've seen so far suggests the behavior of a pack.\""
+    },
+    {
+      "start": 5056.01,
+      "end": 5059.41,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"and a young male, a beta wolf, second in command. Makes sense.\""
+    },
+    {
+      "start": 5083.84,
+      "end": 5089.69,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"Yeah, it's easy peasy. And lemon squeezy. Listen, cool.\" / us: \"easy peasy lemon squeezy\". Runs past 4s: the line and our echo of it: \"easy peasy. And lemon squeezy\""
+    },
+    {
+      "start": 5091.69,
+      "end": 5093.29,
+      "layout": "pip_circles",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5098.29,
+      "end": 5102.29,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5111.29,
+      "end": 5114.09,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5119.28,
+      "end": 5121.1,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"You stay out of trouble.\""
+    },
+    {
+      "start": 5167.0,
+      "end": 5168.37,
+      "layout": "pip_circles",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"When they get some of them.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5170.92,
+      "end": 5174.77,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"And a marked improvement on all of us. No, no, no. You listen to me.\""
+    },
+    {
+      "start": 5180.83,
+      "end": 5182.06,
+      "layout": "pip_circles",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"We've lost enough men\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5205.0,
+      "end": 5208.5,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"Hey, Carrie Cram. This fight isn't lost yet.\""
+    },
+    {
+      "start": 5214.5,
+      "end": 5216.02,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"I don't know. Maybe it's like when you need to\""
+    },
+    {
+      "start": 5221.97,
+      "end": 5225.34,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"Just because you need one doesn't mean you drop your kegs and pinch one off.\""
+    },
+    {
+      "start": 5233.55,
+      "end": 5234.92,
+      "layout": "pip_circles",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"You know, kick those one more thing,\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5238.0,
+      "end": 5240.4,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5248.4,
+      "end": 5251.5,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5256.5,
+      "end": 5258.1,
+      "layout": "pip_circles",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5266.1,
+      "end": 5270.1,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5275.1,
+      "end": 5277.9,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5282.17,
+      "end": 5284.21,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"I'm a professional soldier.\""
+    },
+    {
+      "start": 5286.31,
+      "end": 5288.11,
+      "layout": "pip_circles",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5291.91,
+      "end": 5295.21,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5298.06,
+      "end": 5299.56,
+      "layout": "panel",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"Rules don't ball itself.\""
+    },
+    {
+      "start": 5302.37,
+      "end": 5303.33,
+      "layout": "pip_circles",
+      "film_beat": "\"They are home\" - the Uath family; Wells' gas-barn plan; Wells is turning",
+      "iconic": false,
+      "reason": "Film: \"Good luck.\". no usable word boundary near 4s (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5309.69,
+      "end": 5311.19,
+      "layout": "pip_circles",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5320.19,
+      "end": 5323.09,
+      "layout": "panel",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5328.09,
+      "end": 5331.69,
+      "layout": "panel",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5340.69,
+      "end": 5343.09,
+      "layout": "panel",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5348.09,
+      "end": 5351.19,
+      "layout": "panel",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5360.0,
+      "end": 5361.6,
+      "layout": "pip_circles",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5367.6,
+      "end": 5371.6,
+      "layout": "panel",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5381.6,
+      "end": 5384.4,
+      "layout": "panel",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5387.0,
+      "end": 5390.4,
+      "layout": "pip_circles",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5394.2,
+      "end": 5396.0,
+      "layout": "pip_circles",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5398.2,
+      "end": 5401.5,
+      "layout": "pip_circles",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5404.2,
+      "end": 5406.8,
+      "layout": "pip_circles",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5410.19,
+      "end": 5413.87,
+      "layout": "panel_hosts_only",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"you think they're in there. I don't know\""
+    },
+    {
+      "start": 5418.07,
+      "end": 5427.25,
+      "layout": "panel_hosts_only",
+      "film_beat": "The barn blows",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Love story have an action right now. What is she sorry about\""
+    },
+    {
+      "start": 5431.11,
+      "end": 5434.34,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"I truly believed you were the best chance I had of getting out.\""
+    },
+    {
+      "start": 5438.12,
+      "end": 5439.7,
+      "layout": "pip_circles",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"There is no out.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5444.42,
+      "end": 5447.72,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"I came here to be at one with nature when I got what I wanted.\""
+    },
+    {
+      "start": 5454.35,
+      "end": 5456.21,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"There is no house in the next glen.\""
+    },
+    {
+      "start": 5459.21,
+      "end": 5461.61,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5469.44,
+      "end": 5471.96,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"And the reason you're not in the photographs is because you took it.\""
+    },
+    {
+      "start": 5476.72,
+      "end": 5478.42,
+      "layout": "pip_circles",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"Same old shite.\" (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5481.72,
+      "end": 5484.34,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"Being nice to me will get you killed.\""
+    },
+    {
+      "start": 5486.75,
+      "end": 5492.43,
+      "layout": "pip_circles",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"You may think they're all bitches, but I'm the real thing.\". Runs past 4s: the reveal is one line: \"You may think they're all bitches, but I'm the real thing\""
+    },
+    {
+      "start": 5498.37,
+      "end": 5501.23,
+      "layout": "panel_hosts_only",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"she can like they can change on demand\""
+    },
+    {
+      "start": 5503.22,
+      "end": 5505.53,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"I like being part of this fucked up family.\""
+    },
+    {
+      "start": 5510.3,
+      "end": 5512.2,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"I chose you.\""
+    },
+    {
+      "start": 5516.64,
+      "end": 5518.79,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"And all we can do is\""
+    },
+    {
+      "start": 5523.3,
+      "end": 5527.46,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film: \"I just unlocked the door. It's that time of the month.\" - Megan's reveal ends on its best line. Runs past 4s: the line ends at 5527.21."
+    },
+    {
+      "start": 5532.0,
+      "end": 5535.8,
+      "layout": "pip_circles",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5541.8,
+      "end": 5543.3,
+      "layout": "pip_circles",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5552.3,
+      "end": 5555.2,
+      "layout": "pip_circles",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5561.2,
+      "end": 5564.8,
+      "layout": "pip_circles",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5574.0,
+      "end": 5576.4,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5580.4,
+      "end": 5583.5,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5590.5,
+      "end": 5592.1,
+      "layout": "pip_circles",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5596.1,
+      "end": 5600.1,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5607.1,
+      "end": 5609.9,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5613.9,
+      "end": 5616.0,
+      "layout": "panel",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5617.85,
+      "end": 5619.71,
+      "layout": "panel_hosts_only",
+      "film_beat": "Megan's reveal - she's one of them and unlocks the door",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"got a glow stick\""
+    },
+    {
+      "start": 5620.0,
+      "end": 5621.8,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5626.8,
+      "end": 5630.1,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5638.1,
+      "end": 5640.7,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5645.7,
+      "end": 5649.5,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5657.5,
+      "end": 5659.0,
+      "layout": "pip_circles",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5664.0,
+      "end": 5666.9,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5674.9,
+      "end": 5678.5,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5683.5,
+      "end": 5685.9,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5693.9,
+      "end": 5697.0,
+      "layout": "pip_circles",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5704.0,
+      "end": 5705.6,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5709.4,
+      "end": 5713.4,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5715.6,
+      "end": 5718.4,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5721.1,
+      "end": 5724.5,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5727.9,
+      "end": 5729.7,
+      "layout": "pip_circles",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5731.8,
+      "end": 5735.1,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5739.7,
+      "end": 5742.3,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5744.7,
+      "end": 5748.5,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5752.8,
+      "end": 5757.44,
+      "layout": "pip_circles",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film: \"I hope I give you the shits, you fucking wimp.\" - Spoon, face to face with the werewolf; his last line and one of the film's most loved. Not in the VAD transcript; located with a no-VAD whisper pass of 5738-5772 (words 5750.7-5757.26) and checked on the frames (jaws beside his face 5753-5759). Runs past 4s: the line runs to 5757.26."
+    },
+    {
+      "start": 5759.6,
+      "end": 5762.4,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5764.7,
+      "end": 5766.0,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5767.16,
+      "end": 5770.28,
+      "layout": "panel_hosts_only",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"was just watching him get devoured I guess\""
+    },
+    {
+      "start": 5772.0,
+      "end": 5774.4,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5776.5,
+      "end": 5779.6,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5783.4,
+      "end": 5785.0,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5787.99,
+      "end": 5790.65,
+      "layout": "panel_hosts_only",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"That's like their family dog\""
+    },
+    {
+      "start": 5792.0,
+      "end": 5796.0,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5798.7,
+      "end": 5801.5,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5804.9,
+      "end": 5808.3,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5810.4,
+      "end": 5812.2,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5818.55,
+      "end": 5823.47,
+      "layout": "panel_hosts_only",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Now you're just in a different room. What are you gonna do? They went through a hole in the wall\""
+    },
+    {
+      "start": 5825.0,
+      "end": 5827.6,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5830.6,
+      "end": 5834.4,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5838.4,
+      "end": 5839.9,
+      "layout": "pip_circles",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5845.9,
+      "end": 5848.8,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5851.8,
+      "end": 5855.4,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5879.43,
+      "end": 5883.43,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5895.23,
+      "end": 5898.63,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5902.63,
+      "end": 5904.43,
+      "layout": "pip_circles",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5913.97,
+      "end": 5916.93,
+      "layout": "panel",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Film: \"The spoon. No!\""
+    },
+    {
+      "start": 5922.06,
+      "end": 5927.78,
+      "layout": "panel_hosts_only",
+      "film_beat": "Werewolves inside; Spoon's kitchen fight - \"I hope I give you the shits\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"they talking about a spoon the guy's name was spoon the guy Is\""
+    },
+    {
+      "start": 5930.0,
+      "end": 5932.6,
+      "layout": "panel",
+      "film_beat": "Wells is turning; \"We go together or we don't fucking go\"; Cooper to the cellar",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5935.6,
+      "end": 5939.4,
+      "layout": "panel",
+      "film_beat": "Wells is turning; \"We go together or we don't fucking go\"; Cooper to the cellar",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5945.9,
+      "end": 5947.4,
+      "layout": "pip_circles",
+      "film_beat": "Wells is turning; \"We go together or we don't fucking go\"; Cooper to the cellar",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5951.43,
+      "end": 5953.97,
+      "layout": "panel",
+      "film_beat": "Wells is turning; \"We go together or we don't fucking go\"; Cooper to the cellar",
+      "iconic": true,
+      "reason": "Film: \"We go together or we don't fucking go!\" - Wells' famous line, now whole (was clipped to \"And we don't fucking go!\" with filler after). The first half isn't in the VAD transcript; start anchored on a no-VAD whisper pass (\"We\" 5951.68)."
+    },
+    {
+      "start": 5966.64,
+      "end": 5969.04,
+      "layout": "panel",
+      "film_beat": "Wells is turning; \"We go together or we don't fucking go\"; Cooper to the cellar",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5972.84,
+      "end": 5975.94,
+      "layout": "panel",
+      "film_beat": "Wells is turning; \"We go together or we don't fucking go\"; Cooper to the cellar",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5978.14,
+      "end": 5979.74,
+      "layout": "pip_circles",
+      "film_beat": "Wells is turning; \"We go together or we don't fucking go\"; Cooper to the cellar",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 5983.99,
+      "end": 5987.18,
+      "layout": "panel_hosts_only",
+      "film_beat": "Wells is turning; \"We go together or we don't fucking go\"; Cooper to the cellar",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"he turned into a werewolf? Yeah, he's definitely turning. Oh\""
+    },
+    {
+      "start": 5989.0,
+      "end": 5993.0,
+      "layout": "pip_circles",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 5998.0,
+      "end": 6000.8,
+      "layout": "pip_circles",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6008.8,
+      "end": 6012.0,
+      "layout": "pip_circles",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6014.0,
+      "end": 6015.8,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6018.2,
+      "end": 6021.5,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6024.5,
+      "end": 6027.1,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6033.6,
+      "end": 6037.4,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6039.63,
+      "end": 6053.73,
+      "layout": "panel_hosts_only",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"like carbon monoxide. He's gonna blow him up. He's gonna blow the whole house up, but the guy's down there He's in the basement The basements are not gonna blow up. I don't think so.\""
+    },
+    {
+      "start": 6055.0,
+      "end": 6056.5,
+      "layout": "pip_circles",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 6062.5,
+      "end": 6065.4,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6069.4,
+      "end": 6073.0,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6079.55,
+      "end": 6083.55,
+      "layout": "pip_circles",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Wells flicks the lighter, the white flash, the house starts to blow (frames 6081-6083) / us: \"Oh\" - the payoff of a must beat, fullscreen"
+    },
+    {
+      "start": 6085.6,
+      "end": 6088.6,
+      "layout": "pip_circles",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "The house blowing apart, second angle (frames 6085-6089)"
+    },
+    {
+      "start": 6094.5,
+      "end": 6096.1,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue - debris after the blast"
+    },
+    {
+      "start": 6100.07,
+      "end": 6104.07,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6106.17,
+      "end": 6108.97,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6113.57,
+      "end": 6116.97,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6119.37,
+      "end": 6121.17,
+      "layout": "pip_circles",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 6124.17,
+      "end": 6127.47,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6133.97,
+      "end": 6136.0,
+      "layout": "panel",
+      "film_beat": "Wells lights the gas and blows up the house",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6139.14,
+      "end": 6145.73,
+      "layout": "panel_hosts_only",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"Yeah, like all military people. They have their dog tags. Oh Oh,\""
+    },
+    {
+      "start": 6148.64,
+      "end": 6150.68,
+      "layout": "pip_circles",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film: \"tried licking your own balls yet?\""
+    },
+    {
+      "start": 6154.72,
+      "end": 6157.89,
+      "layout": "pip_circles",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film: \"I forgot. You don't fucking have any.\" / us: \"Oh The\""
+    },
+    {
+      "start": 6157.89,
+      "end": 6166.07,
+      "layout": "panel_hosts_only",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Our take, heard clean: \"no, I just like to take the sword out\""
+    },
+    {
+      "start": 6168.0,
+      "end": 6171.8,
+      "layout": "panel",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6174.7,
+      "end": 6176.2,
+      "layout": "pip_circles",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 6178.3,
+      "end": 6181.2,
+      "layout": "panel",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6185.0,
+      "end": 6188.6,
+      "layout": "panel",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6190.8,
+      "end": 6193.2,
+      "layout": "panel",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6205.5,
+      "end": 6209.5,
+      "layout": "panel",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6211.93,
+      "end": 6216.03,
+      "layout": "pip_circles",
+      "film_beat": "Werewolf Ryan in the cellar; silver letter opener; \"licking your own balls\"",
+      "iconic": true,
+      "reason": "Film: \"I think it's all over... it is now.\" - Cooper answers Ryan's \"They think it's all over\" (4717) over the dead werewolf. Located with a no-VAD whisper pass (VAD only had \"is now.\"). Runs past 4s: the line ends at 6215.98."
+    },
+    {
+      "start": 6218.3,
+      "end": 6221.43,
+      "layout": "panel",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6224.43,
+      "end": 6226.23,
+      "layout": "panel",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6230.43,
+      "end": 6237.19,
+      "layout": "panel_hosts_only",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Door but there's no house Must've been a sturdy door. Oh,\""
+    },
+    {
+      "start": 6238.0,
+      "end": 6241.3,
+      "layout": "panel",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6243.6,
+      "end": 6246.2,
+      "layout": "panel",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6249.1,
+      "end": 6252.9,
+      "layout": "panel",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6255.0,
+      "end": 6256.5,
+      "layout": "pip_circles",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Film beat, no dialogue (fullscreen, breaking up a run of panel)"
+    },
+    {
+      "start": 6260.3,
+      "end": 6263.2,
+      "layout": "panel",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Film beat, no dialogue"
+    },
+    {
+      "start": 6264.4,
+      "end": 6277.45,
+      "layout": "panel_hosts_only",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"there's like a picture thing of them Get the little pictures, okay, that's from the from the film reel We're\""
+    },
+    {
+      "start": 6285.95,
+      "end": 6287.85,
+      "layout": "pip_circles_hosts_only",
+      "film_beat": "Cooper walks out with Sam the dog; \"Werewolves ate my platoon\" tabloid",
+      "iconic": false,
+      "reason": "Our take, heard clean: \"wolves ate my platoon\""
+    },
+    {
+      "start": 6296.31,
+      "end": 6320.24,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Our take, heard clean: \"so What do you think? Did you think it was kind of a like a little combination of the thing and American werewolf in London. I'm not even close They were gonna kill a dog in the beginning just like the thing they were werewolves attacking people They were like in the middle of nowhere where they could not like nobody could help them like the thing\". Outro: the verdict"
+    },
+    {
+      "start": 6329.23,
+      "end": 6381.87,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Well, I don't know I liked it I thought it was pretty cool What did you think I thought it was man, I Thought that the dog people were bizarre They were werewolves it was it was That was so cheesy You thought it was Okay, I I mean I didn't I didn't not enjoy the movie but it was cheesy it was like a cheesy horror movie Okay, whatever you could think whatever you want that dude fighting at the end Wacking with a pot and stuff and he box in the dog, man No, it's nuts. That was crazy. Can't win them all apparently\". Outro: the verdict"
+    },
+    {
+      "start": 6452.73,
+      "end": 6459.99,
+      "layout": "hosts_full",
+      "film_beat": null,
+      "iconic": false,
+      "reason": "Our take, heard clean: \"Thanks for watching dog soldiers with us. Please hit the subscribe and like button. We'll see you next time. Bye\". Outro: sign-off"
+    }
+  ]
+}

@@ -35,6 +35,8 @@ import sys
 
 from faster_whisper import WhisperModel
 
+from convert_movie import needs_converting
+
 
 def transcribe(media, model_size, device, compute_type, language, vad):
     # Loading the model downloads it from HuggingFace on first use and caches
@@ -110,6 +112,12 @@ def load_project_clips(path):
     clips = [
         (key, clean_path(config[key])) for key in PROJECT_MEDIA_KEYS if config.get(key)
     ]
+    # The cut is made from the converted movie, so its times must come from it.
+    if needs_converting(dict(clips).get("movie_media")):
+        sys.exit(
+            f"error: the movie is still an .mkv. Convert it first:\n"
+            f"  python src/convert_movie.py --project {path}"
+        )
     if not clips:
         sys.exit(
             f"error: {path} has none of {PROJECT_MEDIA_KEYS} set"

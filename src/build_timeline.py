@@ -228,6 +228,9 @@ def _coerce_cut_row(row, index, source):
         # Optional review note: the segment needs reworking by hand. It gets
         # fix_color instead of its layout colour and a red marker carrying the note.
         "fix": str(row.get("fix") or "").strip(),
+        # Set by src/tighten_cuts.py: the segment's span before its dead air
+        # was cut, so check_cuts knows the new edges sit on sound, not words.
+        "trimmed_from": row.get("trimmed_from") or None,
     }
 
 
@@ -829,7 +832,21 @@ def lay_down(project, media_pool, multicam, name, plan, config, resolution=None,
     # single undo step, and it's an order of magnitude faster than appending
     # segment by segment.
     appended = media_pool.AppendToTimeline(clip_infos)
-    if not appended:
+    # Resolve can also "succeed" with a list of all None, placing nothing. A
+    # template timeline can get into a state where it refuses every append
+    # (seen on Child's Play) while a fresh timeline takes the same list fine,
+    # so leave the template alone and build into a new one.
+    if appended and all(item is None for item in appended) and not created:
+        print(
+            "WARNING: template timeline {!r} refused every segment; building into a "
+            "new timeline instead. Delete the empty template if you don't need "
+            "it.".format(name),
+            file=sys.stderr,
+        )
+        return lay_down(project, media_pool, multicam,
+                        unique_timeline_name(project, name), plan, config,
+                        resolution=resolution)
+    if not appended or all(item is None for item in appended):
         # Don't leave an empty timeline behind: it would just push the next
         # attempt's name to "... 2". The template's own timeline stays.
         if created:
@@ -849,9 +866,22 @@ def lay_down(project, media_pool, multicam, name, plan, config, resolution=None,
             file=sys.stderr,
         )
 
+    # Resolve can hand back None in place of a segment it didn't place, while
+    # still placing the rest. The list stays aligned with clip_infos, so skip
+    # the holes and name them rather than dying on the first one.
+    missing = [entry["index"] + 1 for entry, item in zip(plan, appended) if item is None]
+    if missing:
+        print(
+            "WARNING: Resolve didn't place {} segment(s): {}{}. Check those spots "
+            "on the timeline, or delete it and run again.".format(
+                len(missing), ", ".join(str(n) for n in missing[:20]),
+                " ..." if len(missing) > 20 else ""),
+            file=sys.stderr,
+        )
+
     colored = 0
     for entry, item in zip(plan, appended):
-        if item.SetClipColor(entry["color"]):
+        if item is not None and item.SetClipColor(entry["color"]):
             colored += 1
 
     # AppendToTimeline returns only the video timeline items, so the linked
@@ -890,16 +920,18 @@ def lay_down(project, media_pool, multicam, name, plan, config, resolution=None,
         record += entry["duration_frames"]
 
     print("{} timeline {!r}: {} segments, {} video / {} audio clip(s) coloured.".format(
-        "Created" if created else "Filled", name, len(appended), colored, audio_colored))
+        "Created" if created else "Filled", name, len(appended) - len(missing), colored,
+        audio_colored))
     if flagged:
         print("{} segment(s) flagged for fixing: {} red marker(s) added, clips coloured {}.".format(
             len(flagged), marked, config["fix_color"]))
         if marked != len(flagged):
             print("WARNING: {} fix marker(s) didn't take.".format(len(flagged) - marked),
                   file=sys.stderr)
-    if colored != len(appended):
+    if colored != len(appended) - len(missing):
         print(
-            "WARNING: {} video segment(s) didn't take a colour.".format(len(appended) - colored),
+            "WARNING: {} video segment(s) didn't take a colour.".format(
+                len(appended) - len(missing) - colored),
             file=sys.stderr,
         )
     if audio_total and audio_colored != audio_total:

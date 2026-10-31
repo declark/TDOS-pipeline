@@ -17,5 +17,15 @@
     "pip_circles_hosts_only": "Lime",
     "hosts_movie_audio": "Purple",
     "hosts_full": "Green"
+  },
+
+  "tighten": {
+    "sound_above_floor_db": 18,
+    "edge_handle_seconds": 0.25,
+    "min_pause_seconds": 1.0,
+    "pause_keep_seconds": 0.25,
+    "min_piece_seconds": 0.6,
+    "film_motion": 12.0,
+    "hosts_motion": 4.0
   }
 }

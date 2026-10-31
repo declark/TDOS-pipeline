@@ -9,3 +9,6 @@ __pycache__/
 *.mov
 *.wav
 /.venv
+/.tmp_btlc
+/.tmp_ds
+/.tmp_review

@@ -1,11 +1,13 @@
 ---
 name: select-cuts
-description: Apply config/SKILL.md to a project's reaction + movie word-level transcripts (from src/transcribe.py) and produce a cuts/<slug>.json cut list ready for src/build_timeline.py.
+description: Apply config/SKILL.md to a project's research sheet (cuts/<slug>.research.md) and reaction + movie word-level transcripts (from src/transcribe.py) and produce a cuts/<slug>.json cut list ready for review-cuts and src/build_timeline.py.
 ---
 
-Runs the cut-selection pass described in `config/SKILL.md`: reads the two
-word-level transcripts for an episode and writes the resulting cut list to
-`cuts/<slug>.json`, in the exact shape `src/build_timeline.py` expects.
+Runs the cut-selection pass described in `config/SKILL.md`: reads the
+research sheet and the two word-level transcripts for an episode and writes
+the resulting cut list to `cuts/<slug>.json`, in the exact shape
+`src/build_timeline.py` expects. Stage 2 of 3 for the long cut
+(`research-film` → `select-cuts` → `review-cuts`).
 
 ## 1. Find the project
 
@@ -49,31 +51,25 @@ movie starts playing. Look for `movie_offset_seconds`, in order:
 3. Otherwise ask the user for it, then save it into `cuts/<slug>.media.json`
    under the key `movie_offset_seconds` so this step is skipped next time.
 
-## 4. Research the film
+## 4. Load the research sheet
 
-Before selecting anything, do config/SKILL.md's STEP 1 (RESEARCH THE FILM):
-load WebSearch / WebFetch via ToolSearch if they aren't already loaded, research
-the film, and write the beat sheet to `cuts/<slug>.research.md`. If that file
-already exists from an earlier run, read it and reuse it, adding to it only
-where it's thin.
+Read `cuts/<slug>.research.md` in full. It's the beat sheet the whole cut
+works from, written by the `research-film` skill.
+
+If it doesn't exist, the film hasn't been researched yet: tell the user to run
+the `research-film` skill first (or `make-cuts` to run every stage), and stop.
+Don't research the film here.
 
 ## 5. Apply config/SKILL.md
 
 Read `config/SKILL.md` in full and follow it exactly - it is the single
 source of truth for selection criteria, layouts, the LAYOUT MIX targets, the
 BREAKS / source-skip rule, the film-exposure cap (4s default, 6s hard
-ceiling), the 6-second hosts-only cap, and the TIMESTAMPS rule
+ceiling), the 6-second hosts-only cap, the 4-in-a-row `panel` cap, and the
+TIMESTAMPS rule
 (every `start`/`end` must be a real word boundary from one of the two
 transcripts, converted to recording time: reaction words are used as-is, film
 words get `+ [OFFSET]`).
-
-Before writing the file, check the draft with a short script in the
-scratchpad (not by eye): no overlaps; every film-audio run ≤ 6s, and any run over 4s has
-a stated reason and is rare, where a
-run only breaks on a ≥ 2s source skip or a `_hosts_only` / `hosts_full`
-segment; every us-only run ≤ 6s outside intro/outro; layout shares vs. the
-LAYOUT MIX targets; and no repeating layout pattern or run of near-equal
-lengths. Fix anything that fails, then re-check.
 
 Do not re-derive or second-guess config/SKILL.md's targets from this file - if the
 two ever disagree, config/SKILL.md wins; this file only wires it up to the actual
@@ -87,9 +83,21 @@ Save to `cuts/<slug>.json`:
 {
   "title": "<title from the media config>",
   "movie_offset_seconds": <offset>,
+  "hook": { /* config/SKILL.md OUTPUT */ },
+  "near_misses": [ /* config/SKILL.md OUTPUT */ ],
   "segments": [ /* config/SKILL.md OUTPUT array */ ]
 }
 ```
+
+Then check it (not by eye):
+
+`python src/check_cuts.py --cuts cuts/<slug>.json --verbose`
+
+Every `FAIL` is a hard limit from config/SKILL.md: fix it and re-run until
+there are none. Work through the `WARN` lines too - layout shares outside
+their targets, runs over the 4s default without a why in `reason`, repeating
+layout patterns, runs of near-equal lengths, boundaries off a word - and fix
+the ones that are real. The cut isn't done while a `FAIL` remains.
 
 Then, in the chat response (not the file), give:
 
@@ -99,4 +107,6 @@ Then, in the chat response (not the file), give:
 - The **HOOK** line.
 - **Beat coverage** - any `must` beat from the research sheet not in the cut.
 - The **NEAR MISSES** list.
-- The next command to run: `python src/build_timeline.py --cuts cuts/<slug>.json --dry-run`.
+- The checker's final FAIL / WARN counts, and any warning left standing and why.
+- The next step: the `review-cuts` skill, then
+  `python src/build_timeline.py --cuts cuts/<slug>.json --dry-run`.

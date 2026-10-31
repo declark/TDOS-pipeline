@@ -3,23 +3,715 @@
   "movie_offset_seconds": 179.17,
   "shorts": [
     {
+      "name": "Told you the dog",
+      "type": "called it",
+      "film_beat": "The kennel: dog-Thing transforms",
+      "score": {
+        "iconic": 5,
+        "reaction": 4,
+        "instant_read": 3,
+        "dynamic": 5,
+        "loop": 4
+      },
+      "yt_title": "\"I told you, the dog!\" 😱 The Thing (1982) kennel reaction",
+      "hook_text": "One of us called the dog",
+      "description": "First time watching The Thing and the dog was suspicious from the start. #TheThing #moviereaction #firsttimewatching #kennelscene #johncarpenter",
+      "segments": [
+        {
+          "start": 1896.6,
+          "end": 1900.41,
+          "layout": "panel",
+          "film_beat": "The kennel: dog-Thing transforms",
+          "iconic": true,
+          "reason": "HOOK - flash-forward: tendrils whipping over the huskies, then our 'What is happening?'. Start is frame-checked, there are no words before the line",
+          "captions": [
+            {
+              "who": "us",
+              "start": 1898.74,
+              "end": 1900.16,
+              "text": "What is happening?"
+            }
+          ]
+        },
+        {
+          "start": 1104.24,
+          "end": 1106.06,
+          "layout": "panel_hosts_only",
+          "film_beat": "Mac & Copper fly to the Norwegian camp",
+          "reason": "SETUP - the call, 13 minutes early: 'This dog is playing a very important...'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 1104.39,
+              "end": 1105.81,
+              "text": "This dog is playing a very important..."
+            }
+          ],
+          "trimmed_from": [
+            1104.14,
+            1106.06
+          ]
+        },
+        {
+          "start": 1868.58,
+          "end": 1870.8,
+          "layout": "panel_hosts_only",
+          "film_beat": "The kennel: dog-Thing transforms",
+          "reason": "SETUP - seconds before it happens: 'what does this dog have to do with everything?'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 1868.73,
+              "end": 1870.55,
+              "text": "What does this dog have to do with everything?"
+            }
+          ],
+          "trimmed_from": [
+            1868.48,
+            1870.8
+          ]
+        },
+        {
+          "start": 1880.9,
+          "end": 1884.9,
+          "layout": "panel",
+          "film_beat": "The kennel: dog-Thing transforms",
+          "iconic": true,
+          "reason": "PAYOFF - the dog's face splits open. No words here in either transcript, so the range is frame-checked against the film",
+          "captions": []
+        },
+        {
+          "start": 1887.36,
+          "end": 1888.64,
+          "layout": "panel_hosts_only",
+          "film_beat": "The kennel: dog-Thing transforms",
+          "reason": "PAYOFF - 'I told you!' Muted so the line is clean, and it breaks the film-audio run",
+          "captions": [
+            {
+              "who": "us",
+              "start": 1887.51,
+              "end": 1888.39,
+              "text": "I told you!"
+            }
+          ],
+          "trimmed_from": [
+            1887.26,
+            1888.64
+          ]
+        },
+        {
+          "start": 1905.6,
+          "end": 1909.25,
+          "layout": "panel",
+          "film_beat": "The kennel: dog-Thing transforms",
+          "iconic": true,
+          "reason": "The legs come out of the dog: 'It's turning into a spider.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 1907.72,
+              "end": 1909.0,
+              "text": "It's turning into a spider."
+            }
+          ]
+        },
+        {
+          "start": 2174.42,
+          "end": 2176.22,
+          "layout": "panel_hosts_only",
+          "film_beat": "Blair's dog autopsy",
+          "reason": "BUTTON - the victory lap: 'I told you, the dog.' Loops into 'What is happening?'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 2174.67,
+              "end": 2175.97,
+              "text": "I told you, the dog."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Blood test",
       "type": "moment",
       "film_beat": "Palmer's blood jumps; Palmer-Thing kills Windows",
-      "score": { "iconic": 5, "reaction": 5, "instant_read": 4, "dynamic": 4, "loop": 3 },
-      "yt_title": "The blood test scene 😱 The Thing (1982) reaction",
-      "hook_text": "They did NOT expect this one",
-      "description": "First time watching the blood test in John Carpenter's The Thing. #TheThing #moviereaction #firsttimewatching #johncarpenter #practicaleffects",
+      "score": {
+        "iconic": 5,
+        "reaction": 5,
+        "instant_read": 4,
+        "dynamic": 3,
+        "loop": 3
+      },
+      "yt_title": "The blood test scene got us 😱 The Thing (1982) reaction",
+      "hook_text": "The blood test got us",
+      "description": "First time watching the blood test in John Carpenter's The Thing. #TheThing #moviereaction #firsttimewatching #bloodtest #johncarpenter",
       "segments": [
-        { "start": 5186.62, "end": 5188.52, "layout": "panel_hosts_only",
-          "reason": "HOOK - flash-forward: our 'Dude, that scared me.' over the Palmer-Thing chaos; film muted so the line reads" },
-        { "start": 5152.76, "end": 5154.08, "layout": "panel",
-          "reason": "SETUP - MacReady to Garry: 'We'll do you last.' Everyone suspects Garry" },
-        { "start": 5161.27, "end": 5173.92, "layout": "panel",
-          "reason": "PAYOFF - hot wire into Palmer's sample, the blood leaps out of the dish, our 'It's him, it's him... Oh my god.' Held as one take because the silence before the jump is the tension and the reveal is the picture; film audio has no words here, so check the jump lands in this range on the timeline" },
-        { "start": 5211.18, "end": 5213.84, "layout": "panel",
-          "reason": "BUTTON - 'Oh my gosh. He just picked him up by the head.' Palmer-Thing lifts Windows; loops into the hook" }
+        {
+          "start": 5187.43,
+          "end": 5188.77,
+          "layout": "panel_hosts_only",
+          "film_beat": "Palmer's blood jumps; Palmer-Thing kills Windows",
+          "reason": "HOOK - flash-forward: 'that scared me.' over the Palmer-Thing",
+          "captions": [
+            {
+              "who": "us",
+              "start": 5187.68,
+              "end": 5188.52,
+              "text": "That scared me."
+            }
+          ]
+        },
+        {
+          "start": 5152.51,
+          "end": 5154.23,
+          "layout": "panel",
+          "film_beat": "The blood test",
+          "iconic": true,
+          "reason": "PAYOFF - 'We'll do you last.', the hot wire goes in and the blood leaps out of the dish at 5155.75 (frame-checked). Runs 5.7s because the line and the jump are 2 seconds apart and the jump can't be split from its setup; ends as the shot leaves the dropped flamethrower",
+          "captions": [
+            {
+              "who": "film",
+              "start": 5152.76,
+              "end": 5154.08,
+              "text": "We'll do you last."
+            }
+          ],
+          "trimmed_from": [
+            5152.51,
+            5158.25
+          ]
+        },
+        {
+          "start": 5155.53,
+          "end": 5158.25,
+          "layout": "panel",
+          "film_beat": "The blood test",
+          "iconic": true,
+          "reason": "PAYOFF - 'We'll do you last.', the hot wire goes in and the blood leaps out of the dish at 5155.75 (frame-checked). Runs 5.7s because the line and the jump are 2 seconds apart and the jump can't be split from its setup; ends as the shot leaves the dropped flamethrower",
+          "captions": [],
+          "trimmed_from": [
+            5152.51,
+            5158.25
+          ]
+        },
+        {
+          "start": 5160.3,
+          "end": 5162.3,
+          "layout": "panel",
+          "film_beat": "The blood test",
+          "iconic": true,
+          "reason": "The blood crawling across the floor. Silent, frame-checked",
+          "captions": []
+        },
+        {
+          "start": 5169.25,
+          "end": 5174.17,
+          "layout": "panel",
+          "film_beat": "Palmer's blood jumps; Palmer-Thing kills Windows",
+          "iconic": true,
+          "reason": "The flamethrower misfires and Palmer's face splits: 'It's him, it's him... Oh my god.' Runs 4.9s to keep both of our lines around the transformation",
+          "captions": [
+            {
+              "who": "us",
+              "start": 5169.5,
+              "end": 5170.32,
+              "text": "It's him, it's him."
+            },
+            {
+              "who": "us",
+              "start": 5173.38,
+              "end": 5173.92,
+              "text": "Oh my god."
+            }
+          ]
+        },
+        {
+          "start": 5210.93,
+          "end": 5214.09,
+          "layout": "panel",
+          "film_beat": "Palmer's blood jumps; Palmer-Thing kills Windows",
+          "reason": "BUTTON - Palmer-Thing has Windows: 'Oh my gosh. He just picked him up by the head.' Loops into 'that scared me'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 5211.18,
+              "end": 5211.9,
+              "text": "Oh my gosh."
+            },
+            {
+              "who": "us",
+              "start": 5212.64,
+              "end": 5213.84,
+              "text": "He just picked him up by the head."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Defibrillator",
+      "type": "moment",
+      "film_beat": "Norris's heart attack; defibrillator; chest bites Copper's arms off",
+      "score": {
+        "iconic": 5,
+        "reaction": 5,
+        "instant_read": 5,
+        "dynamic": 2,
+        "loop": 3
+      },
+      "yt_title": "The defibrillator scene 😳 \"This is 1982?!\" The Thing reaction",
+      "hook_text": "This was made in 1982",
+      "description": "First time watching the defibrillator scene in The Thing, and the effects still hold up. #TheThing #moviereaction #firsttimewatching #practicaleffects #robbottin",
+      "segments": [
+        {
+          "start": 4698.4,
+          "end": 4703.0,
+          "layout": "panel",
+          "film_beat": "Norris's heart attack; defibrillator; chest bites Copper's arms off",
+          "iconic": true,
+          "reason": "HOOK and PAYOFF - the paddles go down, the chest opens and bites Copper's arms off. No words in either transcript, so the range is frame-checked. Runs 4.6s because the chest opening and the bite are one action",
+          "captions": []
+        },
+        {
+          "start": 4705.1,
+          "end": 4706.26,
+          "layout": "panel_hosts_only",
+          "film_beat": "Norris's heart attack; defibrillator; chest bites Copper's arms off",
+          "reason": "Our reaction, 2 seconds later: 'Holy shit.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4705.35,
+              "end": 4706.01,
+              "text": "Holy shit."
+            }
+          ]
+        },
+        {
+          "start": 4738.62,
+          "end": 4740.8,
+          "layout": "panel",
+          "film_beat": "Norris's heart attack; defibrillator; chest bites Copper's arms off",
+          "reason": "The Norris-Thing rises out of the chest: 'My gosh. Dude,'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4738.87,
+              "end": 4740.55,
+              "text": "My gosh. Dude,"
+            }
+          ]
+        },
+        {
+          "start": 4743.52,
+          "end": 4746.26,
+          "layout": "panel",
+          "film_beat": "Norris's heart attack; defibrillator; chest bites Copper's arms off",
+          "reason": "'these special effects are freaking awesome.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4743.77,
+              "end": 4746.01,
+              "text": "these special effects are freaking awesome."
+            }
+          ]
+        },
+        {
+          "start": 4746.68,
+          "end": 4749.56,
+          "layout": "panel_hosts_only",
+          "film_beat": "Norris's heart attack; defibrillator; chest bites Copper's arms off",
+          "reason": "'This is 1982. These are awesome.' as MacReady torches it",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4746.93,
+              "end": 4749.31,
+              "text": "This is 1982. These are awesome."
+            }
+          ]
+        },
+        {
+          "start": 4782.94,
+          "end": 4788.01,
+          "layout": "panel_hosts_only",
+          "film_beat": "Norris's heart attack; defibrillator; chest bites Copper's arms off",
+          "reason": "BUTTON - still not over it: 'that guy's arms... just getting cut right off. Oh, that was crazy.' Loops into the chest opening",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4782.94,
+              "end": 4786.14,
+              "text": "Dude, that guy's arms, like his forearms, just getting cut right off."
+            },
+            {
+              "who": "us",
+              "start": 4786.56,
+              "end": 4787.76,
+              "text": "Oh, that was crazy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Head spider",
+      "type": "quote",
+      "film_beat": "Norris's head stretches off and sprouts legs",
+      "score": {
+        "iconic": 5,
+        "reaction": 4,
+        "instant_read": 5,
+        "dynamic": 2,
+        "loop": 3
+      },
+      "yt_title": "\"You gotta be f***ing kidding\" 🕷️ The Thing (1982) reaction",
+      "hook_text": "The head grew WHAT",
+      "description": "First time watching the head spider scene in The Thing. #TheThing #moviereaction #firsttimewatching #headspider #practicaleffects",
+      "segments": [
+        {
+          "start": 4788.0,
+          "end": 4792.61,
+          "layout": "panel",
+          "film_beat": "Norris's head stretches off and sprouts legs",
+          "iconic": true,
+          "reason": "HOOK - the legs unfold out of Norris's head: 'It's a spider.' Start is frame-checked. Runs 4.6s to hold the legs coming out before our line",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4791.98,
+              "end": 4792.36,
+              "text": "It's a spider."
+            }
+          ]
+        },
+        {
+          "start": 4793.39,
+          "end": 4794.61,
+          "layout": "panel_hosts_only",
+          "film_beat": "Norris's head stretches off and sprouts legs",
+          "reason": "'It's an alien.' Muted to break the film-audio run",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4793.64,
+              "end": 4794.36,
+              "text": "It's an alien."
+            }
+          ]
+        },
+        {
+          "start": 4811.54,
+          "end": 4813.55,
+          "layout": "panel",
+          "film_beat": "Norris's head stretches off and sprouts legs",
+          "iconic": true,
+          "reason": "The head walks out from under the desk: 'Look, it's got like little baby arms.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4811.7,
+              "end": 4813.3,
+              "text": "Look, it's got like little baby arms."
+            }
+          ],
+          "trimmed_from": [
+            4809.7,
+            4813.55
+          ]
+        },
+        {
+          "start": 4818.99,
+          "end": 4823.13,
+          "layout": "panel",
+          "film_beat": "Norris's head stretches off and sprouts legs",
+          "iconic": true,
+          "reason": "PAYOFF - 'Oh my god, it's just...' straight into Palmer's 'You gotta be fucking kidding.' The film transcript missed the line; a re-listen of this window puts it at 4820.9-4823.0. Runs 4.3s so the line isn't chopped",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4819.24,
+              "end": 4820.36,
+              "text": "Oh my god, it's just..."
+            },
+            {
+              "who": "film",
+              "start": 4820.9,
+              "end": 4823.0,
+              "text": "You gotta be fucking kidding."
+            }
+          ],
+          "trimmed_from": [
+            4818.99,
+            4823.25
+          ]
+        },
+        {
+          "start": 4826.9,
+          "end": 4829.0,
+          "layout": "panel",
+          "film_beat": "Norris's head stretches off and sprouts legs",
+          "reason": "BUTTON - MacReady torches it. Silent from us, frame-checked; the fire cuts back into the legs unfolding",
+          "captions": []
+        }
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "type": "moment",
+      "film_beat": "Blair's computer simulation: the world infected",
+      "score": {
+        "iconic": 3,
+        "reaction": 4,
+        "instant_read": 4,
+        "dynamic": 3,
+        "loop": 3
+      },
+      "yt_title": "\"Was he asking ChatGPT?\" 😂 The Thing (1982) reaction",
+      "hook_text": "The 1982 computer knows too much",
+      "description": "Blair runs the numbers in The Thing and we have questions. #TheThing #moviereaction #firsttimewatching #chatgpt #johncarpenter",
+      "segments": [
+        {
+          "start": 2759.45,
+          "end": 2761.27,
+          "layout": "panel_hosts_only",
+          "film_beat": "Blair's computer simulation: the world infected",
+          "reason": "HOOK - the joke, over the projection typing itself out: 'Was he asking ChatGPT?'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 2759.7,
+              "end": 2761.02,
+              "text": "Was he asking Chat GPT?"
+            }
+          ]
+        },
+        {
+          "start": 2747.14,
+          "end": 2749.29,
+          "layout": "panel",
+          "film_beat": "Blair's computer simulation: the world infected",
+          "iconic": true,
+          "reason": "SETUP - the screen: probability the team is infected, 75%. Our '75%. Oh.' Start is frame-checked on the readout",
+          "captions": [
+            {
+              "who": "us",
+              "start": 2748.12,
+              "end": 2749.04,
+              "text": "75%. Oh."
+            }
+          ],
+          "trimmed_from": [
+            2745.3,
+            2749.29
+          ]
+        },
+        {
+          "start": 2752.31,
+          "end": 2755.59,
+          "layout": "panel_hosts_only",
+          "film_beat": "Blair's computer simulation: the world infected",
+          "reason": "It clicks: 'He was trying to kill the dog. He was trying to save you guys.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 2752.56,
+              "end": 2755.42,
+              "text": "He was trying to kill the dog. He was trying to save you guys."
+            }
+          ],
+          "trimmed_from": [
+            2752.31,
+            2755.67
+          ]
+        },
+        {
+          "start": 2762.17,
+          "end": 2763.35,
+          "layout": "panel",
+          "film_beat": "Blair's computer simulation: the world infected",
+          "reason": "'Oh my gosh.' as the projection appears",
+          "captions": [
+            {
+              "who": "us",
+              "start": 2762.42,
+              "end": 2763.1,
+              "text": "Oh my gosh."
+            }
+          ]
+        },
+        {
+          "start": 2766.98,
+          "end": 2768.8,
+          "layout": "panel",
+          "film_beat": "Blair's computer simulation: the world infected",
+          "iconic": true,
+          "reason": "PAYOFF - the full readout: entire world population infected 27,000 hours from first contact. We read it out",
+          "captions": [
+            {
+              "who": "us",
+              "start": 2767.14,
+              "end": 2768.64,
+              "text": "Entire world population infected."
+            }
+          ],
+          "trimmed_from": [
+            2765.4,
+            2768.89
+          ]
+        },
+        {
+          "start": 2769.77,
+          "end": 2770.47,
+          "layout": "panel_hosts_only",
+          "film_beat": "Blair's computer simulation: the world infected",
+          "reason": "'Damn.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 2770.02,
+              "end": 2770.22,
+              "text": "Damn."
+            }
+          ]
+        },
+        {
+          "start": 2771.71,
+          "end": 2773.55,
+          "layout": "panel_hosts_only",
+          "film_beat": "Blair's computer simulation: the world infected",
+          "reason": "BUTTON - 'So they gotta kill that sucker.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 2771.96,
+              "end": 2773.38,
+              "text": "So they gotta kill that sucker."
+            }
+          ],
+          "trimmed_from": [
+            2771.71,
+            2773.63
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fuck you too",
+      "type": "quote",
+      "film_beat": "Blair-Thing's final form; \"Yeah, fuck you too!\"; base explodes",
+      "score": {
+        "iconic": 4,
+        "reaction": 3,
+        "instant_read": 3,
+        "dynamic": 2,
+        "loop": 3
+      },
+      "yt_title": "\"Yeah, f*** you too!\" 💥 The Thing (1982) ending reaction",
+      "hook_text": "MacReady's last move",
+      "description": "First time watching the Blair-Thing finale in The Thing. #TheThing #moviereaction #firsttimewatching #kurtrussell #johncarpenter",
+      "segments": [
+        {
+          "start": 6117.5,
+          "end": 6120.6,
+          "layout": "panel",
+          "film_beat": "Blair-Thing's final form; \"Yeah, fuck you too!\"; base explodes",
+          "iconic": true,
+          "reason": "HOOK - flash-forward: the base goes up in a fireball, 'Holy crap.' Start is frame-checked on the blast",
+          "captions": [
+            {
+              "who": "us",
+              "start": 6119.68,
+              "end": 6120.44,
+              "text": "Holy crap."
+            }
+          ],
+          "trimmed_from": [
+            6117.5,
+            6120.69
+          ]
+        },
+        {
+          "start": 6059.09,
+          "end": 6060.97,
+          "layout": "panel",
+          "film_beat": "Blair-Thing's final form; \"Yeah, fuck you too!\"; base explodes",
+          "reason": "SETUP - the detonator is gone: 'Okay, can't blow that shit up.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 6059.34,
+              "end": 6060.72,
+              "text": "Okay, can't blow that shit up."
+            }
+          ]
+        },
+        {
+          "start": 6072.0,
+          "end": 6075.94,
+          "layout": "panel",
+          "film_beat": "Blair-Thing's final form; \"Yeah, fuck you too!\"; base explodes",
+          "iconic": true,
+          "reason": "The Blair-Thing rises out of the floor: 'It's like dog, human.' Start is frame-checked",
+          "captions": [
+            {
+              "who": "us",
+              "start": 6074.45,
+              "end": 6075.69,
+              "text": "It's like dog, human."
+            }
+          ]
+        },
+        {
+          "start": 6077.16,
+          "end": 6078.64,
+          "layout": "panel_hosts_only",
+          "film_beat": "Blair-Thing's final form; \"Yeah, fuck you too!\"; base explodes",
+          "reason": "'Oh my gosh.' Muted to break the film-audio run",
+          "captions": [
+            {
+              "who": "us",
+              "start": 6077.41,
+              "end": 6078.39,
+              "text": "Oh my gosh."
+            }
+          ]
+        },
+        {
+          "start": 6082.29,
+          "end": 6083.59,
+          "layout": "panel",
+          "film_beat": "Blair-Thing's final form; \"Yeah, fuck you too!\"; base explodes",
+          "reason": "'It's pretty nasty.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 6082.54,
+              "end": 6083.34,
+              "text": "It's pretty nasty."
+            }
+          ]
+        },
+        {
+          "start": 6093.2,
+          "end": 6098.6,
+          "layout": "panel",
+          "film_beat": "Blair-Thing's final form; \"Yeah, fuck you too!\"; base explodes",
+          "iconic": true,
+          "reason": "PAYOFF and BUTTON - MacReady's 'Yeah, fuck you too!', the throw and the first blast. The film transcript missed the line; a re-listen puts it at 6093.2-6094.6 and the blast at 6097.5. Runs 5.4s because the line and the explosion it sets off are 3 seconds apart; loops into the fireball",
+          "captions": [
+            {
+              "who": "film",
+              "start": 6093.2,
+              "end": 6094.64,
+              "text": "Yeah, fuck you too!"
+            }
+          ]
+        }
       ]
     }
-  ]
+  ],
+  "tightened": "2026-10-17T19:18:38"
 }

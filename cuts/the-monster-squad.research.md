@@ -67,7 +67,7 @@ Times below are **recording time** (film time + 257.25).
 | **must** | "Creatures stole my Twinkie"; asking Lisa if she's a virgin ("dorked") | 3270–3380 | 3310.6; 3345–3365 |
 | strong | Blackmail photo; "math squad… nature squad" | 3380–3460 | 3372–3378; 3440–3450 |
 | strong | Into Dracula's house: "Frankenstein's on our side" | 3460–3565 | 3499.9 |
-| **must** | "Wolfman's got nards!" | 3565–3640 | 3591.1 (reaction mic) |
+| **must** | "Wolfman's got nards!" | 3565–3640 | "Kick him in the nards!… He doesn't have nards!" 3575.5–3577.5 (film re-listen); kick 3584.7; 3591.1 (reaction mic) |
 | **must** | Amulet found; garlic pizza vs. Dracula | 3640–3750 | our "we found the amulet" 3679, "garlic pizza" 3727–3731 |
 | strong | Cops arrive; "is she a virgin?"; head for the church | 3750–3812 | 3757–3787 |
 | **must** | Mummy chases the Jeep and gets unravelled | 3812–3895 | "See you later, band-aid breath" 3877 |
@@ -76,7 +76,7 @@ Times below are **recording time** (film time + 257.25).
 | **must** | Church plaza: Rudy stakes the brides | 4075–4140 | our "Robin Hood" 4081, "Rudy's going for it" 4122 |
 | **must** | Werewolf blown apart by dynamite and reassembles | 4140–4320 | our "he's back, the werewolf is back" 4302 |
 | **must** | Lisa reads the incantation, isn't a virgin; "only one way to kill a werewolf" | 4320–4390 | 4336–4342; 4391 |
-| **must** | Phoebe takes over the spell; Gill-man vs. Horace | 4390–4480 | "A virgin!" 4410; **"My name is Horace!" not in either transcript**, anchored on our "shoot that sucker in the face" 4446 |
+| **must** | Phoebe takes over the spell; Gill-man vs. Horace | 4390–4480 | "A virgin!" 4410; shotgun blast 4453.8; **"Hey, fat kid, good job." 4468.0–4471.5 / "My name is Horace!" 4472.0–4474.0** (not in either transcript; found by re-listening to the film) |
 | **must** | "Give me the amulet, you bitch!"; Frankenstein impales Dracula | 4480–4640 | 4573–4578; our "Frankenstein saves the day" 4620 |
 | **must** | The vortex: monsters swallowed, Sean stakes Dracula, Van Helsing drags him in | 4640–4705 | our "into the vortex they go" 4696 |
 | **must** | Frankenstein lets go of Phoebe's hand | 4705–4745 | our "bye Frankenstein… poor Frankenstein" 4717–4734 |

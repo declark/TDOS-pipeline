@@ -109,18 +109,36 @@ short. Segments may overlap in source time and run in any order.
   or is really two shorts.
 - **Tight, tighter than the long cut.** Remove every pause longer than ~0.4s
   between spoken lines unless the silence *is* the reaction (a stare, a
-  held breath before the explosion).
+  held breath before the explosion). `src/tighten_cuts.py` does the
+  mechanical part after selection: it trims silent, still lead-ins and tails
+  to a 0.1s handle and cuts inner pauses (0.4s+ on us, 0.8s+ where the film
+  is heard). Quiet score or room tone under a still shot counts as silence.
+  Only film dialogue or a real hit holds a moment open.
+- **Get to the line.** Don't open a segment on more than ~0.5s of film before
+  the line or reaction it's there for, unless the film moment is the beat
+  itself (the chest opening, the fireball).
 - **Something changes every 2–4 seconds**: a cut or a new line.
-  A single segment over ~5 seconds needs a reason in `reason`.
+- **Film exposure is capped exactly as in the long cut** (`config/SKILL.md`,
+  CONTINUOUS FILM EXPOSURE). A continuous run of film audio (`panel`) defaults
+  to **4 seconds** and may stretch to an absolute ceiling of **6 seconds**
+  only with the why in `reason`. Nothing goes past 6s, however iconic: this is
+  what keeps a short a reaction and not a clip of the film. Break a longer
+  moment the same ways the long cut does: a source skip of at least 2 seconds
+  (in either direction), or a `panel_hosts_only` segment.
 - The payoff should land **by ~8 seconds** in, 12 at the latest.
 
 ## LAYOUTS
 
 Shorts have **two layouts**. Both use the same picture, the vertical stack:
 
-- **Top**: the movie clip, full width, at 16:9.
+- **Title band**: "First Time Watching" over "<Title> (<year>)", for the
+  whole short (the `title` lines in `config/shorts.json`). It sits low in a
+  tall black band so it's clear of the apps' top bar.
+- **Film**: the movie clip, full width, at 16:9. A wider film is cropped at
+  the sides to fill it.
 - **Seam**: captions sit on the line where the movie meets the hosts.
-- **Bottom**: Doug and Theresa, filling the rest of the frame.
+- **Hosts**: Doug and Theresa, a full-width frame under the film.
+- **Bottom**: black, under the apps' title, description and buttons.
 
 They differ only in audio. The names are the long cut's, so the cut list
 format and clip colours stay the same:
@@ -131,10 +149,17 @@ format and clip colours stay the same:
 | `panel_hosts_only` | us only, movie muted | we're talking over the film and its audio would muddy our line |
 
 - The picture never changes, so pace comes from cuts and lines (see TIMING).
+- All text is kept inside the social safe zone (`safe_zone` in
+  `config/shorts.json`): clear of the top bar, the title/description/subscribe
+  area at the bottom and the like/comment/share column on the right. Keep
+  `hook_text` short (3–7 words) so it fits the narrower safe width at a
+  readable size.
 - Don't use any other layout name in a short.
 - The seam caption covers the bottom edge of the movie and the top of our
   frame, so don't pick a moment whose key detail sits at the very bottom of
   the film frame.
+- A widescreen film loses a strip down each side, so the same goes for a
+  detail at the far left or right edge.
 
 ## TITLES AND TEXT
 
@@ -143,11 +168,33 @@ For each short, write:
 - **`yt_title`**: ≤ 60 characters. Lead with the hook, and name the film:
   viewers search the film. Quote the famous line when there is one.
   E.g. `"Broke into the wrong rec room" 😳 Tremors reaction`.
-- **`hook_text`**: 3–7 words of on-screen text for the first 2 seconds,
-  shown in the seam caption, stating the tension, not the answer
-  (`She did NOT see this coming`).
+- **`hook_text`**: 3–7 words stating the short's tension. The title band
+  shows the film's title, not this, unless `config/shorts.json` puts
+  `{hook}` in a `title` line. Write it anyway: it's the short's angle. It states the tension, not the answer
+  (`She did NOT see this coming`), and has to still be true at the last
+  frame. No emoji: the caption font can't draw them.
 - **`description`**: one line, then hashtags: `#<Film> #movie reaction
   #firsttimewatching` plus 1–2 specific to the moment.
+
+## CAPTIONS
+
+Every spoken line in a short is captioned, word by word, on the seam. Write
+them per segment in a `captions` list: one entry per phrase, with who says it.
+
+- **`who`**: `"film"` for a line of the film's dialogue, `"us"` for ours. They
+  show in different colours.
+- **`start` / `end`**: recording time, on the word boundaries of that phrase
+  in that speaker's transcript (film words `+ [OFFSET]`), inside the segment.
+- **`text`**: what was actually said. Fix what the transcript misheard,
+  especially the famous line, which is the one people will read. Keep the
+  word count the same as the transcript's where you can, so each word keeps
+  its own timing.
+- Caption a film line only in a `panel` segment, where it's heard.
+- Our transcript sometimes picks the film up faintly. Don't caption that as
+  ours.
+- A segment where nobody speaks gets `"captions": []`. Leaving `captions` out
+  altogether means "use our transcript's words as they are", which is only
+  right when they need no fixing.
 
 ## OUTPUT
 
@@ -168,7 +215,10 @@ Write `cuts/<slug>.shorts.json`. Shorts go in rank order, best first:
       "description": "...",
       "segments": [
         { "start": 3821.0, "end": 3823.4, "layout": "panel_hosts_only",
-          "reason": "HOOK - flash-forward: our 'oh no no no'" }
+          "reason": "HOOK - flash-forward: our 'oh no no no'",
+          "captions": [
+            { "who": "us", "start": 3821.0, "end": 3822.6, "text": "Oh no no no!" }
+          ] }
       ]
     }
   ]
@@ -176,8 +226,15 @@ Write `cuts/<slug>.shorts.json`. Shorts go in rank order, best first:
 ```
 
 Segment fields are the same as the long cut's (`start`, `end`, `layout`,
-optional `film_beat` / `iconic` / `reason`). Segments play in the order
-listed. `name` becomes the timeline name, so keep it short.
+optional `film_beat` / `iconic` / `reason`), plus `captions`. A segment may
+also carry `bleeps` (`[{"who", "start", "end"}]`, set in the app's editor):
+when revising a short, keep each one on the segment that still covers it. Segments play in
+the order listed. `name` becomes the file and timeline name, so keep it short.
+
+Check the file with `python src/check_cuts.py --cuts cuts/<slug>.shorts.json`.
+A `FAIL` (film audio past the 6s ceiling, a short over 35s, a layout that
+isn't one of the two) means the short is not done: `src/render_shorts.py`
+refuses to render it.
 
 In the chat summary, also report:
 

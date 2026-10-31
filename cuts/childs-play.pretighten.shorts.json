@@ -1,0 +1,318 @@
+{
+  "title": "Childs Play",
+  "movie_offset_seconds": 92.05,
+  "shorts": [
+    {
+      "name": "Hello Andy",
+      "type": "called it",
+      "film_beat": "The burn and burnt Chucky's return",
+      "score": { "iconic": 5, "reaction": 5, "instant_read": 4, "dynamic": 5, "loop": 5 },
+      "yt_title": "\"This is the end, friend\" 🔥 Child's Play (1988) reaction",
+      "hook_text": "We knew he wasn't dead",
+      "description": "They burned Chucky in the fireplace. We weren't buying it. #ChildsPlay #moviereaction #firsttimewatching #Chucky #burntchucky",
+      "segments": [
+        { "start": 4720.6, "end": 4723.34, "layout": "panel",
+          "film_beat": "Burnt Chucky: the melted doll comes back for Andy", "iconic": true,
+          "reason": "HOOK - flash-forward: burnt Chucky's face, 'Hello, Andy.' and our scream (4720.9-4723.1), one of the loudest of the recording",
+          "captions": [
+            { "who": "film", "start": 4721.79, "end": 4723.09, "text": "Hello, Andy." }
+          ] },
+        { "start": 4619.32, "end": 4622.19, "layout": "panel",
+          "film_beat": "\"This is the end, friend.\" Andy drops the match", "iconic": true,
+          "reason": "SETUP - the famous line. End clamped to the next film word",
+          "captions": [
+            { "who": "film", "start": 4619.57, "end": 4622.19, "text": "This is the end, friend." }
+          ] },
+        { "start": 4624.3, "end": 4627.6, "layout": "panel",
+          "film_beat": "\"This is the end, friend.\" Andy drops the match", "iconic": true,
+          "reason": "PAYOFF 1 - Chucky goes up in the fireplace, screaming (frame-checked). 2.1s skip after the line; the film transcript has only noise here",
+          "captions": [] },
+        { "start": 4673.63, "end": 4676.59, "layout": "panel_hosts_only",
+          "film_beat": "Aftermath of the burn",
+          "reason": "The call: 'Not dead. No chance he's dead.' Muted so our line is clean",
+          "captions": [
+            { "who": "us", "start": 4673.88, "end": 4676.34, "text": "Not dead. No chance he's dead." }
+          ] },
+        { "start": 4697.77, "end": 4699.37, "layout": "panel_hosts_only",
+          "film_beat": "Burnt Chucky: the fireplace is empty",
+          "reason": "Doubling down a second before the film confirms it: 'No, he got up.' (transcript: 'we got up')",
+          "captions": [
+            { "who": "us", "start": 4698.02, "end": 4699.12, "text": "No, he got up." }
+          ] },
+        { "start": 4699.38, "end": 4702.12, "layout": "panel",
+          "film_beat": "Burnt Chucky: the fireplace is empty", "iconic": true,
+          "reason": "BUTTON / LOOP - the empty, scorched fireplace: 'Mommy, Chucky's gone.' Loops straight into 'Hello, Andy.'",
+          "captions": [
+            { "who": "film", "start": 4699.63, "end": 4701.87, "text": "Mommy, Chucky's gone." }
+          ] }
+      ]
+    },
+    {
+      "name": "Wanna play",
+      "type": "called it",
+      "film_beat": "The body attacks Jack; the heart shot; \"Hi, I'm Chucky. Wanna play?\"",
+      "score": { "iconic": 4, "reaction": 5, "instant_read": 4, "dynamic": 5, "loop": 3 },
+      "yt_title": "\"Hi, I'm Chucky. Wanna play?\" 😱 Child's Play reaction",
+      "hook_text": "She called the ending",
+      "description": "Called it a minute early, then screamed anyway. #ChildsPlay #moviereaction #firsttimewatching #Chucky #wannaplay",
+      "segments": [
+        { "start": 4968.2, "end": 4971.0, "layout": "panel",
+          "film_beat": "The body bursts out and strangles Jack", "iconic": true,
+          "reason": "HOOK - flash-forward: the headless body bursts out of the vent onto Jack (4968.5) and we scream, the loudest moment of the whole recording (4968.9-4970.7). Film words here are no-VAD noise, so no film caption",
+          "captions": [] },
+        { "start": 4927.39, "end": 4931.34, "layout": "panel_hosts_only",
+          "film_beat": "Jack arrives and won't believe it",
+          "reason": "SETUP - the call: 'it's gonna be like Hi, I'm Chucky'. End clamped to the next word",
+          "captions": [
+            { "who": "us", "start": 4927.64, "end": 4931.34, "text": "was gonna touch him and like, it's gonna be like \"Hi, I'm Chucky\"" }
+          ] },
+        { "start": 4961.92, "end": 4963.82, "layout": "panel",
+          "film_beat": "Jack arrives and won't believe it",
+          "reason": "Jack has picked up the head: 'I thought I told you not to touch it.'",
+          "captions": [
+            { "who": "film", "start": 4962.17, "end": 4963.57, "text": "I thought I told you not to touch it." }
+          ] },
+        { "start": 4749.22, "end": 4751.43, "layout": "panel_hosts_only",
+          "film_beat": "Burnt Chucky",
+          "reason": "The running bit's second call, from the burnt-Chucky chase: 'It's his heart. You gotta go for the heart.' End clamped to the next word",
+          "captions": [
+            { "who": "us", "start": 4749.47, "end": 4751.43, "text": "It's his heart. You gotta go for the heart" }
+          ] },
+        { "start": 5007.16, "end": 5009.26, "layout": "panel",
+          "film_beat": "The heart shot", "iconic": true,
+          "reason": "The film agrees: 'The heart! Shoot him in the heart!'",
+          "captions": [
+            { "who": "film", "start": 5007.41, "end": 5009.01, "text": "The heart! Shoot him in the heart!" }
+          ] },
+        { "start": 5011.6, "end": 5015.4, "layout": "panel",
+          "film_beat": "The heart shot", "iconic": true,
+          "reason": "PAYOFF 1 - the shot (5012.8) and the body thrown back. 2.3s skip after the line",
+          "captions": [] },
+        { "start": 5034.79, "end": 5038.74, "layout": "panel",
+          "film_beat": "The head winds down: \"Hi, I'm Chucky. Wanna play?\"", "iconic": true,
+          "reason": "PAYOFF 2 / BUTTON - the burnt head says exactly what she called. Start clamped to the noise word before it",
+          "captions": [
+            { "who": "film", "start": 5034.85, "end": 5038.49, "text": "Hi, I'm Chucky. Wanna play?" }
+          ] }
+      ]
+    },
+    {
+      "name": "Get out of the car",
+      "type": "moment",
+      "film_beat": "Chucky attacks Norris from the back seat",
+      "score": { "iconic": 4, "reaction": 5, "instant_read": 4, "dynamic": 2, "loop": 3 },
+      "yt_title": "\"Get out of the car, man!\" 😱 Child's Play (1988) reaction",
+      "hook_text": "Chucky is in the back seat",
+      "description": "We knew Chucky was in that car. It didn't help. #ChildsPlay #moviereaction #firsttimewatching #Chucky #jumpscare",
+      "segments": [
+        { "start": 3382.3, "end": 3385.4, "layout": "panel",
+          "film_beat": "Chucky attacks Norris from the back seat", "iconic": true,
+          "reason": "HOOK - flash-forward: the first knife through the seat and our scream at 3383.7, the loudest of the recording",
+          "captions": [
+            { "who": "film", "start": 3382.43, "end": 3383.69, "text": "Whoa! Oh!" }
+          ] },
+        { "start": 3329.08, "end": 3331.24, "layout": "panel_hosts_only",
+          "film_beat": "Chucky attacks Norris from the back seat",
+          "reason": "SETUP - 'Chucky's in that frigging car!' Muted: the film under it is just the radio",
+          "captions": [
+            { "who": "us", "start": 3329.33, "end": 3330.99, "text": "Chucky's in that frigging car!" }
+          ] },
+        { "start": 3341.9, "end": 3344.6, "layout": "panel",
+          "film_beat": "Chucky attacks Norris from the back seat", "iconic": true,
+          "reason": "Chucky rises behind the seat and we scream (3342.1-3344.5). The film words here are no-VAD noise over the score",
+          "captions": [] },
+        { "start": 3390.8, "end": 3392.4, "layout": "panel",
+          "film_beat": "Chucky attacks Norris from the back seat", "iconic": true,
+          "reason": "Second knife through the seat, second scream (3391.3)",
+          "captions": [] },
+        { "start": 3395.4, "end": 3398.7, "layout": "panel",
+          "film_beat": "Chucky attacks Norris from the back seat", "iconic": true,
+          "reason": "PAYOFF - the knife comes up between Norris's legs (3396.2). 3s skip from the last chunk",
+          "captions": [] },
+        { "start": 3398.7, "end": 3400.08, "layout": "panel_hosts_only",
+          "film_beat": "Chucky attacks Norris from the back seat",
+          "reason": "'Jesus Christ.' Muted, which breaks the film run",
+          "captions": [
+            { "who": "us", "start": 3398.95, "end": 3399.83, "text": "Jesus Christ." }
+          ] },
+        { "start": 3405.59, "end": 3407.46, "layout": "panel_hosts_only",
+          "film_beat": "Chucky attacks Norris from the back seat",
+          "reason": "'Get the fuck out of the car, man!' End clamped to the next word",
+          "captions": [
+            { "who": "us", "start": 3405.84, "end": 3407.46, "text": "Get the fuck out of the car, man!" }
+          ] },
+        { "start": 3455.71, "end": 3458.27, "layout": "panel_hosts_only",
+          "film_beat": "The car on its roof",
+          "reason": "BUTTON - Norris lying in the flipped car: 'Well, it's a little harder now that he's upside down.'",
+          "captions": [
+            { "who": "us", "start": 3455.96, "end": 3458.02, "text": "Well, it's a little harder now that he's upside down" }
+          ] }
+      ]
+    },
+    {
+      "name": "No batteries",
+      "type": "quote",
+      "film_beat": "The batteries; Chucky comes alive in Karen's hands",
+      "score": { "iconic": 5, "reaction": 4, "instant_read": 5, "dynamic": 1, "loop": 3 },
+      "yt_title": "\"You stupid bitch!\" 😳 Chucky comes alive | Child's Play",
+      "hook_text": "There are no batteries in him",
+      "description": "The batteries were in the box the whole time. #ChildsPlay #moviereaction #firsttimewatching #Chucky #wannaplay",
+      "segments": [
+        { "start": 2709.2, "end": 2714.2, "layout": "panel",
+          "film_beat": "The batteries: the head turns, \"Hi, I'm Chucky. Wanna play?\"", "iconic": true,
+          "reason": "HOOK - the empty battery compartment, the head turns, 'Hi, I'm Chucky. Wanna play?', Karen screams, then our gasp (2713.1-2713.9). Runs past 4s (5.0s) so the gasp lands on the end of the line; frame-checked",
+          "captions": [
+            { "who": "film", "start": 2710.11, "end": 2712.41, "text": "Hi, I'm Chucky. Wanna play?" }
+          ] },
+        { "start": 2799.7, "end": 2801.53, "layout": "panel",
+          "film_beat": "Karen threatens the fireplace",
+          "reason": "SETUP - 'I said talk to me, dammit!' End clamped to the next word; the fire threat is dropped to make the 2s skip before the outburst",
+          "captions": [
+            { "who": "film", "start": 2799.95, "end": 2801.53, "text": "I said talk to me, dammit!" }
+          ] },
+        { "start": 2803.82, "end": 2809.08, "layout": "panel",
+          "film_beat": "Chucky comes alive: \"You stupid bitch!\"", "iconic": true,
+          "reason": "PAYOFF - the outburst, with our scream at 2806.4-2807.4 as he lunges. Runs past 4s (5.3s) because chopping the famous line would wreck it",
+          "captions": [
+            { "who": "film", "start": 2804.07, "end": 2805.41, "text": "You stupid bitch!" },
+            { "who": "film", "start": 2805.75, "end": 2806.55, "text": "You filthy slut!" },
+            { "who": "film", "start": 2807.53, "end": 2808.83, "text": "I'll teach you to fuck with me!" }
+          ] },
+        { "start": 2815.8, "end": 2818.6, "layout": "panel",
+          "film_beat": "Chucky bites Karen", "iconic": true,
+          "reason": "He goes for her arm and we scream again (2816.8). The film words here are a no-VAD 'No!' loop, so no caption",
+          "captions": [] },
+        { "start": 2846.68, "end": 2849.03, "layout": "panel_hosts_only",
+          "film_beat": "Chucky bites Karen and runs",
+          "reason": "BUTTON - 'Yeah, I would have shit my pants.' End clamped to the next word",
+          "captions": [
+            { "who": "us", "start": 2846.93, "end": 2849.03, "text": "Yeah, I would have shit my pants." }
+          ] }
+      ]
+    },
+    {
+      "name": "Maggie",
+      "type": "quote",
+      "film_beat": "Maggie's death: the hammer and the window",
+      "score": { "iconic": 5, "reaction": 5, "instant_read": 4, "dynamic": 1, "loop": 2 },
+      "yt_title": "\"I'm scaring myself half to death\" 😱 Child's Play reaction",
+      "hook_text": "Never say this in a horror movie",
+      "description": "Aunt Maggie should not have said that out loud. #ChildsPlay #moviereaction #firsttimewatching #Chucky #jumpscare",
+      "segments": [
+        { "start": 1498.45, "end": 1500.95, "layout": "panel",
+          "film_beat": "Maggie's death: the hammer and the window", "iconic": true,
+          "reason": "HOOK - flash-forward: the hammer hit (1499.0, picture-checked) and our shout (1500.4-1500.8)",
+          "captions": [] },
+        { "start": 1494.82, "end": 1498.4, "layout": "panel",
+          "film_beat": "Maggie's death: the hammer and the window", "iconic": true,
+          "reason": "SETUP - 'I'm scaring myself half to death.' then she whips round and we scream (1497.1-1498.2), the loudest thing in the first half",
+          "captions": [
+            { "who": "film", "start": 1495.07, "end": 1496.67, "text": "I'm scaring myself half to death." }
+          ] },
+        { "start": 1502.0, "end": 1505.0, "layout": "panel",
+          "film_beat": "Maggie's death: the hammer and the window", "iconic": true,
+          "reason": "PAYOFF - through the kitchen window (1502.2-1502.9). 3.6s skip from the last chunk",
+          "captions": [] },
+        { "start": 1507.05, "end": 1510.0, "layout": "panel",
+          "film_beat": "Maggie's death: the hammer and the window", "iconic": true,
+          "reason": "The fall, our shout (1507.4-1509.2) and the truck (1509.4)",
+          "captions": [] },
+        { "start": 1538.24, "end": 1541.34, "layout": "panel_hosts_only",
+          "film_beat": "Karen comes home to police",
+          "reason": "BUTTON - 'Is she able to just, like, squeeze her way through?' about Chucky and that little window",
+          "captions": [
+            { "who": "us", "start": 1538.49, "end": 1541.09, "text": "Is she able to just, like, squeeze her way through?" }
+          ] }
+      ]
+    },
+    {
+      "name": "Electroshock",
+      "type": "moment",
+      "film_beat": "Dr. Ardmore and the electroshock machine",
+      "score": { "iconic": 3, "reaction": 5, "instant_read": 4, "dynamic": 1, "loop": 3 },
+      "yt_title": "Chucky fries the doctor 😱 Child's Play (1988) reaction",
+      "hook_text": "The doctor didn't believe Andy",
+      "description": "He should have listened to the kid. #ChildsPlay #moviereaction #firsttimewatching #Chucky #electroshock",
+      "segments": [
+        { "start": 4133.67, "end": 4134.89, "layout": "panel",
+          "film_beat": "Dr. Ardmore fried by the electroshock headset",
+          "reason": "HOOK - flash-forward: Ardmore's burnt face (frame-checked, 4133-4134) and our 'My goodness!', the loudest moment of the scene (-12 dB)",
+          "captions": [
+            { "who": "us", "start": 4133.92, "end": 4134.64, "text": "My goodness!" }
+          ] },
+        { "start": 4101.62, "end": 4104.6, "layout": "panel",
+          "film_beat": "Dr. Ardmore grabs Andy to sedate him",
+          "reason": "SETUP - Ardmore pins Andy with the needle: 'Andy, now this is just going to sting you for one second.'",
+          "captions": [
+            { "who": "film", "start": 4101.87, "end": 4104.35, "text": "Andy, now this is just going to sting you for one second." }
+          ] },
+        { "start": 4108.4, "end": 4110.0, "layout": "panel",
+          "film_beat": "Chucky stabs Ardmore with the scalpel",
+          "reason": "Chucky drives the scalpel into Ardmore's leg (4109, frame-checked). 3.8s skip from the line; no film words here, cut on the shot's edges",
+          "captions": [] },
+        { "start": 4112.4, "end": 4114.6, "layout": "panel",
+          "film_beat": "Chucky straps the electroshock headset on Ardmore",
+          "reason": "Chucky's sneakers by Ardmore's head as the headset goes on (4113-4114, frame-checked). 2.4s skip",
+          "captions": [] },
+        { "start": 4118.34, "end": 4121.67, "layout": "panel",
+          "film_beat": "Dr. Ardmore and the electroshock machine",
+          "reason": "PAYOFF - the shock hits, Andy screams 'Stop!', and we scream 'Oh my goodness' (4118.75-4119.75). 3.7s skip. Film 'Stop!' overlaps our line, so only ours is captioned",
+          "captions": [
+            { "who": "us", "start": 4119.15, "end": 4119.75, "text": "My goodness!" },
+            { "who": "us", "start": 4120.95, "end": 4121.67, "text": "Oh" }
+          ] },
+        { "start": 4121.67, "end": 4124.6, "layout": "panel_hosts_only",
+          "film_beat": "Dr. Ardmore and the electroshock machine",
+          "reason": "'My gosh, he's electroshocking him.' over the shock and Chucky's grin. Muted to break the film run and keep our line clean; end clamped to the next word",
+          "captions": [
+            { "who": "us", "start": 4121.67, "end": 4124.35, "text": "My gosh, he's electro- electroshocking him." }
+          ] },
+        { "start": 4147.06, "end": 4149.32, "layout": "panel_hosts_only",
+          "film_beat": "Karen and Norris arrive at the hospital",
+          "reason": "BUTTON / LOOP - 'Holy crap.' Loops back into the burnt face and 'My goodness!'",
+          "captions": [
+            { "who": "us", "start": 4147.31, "end": 4149.07, "text": "Holy crap." }
+          ] }
+      ]
+    },
+    {
+      "name": "Date with a six-year-old",
+      "type": "quote",
+      "film_beat": "Chucky and John (\"Dr. Death\")",
+      "score": { "iconic": 4, "reaction": 4, "instant_read": 3, "dynamic": 2, "loop": 2 },
+      "yt_title": "\"I have a date with a six-year-old boy\" Child's Play 1988",
+      "hook_text": "Chucky found the voodoo doll",
+      "description": "Never tell Chucky where you hide your voodoo doll. #ChildsPlay #moviereaction #firsttimewatching #Chucky #BradDourif",
+      "segments": [
+        { "start": 3752.5, "end": 3754.06, "layout": "panel",
+          "film_beat": "Chucky and John (\"Dr. Death\")", "iconic": true,
+          "reason": "HOOK - flash-forward: Chucky snaps the voodoo doll's leg (3752.6, frame-checked) and we scream (3753.2-3753.8)",
+          "captions": [] },
+        { "start": 3749.02, "end": 3754.06, "layout": "panel",
+          "film_beat": "Chucky and John (\"Dr. Death\")", "iconic": true,
+          "reason": "SETUP + PAYOFF - 'Sure. How do you want it? Broken leg?' then the snap and our scream again. Runs past 4s (5.0s) because the line runs straight into the snap",
+          "captions": [
+            { "who": "film", "start": 3749.27, "end": 3751.27, "text": "Sure. How do you want it? Broken leg?" }
+          ] },
+        { "start": 3799.74, "end": 3802.1, "layout": "panel",
+          "film_beat": "Chucky and John (\"Dr. Death\")", "iconic": true,
+          "reason": "The plan: 'I'm going to be six years old again.'",
+          "captions": [
+            { "who": "film", "start": 3799.99, "end": 3801.85, "text": "I'm going to be six years old again." }
+          ] },
+        { "start": 3806.82, "end": 3809.38, "layout": "panel",
+          "film_beat": "Chucky and John (\"Dr. Death\")", "iconic": true,
+          "reason": "The famous line: 'I have a date with a six-year-old boy.' 4.7s skip from the last chunk",
+          "captions": [
+            { "who": "film", "start": 3807.07, "end": 3809.13, "text": "I have a date with a six-year-old boy." }
+          ] },
+        { "start": 3823.44, "end": 3828.66, "layout": "panel_hosts_only",
+          "film_beat": "Chucky's face is turning human",
+          "reason": "BUTTON - we spot the effect: 'His face looks different now... He's Chucky. He's turning human'",
+          "captions": [
+            { "who": "us", "start": 3823.69, "end": 3828.41, "text": "His face looks different now that he's, like, not the doll doll. He's Chucky. He's turning human" }
+          ] }
+      ]
+    }
+  ]
+}

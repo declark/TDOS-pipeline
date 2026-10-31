@@ -1,0 +1,63 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+
+  "safe_zone": { "top": 270, "bottom": 670, "left": 120, "right": 200 },
+
+  "text_band_height": 420,
+  "film_height": 576,
+  "hosts_height": 696,
+  "background": "#000000",
+
+  "hosts_crop_x": 0.5,
+
+  "fonts": ["Montserrat-Black.otf", "seguibl.ttf", "ariblk.ttf", "arialbd.ttf"],
+
+  "title": {
+    "lines": [
+      { "text": "First Time Watching", "size": 56,
+        "fonts": ["Montserrat-SemiBold.otf", "seguisb.ttf", "arialbd.ttf"] },
+      { "text": "{title} ({year})", "size": 76,
+        "fonts": ["Montserrat-Bold.otf", "segoeuib.ttf", "arialbd.ttf"] }
+    ],
+    "color": "#FFFFFF",
+    "line_gap": 18,
+    "margin": 8,
+    "uppercase": false
+  },
+
+  "captions": {
+    "size": 88,
+    "color": "#FFFFFF",
+    "stroke_color": "#000000",
+    "stroke_width": 10,
+    "highlight": { "us": "#FFE600", "film": "#5CD6FF" },
+    "margin": 16,
+    "uppercase": true,
+    "max_words": 3,
+    "max_chars": 14,
+    "gap_seconds": 0.35,
+    "min_show_seconds": 0.3
+  },
+
+  "audio": {
+    "hosts_gain_db": 0,
+    "film_gain_db": -6,
+    "fade_ms": 8,
+    "peak_db": -1
+  },
+
+  "bleep": {
+    "sound": "C:/Davinci Resolve Resources/Sound Effects/Duck Quack 01.wav",
+    "tone_hz": 1000,
+    "level_db": -4,
+    "pad_ms": 90,
+    "fade_ms": 5,
+    "words": ["fuck*", "motherfuck*", "shit*", "bullshit*", "bitch*", "cunt*", "cock", "cocks",
+              "cocksucker*", "dick", "dicks", "dickhead*", "pussy", "asshole*", "goddamn*",
+              "bastard*", "twat*", "wanker*", "prick", "pricks", "whore*", "slut*"]
+  },
+
+  "video": { "crf": 18, "preset": "medium" }
+}

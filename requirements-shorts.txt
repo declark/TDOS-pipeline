@@ -1,0 +1,8 @@
+# Rendering shorts without Resolve (src/render_shorts.py).
+#
+#   pip install -r requirements-shorts.txt
+#
+# Pillow draws the hook text and the captions. Decoding, scaling and encoding
+# use PyAV and numpy, which requirements-transcribe.txt already brings in with
+# faster-whisper.
+Pillow>=10.0

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TDOS Pipeline</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <aside class="sidebar">
+    <div class="brand">TDOS Pipeline</div>
+    <div class="sidebar-label">Projects</div>
+    <ul id="project-list"></ul>
+    <button id="new-project" class="btn">New project</button>
+  </aside>
+
+  <main>
+    <div id="jobbar" hidden>
+      <span class="spinner"></span>
+      <span id="jobbar-label"></span>
+      <span class="spacer"></span>
+      <button id="jobbar-log" class="btn small">View log</button>
+      <button id="jobbar-cancel" class="btn small danger">Cancel</button>
+    </div>
+
+    <section id="view-empty" class="view">
+      <div class="empty">
+        <h1>No project selected</h1>
+        <p>Pick a project on the left, or start a new one.</p>
+      </div>
+    </section>
+
+    <section id="view-new" class="view" hidden>
+      <h1>New project</h1>
+      <form id="new-form" autocomplete="off">
+        <label>Movie name
+          <input id="new-title" type="text" placeholder="Repo Man" required>
+        </label>
+        <label>Reaction recording (hosts)
+          <span class="file-row">
+            <input id="new-reaction" type="text" placeholder="Path to the reaction recording" required>
+            <button type="button" class="btn" data-browse="new-reaction">Browse</button>
+          </span>
+        </label>
+        <label>Movie file
+          <span class="file-row">
+            <input id="new-movie" type="text" placeholder="Path to the movie file" required>
+            <button type="button" class="btn" data-browse="new-movie">Browse</button>
+          </span>
+        </label>
+        <label>Movie offset (seconds)
+          <input id="new-offset" type="number" step="any" min="0" placeholder="Optional for now">
+          <span class="hint">How many seconds into the reaction recording the movie starts playing.
+            Needed before research; you can add it later.</span>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Create project</button>
+          <button type="button" id="new-cancel" class="btn">Cancel</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="view-project" class="view" hidden>
+      <header id="project-header"></header>
+      <div id="stages"></div>
+      <div id="run-all"></div>
+      <nav id="tabs"></nav>
+      <div id="panel"></div>
+    </section>
+  </main>
+</div>
+
+<div id="modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <p id="modal-text"></p>
+    <label id="modal-option" hidden><input id="modal-check" type="checkbox"> <span id="modal-option-text"></span></label>
+    <div class="modal-actions">
+      <button id="modal-cancel" class="btn">Cancel</button>
+      <button id="modal-ok" class="btn primary">OK</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" hidden></div>
+
+<script src="app.js"></script>
+<script src="editor.js"></script>
+</body>
+</html>

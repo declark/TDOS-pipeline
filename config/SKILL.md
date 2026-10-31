@@ -9,15 +9,26 @@ description: this will create a json file that will be used to produce a davinci
 I'm cutting a movie reaction video down to a highlights version. Two hosts,
 Doug and Theresa, watch a film for the first time and react.
 
+This is the second of three stages:
+
+1. **Research** (`config/RESEARCH.md`) → `cuts/<slug>.research.md`
+2. **Cut** (this file) → `cuts/<slug>.json`
+3. **Review** (`config/REVIEW.md`) → `cuts/<slug>.review.md`
+
 ## ATTACHED
 
-Both are word-level JSON transcripts from `src/transcribe.py` (see
+1. The research sheet, `cuts/<slug>.research.md`: what fans come for, the
+   beat sheet (every beat ranked `must` / `strong` / `optional` with its
+   recording-time range and anchor), and our running dynamic. The film is
+   already researched. Don't redo it; work from the sheet.
+
+The other two are word-level JSON transcripts from `src/transcribe.py` (see
 `segments[].words[]`, each with `start`/`end` in seconds), not SRT files.
 
-1. Our commentary transcript, from the reaction recording directly.
+2. Our commentary transcript, from the reaction recording directly.
    Timestamps are already true seconds from the start of our recording - no
    offset needed.
-2. The film's transcript, from the movie file directly. Timestamps are film
+3. The film's transcript, from the movie file directly. Timestamps are film
    time, starting at zero. The film begins at [OFFSET] seconds into our
    recording (`movie_offset_seconds`), so add [OFFSET] to every film
    timestamp to convert it to our recording's timeline.
@@ -45,39 +56,17 @@ This means the commentary transcript is a weak signal for the moments that
 matter most, because our best reactions produce no words at all. Never treat
 "there's a good line here" as sufficient reason to keep something.
 
-## STEP 1 — RESEARCH THE FILM (before touching the transcripts)
+## STEP 1 — READ THE RESEARCH SHEET
 
-Do not start selecting until you know this movie the way a fan searching for
-it does. The transcript alone won't tell you which moments people care about.
-Use web search (WebSearch / WebFetch) and cover at least:
+Read `cuts/<slug>.research.md` in full before touching the transcripts. The
+beat sheet is the checklist for the whole cut. Every `must` beat has to be in
+the final cut, even if our reaction to it is mild — the film moment itself is
+the payload. Everything under "What fans come for" has to be there too.
 
-- **Plot, act by act** — the Wikipedia plot summary (or equivalent), so you
-  know the setups, turns, reveals, deaths and the ending, in order.
-- **Iconic and most-discussed scenes** — "best scenes", "most iconic moments",
-  "scenes everyone remembers" lists, fan discussion, retrospectives. Note which
-  moments come up again and again across sources; those are the must-haves.
-- **Famous lines** — the quotes the film is known for (IMDb quotes, AFI-style
-  lists, memes). These are also your best tool for locating scenes in the film
-  transcript.
-- **Trivia and context** — twists viewers are primed to wait for, famous
-  practical effects or stunts, anything the audience expects to see us
-  discover.
-
-Then build a **beat sheet**: every major beat and every iconic moment, in film
-order, each with:
-
-- a one-line description,
-- an importance rank (`must` = iconic / plot-critical, `strong`, `optional`),
-- its location in the film transcript (film-time `start`/`end`), found by
-  matching famous lines or scene dialogue. For visual-only moments with no
-  dialogue, anchor on the nearest dialogue before and after and note that the
-  moment sits between them.
-
-Save it to `cuts/<slug>.research.md` (with the sources you used) so it can be
-reviewed and reused. Every `must` beat has to be in the final cut, even if our
-reaction to it is mild — the film moment itself is the payload. If a `must`
-beat can't be located in the transcript, say so in the chat summary rather than
-silently dropping it.
+If the sheet is thin or wrong where you need it (a beat range that doesn't
+match the transcript, a famous line it missed), fix the sheet as you go rather
+than working around it. If a `must` beat can't be located in the transcript,
+say so in the chat summary rather than silently dropping it.
 
 ## STEP 2 — FIND OUR REACTION PEAKS
 
@@ -129,6 +118,9 @@ Work from the beat sheet, not our transcript.
   the intro and outro (see CONTINUOUS HOSTS-ONLY).
 - **Layout mix** — see LAYOUT MIX below. Check it before writing the file.
 
+`python src/check_cuts.py --cuts cuts/<slug>.json` measures the hard limits
+and targets in this file. A cut isn't finished while it reports a FAIL.
+
 ## INTRO
 
 The first segment is the intro and it must be short and clear. Under 20
@@ -161,7 +153,8 @@ footage.
   how much of the film's picture ends up in the video. Default to `panel`
   unless one of the rules below clearly calls for something else. Hard cuts
   from one `panel` segment to another `panel` segment at a later point in the
-  film are fine and expected (see BREAKS).
+  film are fine and expected (see BREAKS), but never more than 4 `panel`
+  segments in a row (see CONSECUTIVE PANEL).
 - **`pip_circles` — selective, for major on-screen moments.** Reserve it for
   the film's big visual beats — the reveal, the monster, the stunt, the
   iconic shot — where the viewer needs to actually see the picture to get it.
@@ -196,6 +189,17 @@ These are targets for the whole cut, not per scene — a big `must` beat can
 lean on `pip_circles`, a talky stretch can lean on `_hosts_only`. Compute the
 actual shares before writing the file; if `panel` is outside 60–70% or
 `pip_circles` is over ~15%, rebalance.
+
+### CONSECUTIVE PANEL — HARD LIMIT
+
+No more than **4 `panel` segments in a row.** After the 4th, the next segment
+must be a different layout (`pip_circles`, `panel_hosts_only`,
+`pip_circles_hosts_only`, or a short `hosts_full`) before `panel` can return.
+A source skip between two `panel` segments does not reset the count — only a
+different layout does. Don't always run to exactly 4 either; vary the streak
+length (1, 2, 3, 4) so it doesn't become its own pattern. Pick the layout
+change that suits the moment per "When to use which" rather than dropping in
+an arbitrary one.
 
 ## BREAKS — NO CONTINUOUS FILM FOOTAGE
 
@@ -303,6 +307,11 @@ For a silent-reaction segment with no spoken words in it, anchor it on the
 film's word boundaries or the beat's edges — the handle protects speech, it
 doesn't pad silence. The ≥2s source-skip rule is measured after padding.
 
+Dead air inside a `_hosts_only` / `hosts_full` segment (a silent pause with
+nothing moving on screen) is cut afterwards by `src/tighten_cuts.py`, from the
+waveform, so don't split a segment by hand just to drop a pause. Segments it
+changed carry `trimmed_from`; leave that field alone.
+
 ## OUTPUT
 
 A JSON array, timestamps in seconds from OUR recording start:
@@ -317,10 +326,25 @@ A JSON array, timestamps in seconds from OUR recording start:
 Set `iconic` to true only for beats ranked `must` on the beat sheet because
 they're famous or most-discussed.
 
+The file wraps that array with the episode's facts, plus the two things the
+review stage needs from you:
+
+```json
+{ "title": "<title>",
+  "movie_offset_seconds": 458,
+  "hook": { "start": 3818.2, "end": 3831.0, "note": "why this is the hook" },
+  "near_misses": [
+    { "start": 1502.4, "end": 1511.9, "note": "what it is and why it lost out" }
+  ],
+  "segments": [ ... ] }
+```
+
+`hook` is the hook candidate (see INTRO). `near_misses` are strong moments
+left out for runtime, so they can be swapped in. The build ignores both.
+
 In the chat summary, also report:
 
 - **Layout mix** — actual % of runtime per layout vs. the LAYOUT MIX targets.
-- **HOOK** — the hook candidate (see INTRO).
+- **HOOK** — the hook candidate.
 - **Beat coverage** — any `must` beat not in the cut, and why.
-- **NEAR MISSES** — strong moments left out for runtime, with timestamps, so
-  they can be swapped in.
+- **NEAR MISSES** — the same list as in the file.

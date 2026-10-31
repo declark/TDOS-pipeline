@@ -1,0 +1,9 @@
+﻿# Desktop app dependencies (ui/app.py). Separate from requirements-transcribe.txt
+# so the scripts in src/ still run with nothing but the standard library.
+#
+#   pip install -r requirements-ui.txt
+#
+# pywebview gives the app its own window (Edge WebView2 on Windows) and native
+# file pickers; markdown renders the research and review sheets.
+pywebview>=5.0
+markdown>=3.5

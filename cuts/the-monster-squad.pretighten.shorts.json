@@ -1,0 +1,612 @@
+{
+  "title": "The Monster Squad",
+  "movie_offset_seconds": 257.25,
+  "shorts": [
+    {
+      "name": "Band-aid breath",
+      "type": "called it",
+      "film_beat": "Mummy chases the Jeep and gets unravelled",
+      "score": {
+        "iconic": 4,
+        "reaction": 4,
+        "instant_read": 4,
+        "dynamic": 4,
+        "loop": 3
+      },
+      "yt_title": "\"See you later, band-aid breath!\" 😂 Monster Squad reaction",
+      "hook_text": "He called the mummy's fate",
+      "description": "First time watching The Monster Squad and one of us called how the mummy goes down. #TheMonsterSquad #moviereaction #firsttimewatching #mummy #80shorror",
+      "segments": [
+        {
+          "start": 3872.6,
+          "end": 3876.2,
+          "layout": "panel",
+          "film_beat": "Mummy chases the Jeep and gets unravelled",
+          "iconic": true,
+          "reason": "HOOK - flash-forward: the bandages tear off the mummy in a cloud of dust and Theresa covers her face laughing. No words in either transcript; range frame-checked",
+          "captions": []
+        },
+        {
+          "start": 3816.35,
+          "end": 3819.2,
+          "layout": "panel",
+          "film_beat": "Mummy chases the Jeep and gets unravelled",
+          "reason": "SETUP - 'Oh, here comes the mummy.' into the driver's scream as it lands on the Jeep",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3816.59,
+              "end": 3817.93,
+              "text": "Oh, here comes the mummy."
+            }
+          ]
+        },
+        {
+          "start": 3852.7,
+          "end": 3855.97,
+          "layout": "panel",
+          "film_beat": "Mummy chases the Jeep and gets unravelled",
+          "iconic": true,
+          "reason": "THE CALL - Rudy's arrow pins the mummy's bandage to a tree: 'He's gonna unravel.' 'Yep.' Theresa grabs Doug's arm. Arrow frame-checked at 3853",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3853.68,
+              "end": 3854.72,
+              "text": "He's gonna unravel."
+            },
+            {
+              "who": "us",
+              "start": 3855.43,
+              "end": 3855.72,
+              "text": "Yep."
+            }
+          ]
+        },
+        {
+          "start": 3868.33,
+          "end": 3870.79,
+          "layout": "panel",
+          "film_beat": "Mummy chases the Jeep and gets unravelled",
+          "iconic": true,
+          "reason": "PAYOFF - he's right: 'He's getting unraveled.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3868.58,
+              "end": 3870.54,
+              "text": "He's getting unraveled."
+            }
+          ]
+        },
+        {
+          "start": 3876.95,
+          "end": 3879.97,
+          "layout": "panel",
+          "film_beat": "Mummy chases the Jeep and gets unravelled",
+          "iconic": true,
+          "reason": "The famous line: Rudy's 'See you later, band-aid breath!' (film words from the no-VAD pass)",
+          "captions": [
+            {
+              "who": "film",
+              "start": 3877.2,
+              "end": 3879.72,
+              "text": "See you later, band-aid breath!"
+            }
+          ]
+        },
+        {
+          "start": 3879.97,
+          "end": 3882.39,
+          "layout": "panel_hosts_only",
+          "film_beat": "Mummy chases the Jeep and gets unravelled",
+          "reason": "BUTTON - one of us repeats it, laughing (loud on our mic, re-listened). Muted so the film doesn't run on; loops into the unravelling",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3880.28,
+              "end": 3882.14,
+              "text": "Band-aid breath! Oh, band-aid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wolfman's got nards",
+      "type": "quote",
+      "film_beat": "\"Wolfman's got nards!\"",
+      "score": {
+        "iconic": 5,
+        "reaction": 4,
+        "instant_read": 4,
+        "dynamic": 2,
+        "loop": 3
+      },
+      "yt_title": "\"Wolfman's got nards!\" 😂 The Monster Squad (1987) reaction",
+      "hook_text": "Kick him in the WHAT",
+      "description": "First time watching The Monster Squad's most famous line. #TheMonsterSquad #moviereaction #firsttimewatching #wolfmansgotnards #80smovies",
+      "segments": [
+        {
+          "start": 3583.6,
+          "end": 3587.2,
+          "layout": "panel",
+          "film_beat": "\"Wolfman's got nards!\"",
+          "iconic": true,
+          "reason": "HOOK - flash-forward: Horace kicks the Wolfman and Doug cracks up, head thrown back (frame-checked 3584-3587)",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3583.8,
+              "end": 3584.56,
+              "text": "Nards!"
+            }
+          ]
+        },
+        {
+          "start": 3575.21,
+          "end": 3578.9,
+          "layout": "panel",
+          "film_beat": "\"Wolfman's got nards!\"",
+          "iconic": true,
+          "reason": "SETUP - 'Kick him in the nards!' 'He doesn't have nards!' 'Do it!' The film transcript is empty here; a re-listen of the film puts the lines at 3575.5-3578.8",
+          "captions": [
+            {
+              "who": "film",
+              "start": 3575.46,
+              "end": 3576.52,
+              "text": "Kick him in the nards!"
+            },
+            {
+              "who": "film",
+              "start": 3576.64,
+              "end": 3577.54,
+              "text": "He doesn't have nards!"
+            },
+            {
+              "who": "film",
+              "start": 3577.86,
+              "end": 3578.8,
+              "text": "Do it! Do it!"
+            }
+          ]
+        },
+        {
+          "start": 3589.0,
+          "end": 3593.4,
+          "layout": "panel",
+          "film_beat": "\"Wolfman's got nards!\"",
+          "iconic": true,
+          "reason": "PAYOFF - the Wolfman doubles over, then 'Wolfman's got nards!'. Not in the film transcript; our mic picks the line up at 3591.1-3593.5. Runs 4.4s to keep the Wolfman going down ahead of the line",
+          "captions": [
+            {
+              "who": "film",
+              "start": 3591.1,
+              "end": 3593.12,
+              "text": "Wolfman's got nards!"
+            }
+          ]
+        },
+        {
+          "start": 3601.2,
+          "end": 3604.6,
+          "layout": "panel_hosts_only",
+          "film_beat": "\"Wolfman's got nards!\"",
+          "reason": "BUTTON - still laughing, Doug turns to Theresa (loudest moment on our mic in the scene). Muted over the brides' entrance; loops into the kick",
+          "captions": []
+        }
+      ]
+    },
+    {
+      "name": "Give me the amulet",
+      "type": "quote",
+      "film_beat": "\"Give me the amulet, you bitch!\"; Frankenstein impales Dracula",
+      "score": {
+        "iconic": 5,
+        "reaction": 4,
+        "instant_read": 4,
+        "dynamic": 2,
+        "loop": 3
+      },
+      "yt_title": "\"Give me the amulet, you b****!\" 😳 Monster Squad reaction",
+      "hook_text": "Dracula said WHAT to a 5-year-old",
+      "description": "First time watching Dracula vs. Phoebe in The Monster Squad. #TheMonsterSquad #moviereaction #firsttimewatching #dracula #frankenstein",
+      "segments": [
+        {
+          "start": 4573.4,
+          "end": 4578.43,
+          "layout": "panel",
+          "film_beat": "\"Give me the amulet, you bitch!\"; Frankenstein impales Dracula",
+          "iconic": true,
+          "reason": "HOOK - Dracula holds Phoebe by the face: 'Give me the amulet, you bitch!' Runs 5.0s because the line is delivered slowly and can't be cut before 'bitch'; re-listened at 4573.6-4578.2",
+          "captions": [
+            {
+              "who": "film",
+              "start": 4573.64,
+              "end": 4578.18,
+              "text": "Give me the amulet, you bitch!"
+            }
+          ]
+        },
+        {
+          "start": 4578.43,
+          "end": 4580.3,
+          "layout": "panel_hosts_only",
+          "film_beat": "\"Give me the amulet, you bitch!\"; Frankenstein impales Dracula",
+          "reason": "Theresa's jaw drops - a gasp, the loudest moment on our mic here (frame-checked 4579-4581). Muted to break the film run",
+          "captions": []
+        },
+        {
+          "start": 4592.0,
+          "end": 4595.6,
+          "layout": "panel",
+          "film_beat": "\"Give me the amulet, you bitch!\"; Frankenstein impales Dracula",
+          "iconic": true,
+          "reason": "Frankenstein grabs Dracula from behind: 'Oh, Frankenstein to the rescue!'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4593.06,
+              "end": 4595.36,
+              "text": "Oh, Frankenstein to the rescue!"
+            }
+          ]
+        },
+        {
+          "start": 4599.2,
+          "end": 4602.9,
+          "layout": "panel",
+          "film_beat": "\"Give me the amulet, you bitch!\"; Frankenstein impales Dracula",
+          "iconic": true,
+          "reason": "PAYOFF - Dracula thrown onto the fence spikes (frame-checked 4600): 'Oh!' 'Oh!'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4600.96,
+              "end": 4601.4,
+              "text": "Oh!"
+            },
+            {
+              "who": "us",
+              "start": 4602.16,
+              "end": 4602.76,
+              "text": "Oh!"
+            }
+          ]
+        },
+        {
+          "start": 4619.67,
+          "end": 4622.29,
+          "layout": "panel_hosts_only",
+          "film_beat": "\"Give me the amulet, you bitch!\"; Frankenstein impales Dracula",
+          "reason": "BUTTON - 'Frankenstein saves the day.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4619.92,
+              "end": 4622.04,
+              "text": "Frankenstein saves the day."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The werewolf is back",
+      "type": "moment",
+      "film_beat": "Werewolf blown apart by dynamite and reassembles; Rudy's silver bullet",
+      "score": {
+        "iconic": 4,
+        "reaction": 4,
+        "instant_read": 4,
+        "dynamic": 3,
+        "loop": 3
+      },
+      "yt_title": "\"No way, he's back!\" 🐺 The Monster Squad werewolf reaction",
+      "hook_text": "You can't keep this werewolf down",
+      "description": "The werewolf just won't stay dead in The Monster Squad. #TheMonsterSquad #moviereaction #firsttimewatching #werewolf #silverbullet",
+      "segments": [
+        {
+          "start": 4275.35,
+          "end": 4278.27,
+          "layout": "panel",
+          "film_beat": "Werewolf blown apart by dynamite and reassembles; Rudy's silver bullet",
+          "iconic": true,
+          "reason": "HOOK - the werewolf's severed head grins and the pieces crawl back together: 'No way, he's coming back together!' (frame-checked 4276-4277.5)",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4275.6,
+              "end": 4276.0,
+              "text": "Oh,"
+            },
+            {
+              "who": "us",
+              "start": 4276.34,
+              "end": 4278.02,
+              "text": "no way, he's coming back together!"
+            }
+          ]
+        },
+        {
+          "start": 4302.01,
+          "end": 4307.87,
+          "layout": "panel_hosts_only",
+          "film_beat": "Werewolf blown apart by dynamite and reassembles; Rudy's silver bullet",
+          "iconic": true,
+          "reason": "'No way, he's back. He's back. The werewolf is back.' over the claw and his shadow on the wall. Muted so the line is clean",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4302.26,
+              "end": 4307.62,
+              "text": "No way, he's back. He's back. The werewolf is back."
+            }
+          ]
+        },
+        {
+          "start": 4366.06,
+          "end": 4369.85,
+          "layout": "panel",
+          "film_beat": "Werewolf blown apart by dynamite and reassembles; Rudy's silver bullet",
+          "iconic": true,
+          "reason": "Rudy takes aim: 'There it is, there it is. You've been working hard on that silver bullet.' (he made them an hour earlier)",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4366.31,
+              "end": 4369.77,
+              "text": "There it is, there it is. You've been working hard on that silver bullet."
+            }
+          ]
+        },
+        {
+          "start": 4372.6,
+          "end": 4375.9,
+          "layout": "panel",
+          "film_beat": "Werewolf blown apart by dynamite and reassembles; Rudy's silver bullet",
+          "iconic": true,
+          "reason": "PAYOFF - the werewolf snarls, Rudy fires. No words; the shot is the film's loudest moment here",
+          "captions": []
+        },
+        {
+          "start": 4388.03,
+          "end": 4392.94,
+          "layout": "panel",
+          "film_beat": "Werewolf blown apart by dynamite and reassembles; Rudy's silver bullet",
+          "iconic": true,
+          "reason": "BUTTON - 'I told you. Only one way to kill a werewolf.' Runs 4.9s so the line isn't split; the silence between its halves is cut by tighten. Loops into the head grinning",
+          "captions": [
+            {
+              "who": "film",
+              "start": 4388.28,
+              "end": 4388.8,
+              "text": "I told you."
+            },
+            {
+              "who": "film",
+              "start": 4391.55,
+              "end": 4392.69,
+              "text": "Only one way to kill a werewolf."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Not the treehouse",
+      "type": "moment",
+      "film_beat": "Dracula's dynamite blows up the clubhouse and the cop car",
+      "score": {
+        "iconic": 3,
+        "reaction": 4,
+        "instant_read": 4,
+        "dynamic": 3,
+        "loop": 4
+      },
+      "yt_title": "\"No, not the treehouse!\" 💥 The Monster Squad reaction",
+      "hook_text": "Dracula came for the treehouse",
+      "description": "Dracula brings dynamite to The Monster Squad's clubhouse. #TheMonsterSquad #moviereaction #firsttimewatching #dracula #80smovies",
+      "segments": [
+        {
+          "start": 3952.21,
+          "end": 3955.13,
+          "layout": "panel",
+          "film_beat": "Dracula's dynamite blows up the clubhouse and the cop car",
+          "iconic": true,
+          "reason": "HOOK - Dracula at the clubhouse with the dynamite: 'No, not the treehouse!'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3952.46,
+              "end": 3954.88,
+              "text": "No, not the treehouse!"
+            }
+          ]
+        },
+        {
+          "start": 3958.91,
+          "end": 3961.73,
+          "layout": "panel",
+          "film_beat": "Dracula's dynamite blows up the clubhouse and the cop car",
+          "iconic": true,
+          "reason": "PAYOFF - the treehouse goes up in a fireball (frame-checked 3959.5): 'Oh, that was a cool treehouse.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3959.16,
+              "end": 3961.48,
+              "text": "Oh, that was a cool treehouse."
+            }
+          ]
+        },
+        {
+          "start": 3936.92,
+          "end": 3940.58,
+          "layout": "panel",
+          "film_beat": "Dracula's dynamite blows up the clubhouse and the cop car",
+          "reason": "Dracula, still armed: 'More dynamite. This dude likes dynamite. Dynamite.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3937.17,
+              "end": 3940.4,
+              "text": "More dynamite. This dude likes dynamite. Dynamite."
+            }
+          ]
+        },
+        {
+          "start": 3986.03,
+          "end": 3988.6,
+          "layout": "panel",
+          "film_beat": "Dracula's dynamite blows up the clubhouse and the cop car",
+          "iconic": true,
+          "reason": "He throws it into the cop car: 'Oh no, get out, get out! Oh, he did'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3986.28,
+              "end": 3988.54,
+              "text": "Oh, no, get out, get out! Oh, he did"
+            }
+          ]
+        },
+        {
+          "start": 3990.6,
+          "end": 3992.35,
+          "layout": "panel",
+          "film_beat": "Dracula's dynamite blows up the clubhouse and the cop car",
+          "iconic": true,
+          "reason": "The car in flames (frame-checked 3991): 'He did.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 3991.28,
+              "end": 3992.1,
+              "text": "He did."
+            }
+          ]
+        },
+        {
+          "start": 4776.85,
+          "end": 4778.57,
+          "layout": "panel_hosts_only",
+          "film_beat": "Dracula's dynamite blows up the clubhouse and the cop car",
+          "reason": "The callback at the very end: 'He's gonna be pissed...'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4777.06,
+              "end": 4778.32,
+              "text": "He's gonna be pissed"
+            }
+          ]
+        },
+        {
+          "start": 4781.63,
+          "end": 4784.79,
+          "layout": "panel_hosts_only",
+          "film_beat": "Dracula's dynamite blows up the clubhouse and the cop car",
+          "reason": "BUTTON - '...he doesn't know his treehouse blew up.' Loops into 'No, not the treehouse!'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4781.88,
+              "end": 4784.54,
+              "text": "He doesn't know his treehouse blew up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bye Frankenstein",
+      "type": "moment",
+      "film_beat": "The vortex; Frankenstein lets go of Phoebe's hand",
+      "score": {
+        "iconic": 5,
+        "reaction": 3,
+        "instant_read": 4,
+        "dynamic": 2,
+        "loop": 3
+      },
+      "yt_title": "\"Bye, Frankenstein\" 😢 The Monster Squad ending reaction",
+      "hook_text": "Don't let go, Frankenstein",
+      "description": "Phoebe and Frankenstein's goodbye at the vortex in The Monster Squad. #TheMonsterSquad #moviereaction #firsttimewatching #frankenstein #80smovies",
+      "segments": [
+        {
+          "start": 4716.6,
+          "end": 4718.81,
+          "layout": "panel",
+          "film_beat": "The vortex; Frankenstein lets go of Phoebe's hand",
+          "iconic": true,
+          "reason": "HOOK - Phoebe's hand in Frankenstein's as the vortex pulls him: 'Oh, bye Frankenstein.' (hands frame-checked 4716.5-4717.75)",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4717.34,
+              "end": 4718.56,
+              "text": "Oh, bye, Frankenstein."
+            }
+          ]
+        },
+        {
+          "start": 4695.83,
+          "end": 4698.73,
+          "layout": "panel",
+          "film_beat": "The vortex; Frankenstein lets go of Phoebe's hand",
+          "iconic": true,
+          "reason": "SETUP - the monsters swallowed: 'Into the vortex they go.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4696.08,
+              "end": 4698.48,
+              "text": "Oh, into the vortex they go."
+            }
+          ]
+        },
+        {
+          "start": 4713.33,
+          "end": 4716.36,
+          "layout": "panel",
+          "film_beat": "The vortex; Frankenstein lets go of Phoebe's hand",
+          "reason": "The vortex takes the Jeep too: 'That was a cool Jeep. I didn't want the Jeep to go.'",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4713.58,
+              "end": 4716.3,
+              "text": "That was a cool Jeep. I didn't want the Jeep to go."
+            }
+          ]
+        },
+        {
+          "start": 4720.0,
+          "end": 4723.3,
+          "layout": "panel",
+          "film_beat": "The vortex; Frankenstein lets go of Phoebe's hand",
+          "iconic": true,
+          "reason": "Phoebe crying, holding on; Frankenstein looks back at her. Silent from us, frame-checked",
+          "captions": []
+        },
+        {
+          "start": 4730.6,
+          "end": 4734.53,
+          "layout": "panel",
+          "film_beat": "The vortex; Frankenstein lets go of Phoebe's hand",
+          "iconic": true,
+          "reason": "PAYOFF and BUTTON - he lets go and is pulled in: 'Poor Frankenstein.' Loops into the hands",
+          "captions": [
+            {
+              "who": "us",
+              "start": 4733.08,
+              "end": 4734.28,
+              "text": "Poor Frankenstein."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

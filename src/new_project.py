@@ -20,6 +20,8 @@ import os
 import re
 import sys
 
+from convert_movie import needs_converting
+
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CUTS_DIR = os.path.join(REPO_ROOT, "cuts")
 
@@ -44,13 +46,35 @@ def clean_path(value):
     return value.strip()
 
 
+def project_path(slug):
+    return os.path.join(CUTS_DIR, "{}.media.json".format(slug))
+
+
+def write_project(title, reaction_media, movie_media, movie_offset_seconds=None):
+    """Write cuts/<slug>.media.json and return its path."""
+    config = {
+        "title": title,
+        "reaction_media": reaction_media,
+        "movie_media": movie_media,
+    }
+    if movie_offset_seconds is not None:
+        config["movie_offset_seconds"] = movie_offset_seconds
+
+    out_path = project_path(slugify(title))
+    os.makedirs(CUTS_DIR, exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as handle:
+        json.dump(config, handle, indent=2, ensure_ascii=False)
+        handle.write("\n")
+    return out_path
+
+
 def main():
     title = prompt("Movie name: ")
     slug = slugify(title)
     if not slug:
         sys.exit("error: movie name has no usable characters for a filename")
 
-    out_path = os.path.join(CUTS_DIR, "{}.media.json".format(slug))
+    out_path = project_path(slug)
     if os.path.exists(out_path):
         overwrite = prompt(
             "{} already exists - overwrite? [y/N]: ".format(out_path), required=False
@@ -66,19 +90,13 @@ def main():
             print("  WARNING: {} not found at {!r} (saving anyway).".format(label, path),
                   file=sys.stderr)
 
-    config = {
-        "title": title,
-        "reaction_media": reaction_media,
-        "movie_media": movie_media,
-    }
-
-    os.makedirs(CUTS_DIR, exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as handle:
-        json.dump(config, handle, indent=2, ensure_ascii=False)
-        handle.write("\n")
+    out_path = write_project(title, reaction_media, movie_media)
 
     print("\nWrote {}".format(out_path))
-    print("Next: python src/transcribe.py --project {}".format(out_path))
+    if needs_converting(movie_media):
+        print("Next: python src/convert_movie.py --project {}".format(out_path))
+    else:
+        print("Next: python src/transcribe.py --project {}".format(out_path))
 
 
 if __name__ == "__main__":
